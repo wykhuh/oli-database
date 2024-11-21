@@ -1,0 +1,64 @@
+id,size,top wood,back wood
+1,Baritone,Acacia,Acacia
+2,Baritone,Cedar,Acacia
+3,Baritone,Cedar,Ebony
+4,Baritone,Cedar,Macassar Ebony 
+5,Baritone,Cedar,Rosewood
+6,Baritone,Cedar,Walnut
+7,Baritone,Curly Maple,Curly Maple
+8,Baritone,Koa,Koa
+9,Baritone,Mango,Mango
+10,Baritone,Myrtle,Myrtle
+11,Baritone,Redwood,Rosewood
+12,Baritone,Spalted Mango ,Spalted Mango 
+13,Baritone,Spruce,Acacia
+14,Baritone,Spruce,Ebony
+15,Baritone,Spruce,Flame Maple
+16,Baritone,Spruce,Macassar Ebony 
+17,Baritone,Spruce,Merbau
+18,Baritone,Spruce,Quilted Maple
+19,Baritone,Spruce,Rosewood
+20,Baritone,Spruce,Weru
+21,Baritone,Torrefied spruce,Myrtle
+22,Baritone,Torrefied spruce,Rosewood
+23,Tenor,Acacia,Acacia
+24,Tenor,Cedar,Acacia
+25,Tenor,Cedar,Ebony
+26,Tenor,Cedar,Macassar Ebony 
+27,Tenor,Cedar,Rosewood
+28,Tenor,Cedar,Walnut
+29,Tenor,Flame Maple,Flame Maple
+30,Tenor,Koa,Koa
+31,Tenor,Mango,Mango
+32,Tenor,Myrtle,Myrtle
+33,Tenor,Quilted Maple,Quilted Maple
+34,Tenor,Redwood,Rosewood
+35,Tenor,Spalted Mango ,Spalted Mango 
+36,Tenor,Spruce,Acacia
+37,Tenor,Spruce,Ebony
+38,Tenor,Spruce,Flame Maple
+39,Tenor,Spruce,Macassar Ebony 
+40,Tenor,Spruce,Maple
+41,Tenor,Spruce,Merbau
+42,Tenor,Spruce,Quilted Maple
+43,Tenor,Spruce,Rosewood
+44,Tenor,Spruce,Weru
+45,Tenor,Torrefied spruce,Myrtle
+46,concert,Acacia,Acacia
+47,concert,Cedar,Acacia
+48,concert,Cedar,Macassar Ebony 
+49,concert,Cedar,Rosewood
+50,concert,Cedar,Walnut
+51,concert,Cedar,Weru
+52,concert,Koa,Koa
+53,concert,Mango,Mango
+54,concert,Redwood,Rosewood
+55,concert,Spalted Mango ,Spalted Mango 
+56,concert,Spruce,Birds eye Maple
+57,concert,Spruce,Ebony
+58,concert,Spruce,Macassar Ebony 
+59,concert,Spruce,Merbau
+60,concert,Spruce,Rosewood
+61,concert,Spruce,Weru
+62,concert,Torrefied spruce,Myrtle
+63,concert,Torrefied spruce,Rosewood
