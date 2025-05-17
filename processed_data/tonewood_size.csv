@@ -1,64 +1,90 @@
 id,size,top wood,back wood
-1,Baritone,Acacia,Acacia
-2,Baritone,Cedar,Acacia
-3,Baritone,Cedar,Ebony
-4,Baritone,Cedar,Macassar Ebony 
-5,Baritone,Cedar,Rosewood
-6,Baritone,Cedar,Walnut
-7,Baritone,Curly Maple,Curly Maple
-8,Baritone,Koa,Koa
-9,Baritone,Mango,Mango
-10,Baritone,Myrtle,Myrtle
-11,Baritone,Redwood,Rosewood
-12,Baritone,Spalted Mango ,Spalted Mango 
-13,Baritone,Spruce,Acacia
-14,Baritone,Spruce,Ebony
-15,Baritone,Spruce,Flame Maple
-16,Baritone,Spruce,Macassar Ebony 
-17,Baritone,Spruce,Merbau
-18,Baritone,Spruce,Quilted Maple
-19,Baritone,Spruce,Rosewood
-20,Baritone,Spruce,Weru
-21,Baritone,Torrefied spruce,Myrtle
-22,Baritone,Torrefied spruce,Rosewood
-23,Tenor,Acacia,Acacia
-24,Tenor,Cedar,Acacia
-25,Tenor,Cedar,Ebony
-26,Tenor,Cedar,Macassar Ebony 
-27,Tenor,Cedar,Rosewood
-28,Tenor,Cedar,Walnut
-29,Tenor,Flame Maple,Flame Maple
-30,Tenor,Koa,Koa
-31,Tenor,Mango,Mango
-32,Tenor,Myrtle,Myrtle
-33,Tenor,Quilted Maple,Quilted Maple
-34,Tenor,Redwood,Rosewood
-35,Tenor,Spalted Mango ,Spalted Mango 
-36,Tenor,Spruce,Acacia
-37,Tenor,Spruce,Ebony
-38,Tenor,Spruce,Flame Maple
-39,Tenor,Spruce,Macassar Ebony 
-40,Tenor,Spruce,Maple
-41,Tenor,Spruce,Merbau
-42,Tenor,Spruce,Quilted Maple
-43,Tenor,Spruce,Rosewood
-44,Tenor,Spruce,Weru
-45,Tenor,Torrefied spruce,Myrtle
-46,concert,Acacia,Acacia
-47,concert,Cedar,Acacia
-48,concert,Cedar,Macassar Ebony 
-49,concert,Cedar,Rosewood
-50,concert,Cedar,Walnut
-51,concert,Cedar,Weru
-52,concert,Koa,Koa
-53,concert,Mango,Mango
-54,concert,Redwood,Rosewood
-55,concert,Spalted Mango ,Spalted Mango 
-56,concert,Spruce,Birds eye Maple
-57,concert,Spruce,Ebony
-58,concert,Spruce,Macassar Ebony 
-59,concert,Spruce,Merbau
-60,concert,Spruce,Rosewood
-61,concert,Spruce,Weru
-62,concert,Torrefied spruce,Myrtle
-63,concert,Torrefied spruce,Rosewood
+2,Baritone,Acacia,Acacia
+3,Baritone,Cedar,Acacia
+4,Baritone,Cedar,Black and White Rosewood
+5,Baritone,Cedar,Macassar Ebony 
+6,Baritone,Cedar,Rosewood
+7,Baritone,Cedar,Walnut
+8,Baritone,Curly Maple,Curly Maple
+9,Baritone,Flame Maple,Flame Maple
+10,Baritone,Koa,Koa
+11,Baritone,Mahogany,Mahogany
+12,Baritone,Mango,Mango
+13,Baritone,Myrtle,Myrtle
+14,Baritone,Port Orford Cedar,Walnut
+15,Baritone,Quilted Maple,Quilted Maple
+16,Baritone,Redwood,Hawaiian (Cuban) Mahogany
+17,Baritone,Redwood,Rosewood
+18,Baritone,Redwood,Walnut
+19,Baritone,Spalted Mango ,Spalted Mango 
+20,Baritone,Spruce,Acacia
+21,Baritone,Spruce,Ebony
+22,Baritone,Spruce,Flame Maple
+23,Baritone,Spruce,Macassar Ebony 
+24,Baritone,Spruce,Merbau
+25,Baritone,Spruce,Quilted Maple
+26,Baritone,Spruce,Rosewood
+27,Baritone,Spruce,Weru
+28,Baritone,Torrefied spruce,Hawaiian (Cuban) Mahogany
+29,Baritone,Torrefied spruce,Myrtle
+30,Baritone,Torrefied spruce,Red Rosewood
+31,Baritone,Torrefied spruce,Rosewood
+32,Concert,Acacia,Acacia
+33,Concert,Cedar,Acacia
+34,Concert,Cedar,Macassar Ebony 
+35,Concert,Cedar,Rosewood
+36,Concert,Cedar,Walnut
+37,Concert,Cedar,Weru
+38,Concert,Koa,Koa
+39,Concert,Mahogany,Mahogany
+40,Concert,Mango,Mango
+41,Concert,Myrtle,Myrtle
+42,Concert,Port Orford Cedar,Walnut
+43,Concert,Quilted Maple,Quilted Maple
+44,Concert,Redwood,Milo
+45,Concert,Redwood,Rosewood
+46,Concert,Spalted Mango ,Spalted Mango 
+47,Concert,Spruce,Birds eye Maple
+48,Concert,Spruce,Macassar Ebony 
+49,Concert,Spruce,Merbau
+50,Concert,Spruce,Rosewood
+51,Concert,Spruce,Weru
+52,Concert,Torrefied spruce,Myrtle
+53,Concert,Torrefied spruce,Rosewood
+54,Soprano,Mahogany,Mahogany
+55,Tenor,Acacia,Acacia
+56,Tenor,Cedar,Acacia
+57,Tenor,Cedar,Black and White Rosewood
+58,Tenor,Cedar,Macassar Ebony 
+59,Tenor,Cedar,Rosewood
+60,Tenor,Cedar,Walnut
+61,Tenor,Curly Redwood,Milo
+62,Tenor,Flame Maple,Flame Maple
+63,Tenor,Koa,Ebony
+64,Tenor,Koa,Koa
+65,Tenor,Mahogany,Mahogany
+66,Tenor,Mahogany,Mango
+67,Tenor,Mango,Mango
+68,Tenor,Myrtle,Myrtle
+69,Tenor,Port Orford Cedar,Ebony
+70,Tenor,Port Orford Cedar,Milo
+71,Tenor,Port Orford Cedar,Myrtle
+72,Tenor,Quilted Maple,Quilted Maple
+73,Tenor,Redwood,Milo
+74,Tenor,Redwood,Rosewood
+75,Tenor,Spalted Mango ,Spalted Mango 
+76,Tenor,Spruce,Acacia
+77,Tenor,Spruce,Ebony
+78,Tenor,Spruce,Flame Maple
+79,Tenor,Spruce,Macassar Ebony 
+80,Tenor,Spruce,Maple
+81,Tenor,Spruce,Merbau
+82,Tenor,Spruce,Milo
+83,Tenor,Spruce,Quilted Maple
+84,Tenor,Spruce,Rosewood
+85,Tenor,Spruce,Weru
+86,Tenor,Torrefied spruce,Black and White Rosewood
+87,Tenor,Torrefied spruce,Hawaiian (Cuban) Mahogany
+88,Tenor,Torrefied spruce,Milo
+89,Tenor,Torrefied spruce,Myrtle
+90,Tenor,Torrefied spruce,Rosewood

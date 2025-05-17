@@ -1,28 +1,44 @@
 id,top wood,back wood
 1,Acacia,Acacia
 2,Cedar,Acacia
-3,Cedar,Ebony
+3,Cedar,Black and White Rosewood
 4,Cedar,Macassar Ebony 
 5,Cedar,Rosewood
 6,Cedar,Walnut
 7,Cedar,Weru
 8,Curly Maple,Curly Maple
-9,Flame Maple,Flame Maple
-10,Koa,Koa
-11,Mango,Mango
-12,Myrtle,Myrtle
-13,Quilted Maple,Quilted Maple
-14,Redwood,Rosewood
-15,Spalted Mango ,Spalted Mango 
-16,Spruce,Acacia
-17,Spruce,Birds eye Maple
-18,Spruce,Ebony
-19,Spruce,Flame Maple
-20,Spruce,Macassar Ebony 
-21,Spruce,Maple
-22,Spruce,Merbau
-23,Spruce,Quilted Maple
-24,Spruce,Rosewood
-25,Spruce,Weru
-26,Torrefied spruce,Myrtle
-27,Torrefied spruce,Rosewood
+9,Curly Redwood,Milo
+10,Flame Maple,Flame Maple
+11,Koa,Ebony
+12,Koa,Koa
+13,Mahogany,Mahogany
+14,Mahogany,Mango
+15,Mango,Mango
+16,Myrtle,Myrtle
+17,Port Orford Cedar,Ebony
+18,Port Orford Cedar,Milo
+19,Port Orford Cedar,Myrtle
+20,Port Orford Cedar,Walnut
+21,Quilted Maple,Quilted Maple
+22,Redwood,Hawaiian (Cuban) Mahogany
+23,Redwood,Milo
+24,Redwood,Rosewood
+25,Redwood,Walnut
+26,Spalted Mango ,Spalted Mango 
+27,Spruce,Acacia
+28,Spruce,Birds eye Maple
+29,Spruce,Ebony
+30,Spruce,Flame Maple
+31,Spruce,Macassar Ebony 
+32,Spruce,Maple
+33,Spruce,Merbau
+34,Spruce,Milo
+35,Spruce,Quilted Maple
+36,Spruce,Rosewood
+37,Spruce,Weru
+38,Torrefied spruce,Black and White Rosewood
+39,Torrefied spruce,Hawaiian (Cuban) Mahogany
+40,Torrefied spruce,Milo
+41,Torrefied spruce,Myrtle
+42,Torrefied spruce,Red Rosewood
+43,Torrefied spruce,Rosewood

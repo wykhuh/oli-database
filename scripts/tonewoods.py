@@ -1,7 +1,7 @@
 import pandas as pd
+from pathlib import Path
 
-df = pd.read_csv("./raw_data/oli-Oli.csv")
-
+project_path = Path(__file__).parent.parent
 
 def add_id(df):
     df = df.reset_index(drop=True)
@@ -22,21 +22,24 @@ def convert_bbcode(html):
     )
 
 
+df = pd.read_csv(project_path/'raw_data'/'Oli.csv')
+
 filter_df = df.drop_duplicates(subset=["size", "top wood", "back wood"]).copy()
 filter_df = filter_df[["size", "top wood", "back wood"]]
 filter_df = filter_df.sort_values(["size", "top wood", "back wood"])
 
 filter_df = add_id(filter_df)
 filter_df = filter_df[["id", "size", "top wood", "back wood"]]
+filter_df = filter_df.dropna(subset=["top wood", "back wood"])
 
-filter_df.to_csv("./processed_data/tonewood_size.csv", index=False)
+filter_df.to_csv(project_path/'processed_data'/'tonewood_size.csv', index=False)
 
 
 html = filter_df.to_html(index=False)
-html = convert_bbcode(html)
+bbcode = convert_bbcode(html)
 
-text_file = open("./processed_data/tonewood_size.html", "w")
-text_file.write(html)
+text_file = open(project_path/'processed_data'/'tonewood_size.txt', "w")
+text_file.write(bbcode)
 text_file.close()
 
 
@@ -46,12 +49,13 @@ filter2_df = filter2_df.sort_values(["top wood", "back wood"])
 
 filter2_df = add_id(filter2_df)
 filter2_df = filter2_df[["id", "top wood", "back wood"]]
+filter2_df = filter2_df.dropna(subset=["top wood", "back wood"])
 
-filter2_df.to_csv("./processed_data/tonewood.csv", index=False)
+filter2_df.to_csv(project_path/'processed_data'/'tonewood.csv', index=False)
 
 html2 = filter2_df.to_html(index=False)
-html2 = convert_bbcode(html2)
+bbcode2 = convert_bbcode(html2)
 
-text_file = open("./processed_data/tonewood.html", "w")
-text_file.write(html2)
+text_file = open(project_path/'processed_data'/'tonewood.txt', "w")
+text_file.write(bbcode2)
 text_file.close()
