@@ -205,7 +205,7 @@ id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
 218,L2 CCR Cedar Rosewood Concert,L2,CCR,Concert,Cedar,Rosewood,gloss,blue binding,,,,
 219,L2 CSR 2025 Spruce Rosewood Concert,L2,CSR,Concert,Spruce,Rosewood,gloss,pink binding,,,,
 220,X-SMH-S Mahogany Soprano,X,SMHS,Soprano,Mahogany,Mahogany,satin,,,,,
-221,L1-TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,,,
+221,L1-TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,yes,795,https://theukulelesite.com/oli-mango-pineapple-tenor-l1-tpmg-1044.html
 222,L2 Mango Tenor,L2,TMG,Tenor,Mahogany,Mango,gloss,,,,,
 223,2025 Monstera Tenor,L2,TCA,Tenor,Cedar,Acacia,gloss,monstera,,,,
 224,2025 L1 Baritone Mango Gloss,L1,BMG,Baritone,Mango,Mango,gloss,,,,,
@@ -223,7 +223,7 @@ id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
 236,L2-BSR 2025 1102,L2,BSR,Baritone,Spruce,Rosewood,gloss,,,,,
 237,2025 L2 BCR,L2,BCR,Baritone,Cedar,Rosewood,gloss,,,,,
 238,L3-CRMI Redwood Milo Concert 1,L3,CRML,Concert,Redwood,Milo,gloss,,,yes,2195,https://theukulelesite.com/oli-redwood-hawaiian-milo-le-concert-l3-crmi-hoala-milo-1.html
-239,L3 Plumeria Tenor 1033,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,Plumeria,,,1995,https://theukulelesite.com/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1.html
+239,L3 Plumeria Tenor 1033,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,Plumeria,,yes,1995,https://theukulelesite.com/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1.html
 240,In My Life 'Oli L3-TCE L3-TSR L2-GSR,--,,--,,,,,,,,
 241,L1 TAS 963,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
 242,L1 CMGS 919,L1,CMGS,Concert,Mango,Mango,satin,,,,,
@@ -253,7 +253,7 @@ id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
 264,L2-BCPW 1202 Port Orford Cedar Walnut Baritone,L2,BCPW,Baritone,Port Orford Cedar,Walnut,gloss,limited edition,2025-04-23,,"$1,795",https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-baritone-l2-bcpw-diamond-head-moon-1202.html
 265,L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone,L2,BRCM,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,,,yes,1895,https://theukulelesite.com/shop-by/oli-curly-redwood-hawaiian-cuban-mahogany-le-baritone-l2-brcm-1177.html
 266,X2-TTSRR Torrefied Spruce Rosewood Tenor,X2,TTSRR,Tenor,Torrefied spruce,Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-tenor-x2-ttsrr-1165.html
---,X2-TTSR-BW Torrefied Spruce Rosewood LE Tenor 1233,X2,TTSRBW,Tenor,Torrefied spruce,Black and White Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-le-tenor-x2-ttsr-bw-1233.html
+-1,X2-TTSR-BW Torrefied Spruce Rosewood LE Tenor 1233,X2,TTSRBW,Tenor,Torrefied spruce,Black and White Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-le-tenor-x2-ttsr-bw-1233.html
 267,X2 TCRBW 1161Cedar Rosewood Tenor,X2,TCRBW,Tenor,Cedar,Black and White Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-bw-rosewood-le-tenor-x2-tcr-bw-1161.html
 268,L2-TCPMR Port Orford Cedar Myrtle Tenor 1194,L2,TCPMR,Tenor,Port Orford Cedar,Myrtle,gloss,,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-myrtle-le-tenor-l2-tcpmr-diamond-head-moon-1194.html
 269,L3 TCPML Port Orford Cedar Milo Tenor LE 1272,L3,TCPML,Tenor,Port Orford Cedar,Milo,gloss,limited edition,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-hawaiian-milo-le-tenor-l3-tcpml-hoala-milo-1272.html
@@ -285,3 +285,8 @@ id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
 295,L2 CCPW Port Orford Cedar Walnut Concert,L2,CCPW,Concert,Port Orford Cedar,Walnut,gloss,,,yes,1395,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-concert-l2-ccpw-diamond-head-moon-1230.html
 296,L1SP TMGBK Mango Tenor,L1,TMG-BK,Tenor,Mango,Mango,gloss,black stain,,yes,1095,https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l1sp-tmg-bk-1118.html
 297,L3 BSE H Spruce Ebony Honeycomb Baritone,L3,BSE,Baritone,Spruce,Ebony,gloss,,,yes,,
+298,L1 TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,,895.00895,https://theukulelesite.com/shop-by/brand/oli/oli-mango-pineapple-tenor-l1-tpmg-1138.html
+299,L3-TSR-P Plumeria Tenor 1247,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1247-1.html
+300,L3 CCE 1237 Cedar Ebony Honeycomb LE Concert,L3,CCE-H,Concert,Cedar,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-macassar-ebony-le-concert-l3-cce-h-honeycomb-1237.html
+301,L3 CSE H 1186,L3,CSE-H,Concert,Spruce,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-le-concert-l3-cse-h-honeycomb-1186.html
+302,L3-BRML Redwood Milo Baritone,L3,BRML,Baritone,Redwood,Milo,gloss,,,yes,2295,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-milo-le-baritone-l3-brml-hoala-milo-1241.html
