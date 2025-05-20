@@ -17,7 +17,7 @@ def process_playlist_items(json):
         try:
             data = {
                 "position": item["snippet"]["position"] + 1,
-                "title": item["snippet"]["title"],
+                "video_title": item["snippet"]["title"],
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
@@ -42,7 +42,7 @@ def process_search_items(json, ids):
 
         try:
             data = {
-                "title": item["snippet"]["title"],
+                "video_title": item["snippet"]["title"],
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["id"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],

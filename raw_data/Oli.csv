@@ -1,4 +1,4 @@
-id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
+id,name,tier,type,size,top_wood,back_wood,finish,other,date,new,price,url
 1,L1 MGBG Mango Baritone,L1,BMG,Baritone,Mango,Mango,gloss,,,new,895,https://theukulelesite.com/oli-mango-baritone-l1-bmg-810.html
 3,L2 TCE Cedar Macassar Ebony Tenor,L2,TCE,Tenor,Cedar,Macassar Ebony ,gloss,,,new,"1,495",https://theukulelesite.com/oli-cedar-macassar-ebony-tenor-l2-tce-g-0023.html
 4,Cedar Macassar L2 Baritone,L2,BCE,Baritone,Cedar,Macassar Ebony ,gloss,,,new,"1,845",https://theukulelesite.com/oli-cedar-ebony-baritone-l2-bce-hanging-heliconia-195.html
@@ -88,205 +88,204 @@ id,name,type,model,size,top wood,back wood,finish,other,date,new,price,url
 98,L2 TCE V2 Tenor Cedar Ebony w Uke Logic Low G Set,L2,TCE,Tenor,Cedar,Macassar Ebony ,gloss,,,,"1,495",https://theukulelesite.com/oli-spruce-macassar-ebony-tenor-l2-tse-v2-heliconia-422.html
 99,L1SP TA w Uke Logic HT Low G,L1,TSA,Tenor,Spruce,Acacia,gloss,,,,,
 100,L2 TCAS Cedar Acacia Monstera Tenor Satin Finish,L2,TCAS,Tenor,Cedar,Acacia,satin,,,,,
-101,L2 TMG V2 Mango Tenor,L2,TMB,Tenor,Mango,Mango,gloss,,,,,
+101,L2 TMG V2 Mango Tenor,L2,TMG,Tenor,Mango,Mango,gloss,,,,,
 102,L2 BCAS Baritone Cedar Acacia Satin,L2,BCAS,Baritone,Cedar,Acacia,satin,,,new,"1,295",https://theukulelesite.com/oli-cedar-acacia-monstera-baritone-satin-l2-bcas-550.html
 103,L2 CCAS Concert Cedar Acacia Satin,L2,CCAS,Concert,Cedar,Acacia,satin,,,new,995,https://theukulelesite.com/oli-cedar-acacia-monstera-concert-satin-l2-ccas-536-v2.html
 104,L2 TSR v2 Spruce Rosewood Tenor,L2,TSR,Tenor,Spruce,Rosewood,gloss,,,,,
 105,L2 BRR 642 Redwood Rosewood,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,new,"1,795",https://theukulelesite.com/oli-curly-redwood-rosewood-le-baritone-l2-brr-red-ginger-648.html
-106,L2 TRR 594,L2,TRR,Tenor,Redwood,Rosewood,gloss,limited edition,,new,"1,695",https://theukulelesite.com/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-594.html
-107,L2 TRR 592,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-108,L2 TRR 582,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-109,L2 TRR 595,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-110,l2 TRR 588,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-111,L2 TRR 587,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-114,L2 BK 271 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,"2,195",https://theukulelesite.com/shop-by/brand/oli/oli-mastergrade-koa-baritone-l2-bk-uhi-256.html
-115,L2 TK 673 Koa Tenor,L2,TK,Tenor,Koa,Koa,gloss,,,,,
-116,Mango Pineapple Tenor Prototype,L2,TPMG,Tenor,Mango,Mango,gloss,pineapple,,new,995,https://theukulelesite.com/oli-tenor-pineapple-mango-prototype-l2-tpmg-522.html
-117,Redwood Rosewood Baritone L2 BRR 606,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,
-118,L2 TRR 591,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
-119,L1-TMG v2 Mango Tenor,L1,TMG,Tenor,Mango,Mango,gloss,,,,,
-120,L1-TA v2 Acacia Tenor,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
-121,L1 TMGS v2 Mango Tenor Satin,L1,TMGS,Tenor,Mango,Mango,satin,,,,,
-122,Oli L1 TAS v2 Acacia Tenor Satin,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
-125,L2 TTSMR Torrefied Spruce Myrtle Tenor,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,new,"1,595",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-658.html
-127,L2 BTSMR Torrefied Spruce Myrtle Baritone,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,new,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-692.html
-128,L2-BMR Myrtle Baritone,L2,BMR,Baritone,Myrtle,Myrtle,gloss,limited edition,,new,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-734.html
-129,L2-BSFM Spruce Top Flame Maple Baritone,L2,BSFM,Baritone,Spruce,Flame Maple,gloss,,,new,"1,595",https://theukulelesite.com/oli-spruce-flame-maple-baritone-l2-bsfm-mandala-774-1.html
-130,L2-BRR Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-590.html
-131,L2-TSFM V3 Spruce Flame Maple Mandala Tenor,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,,,new,"1,395",https://theukulelesite.com/shop-by/size/tenor/oli-spruce-flame-maple-tenor-l2-tsfm-v3-mandala-728.html
-132,L1 TSMU Spruce top Merbau Tenor,L1,TSMU,Tenor,Spruce,Merbau,satin,,,new,845,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-merbau-tenor-l1-smu-682.html
-133,L2 CTSR Torrefied Spruce Rosewood Concert,L2,CTSR,Concert,Torrefied spruce,Rosewood,gloss,,,new,"1,445",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-concert-l2-ctsr-790.html
-134,L2 BTSR Torrefied Spruce Rosewood Baritone,L2,BTSR,Baritone,Torrefied spruce,Rosewood,gloss,limited edition,,new,"1,745",https://theukulelesite.com/oli-torrefied-spruce-rosewood-baritone-le-l2-btsr-827.html
-136,L1-BA Acacia Baritone,L1,BA,Baritone,Acacia,Acacia,gloss,,,,895,https://theukulelesite.com/shop-by/brand/oli/oli-acacia-baritone-l1-ba-743.html
-137,L1 BMG Mango Baritone,L1,BMG,Baritone,Mango,Mango,gloss,,,,895,https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-l1-bmg-810.html
-138,L1 BMGS Mango Baritone,L1,BMGS,Baritone,Mango,Mango,satin,,,,,
-139,L2-BCW Cedar Walnut Baritone,L2,BCW,Baritone,Cedar,Walnut,gloss,limited edition,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-baritone-l2-bcw-red-ginger-670.html
-140,L2-BSR v3 Spruce Rosewood Baritone,L2,BSR,Baritone,Spruce,Rosewood,gloss,,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-baritone-l2-bsr-831.html
-141,L2-BCM Curly Maple Baritone,L2,BCM,Baritone,Curly Maple,Curly Maple,gloss,,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-flame-maple-baritone-l2-bcm-mandala-710.html
-142,L2-BSQM-SB Spruce Quilted Maple Sunburst Baritone,L2,BSQM-SB,Baritone,Spruce,Quilted Maple,gloss,sunburst stain,,new,1645,https://theukulelesite.com/shop-by/oli-spruce-quilted-maple-baritone-l2-bsqm-sb-mandala-715.html
-143,L2 BMGS-LE Spalted Mango Baritone,L2,BMGS,Baritone,Spalted Mango ,Spalted Mango ,gloss,,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spalted-mango-baritone-l2-bmgsp-603.html
-144,L2 TMG-SP Spalted Mango Tenor,L2,TMG,Tenor,Spalted Mango ,Spalted Mango ,gloss,limited edition,,new,1395,https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l2-tmgs-le-600.html
-145,L2-CMG-SP Spalted Mango Concert,L2,CMG,Concert,Spalted Mango ,Spalted Mango ,gloss,limited edition,,new,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-spalted-mango-concert-l2-cmgs-le-704.html
-146,L2 TCE V3 Cedar Top Macassar Ebony Tenor,L2,TCE,Tenor,Cedar,Macassar Ebony ,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-macassar-ebony-tenor-l2-tce-748.html
-147,L2-TCW Cedar Walnut Tenor,L2,TCW,Tenor,Cedar,Walnut,gloss,,,new,"1,445",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-tenor-l2-tcw-701.html
-148,L1 CCWU Cedar Weru Concert,L1,CCWU,Concert,Cedar,Weru,satin,,,new,795,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-weru-concert-l1-ccwu-s-874.html
-149,L2 CCR Curly Redwood & Figured Rosewood Concert,L2,CRR,Concert,Redwood,Rosewood,gloss,limited edition,,new,"1,595",https://theukulelesite.com/oli-redwood-rosewood-le-concert-l2-crr-red-ginger-769.html
-150,L2 CTSMR Torrefied Spruce Myrtle Concert,L2,CTSMR,Concert,Torrefied spruce,Myrtle,gloss,,,new,1395,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-concert-l2-ctsmr-red-ginger-676.html
-151,L2 CSCM Spruce Maple Concert,L2,CSFM,Concert,Spruce,Birds eye Maple,gloss,,,new,"1,245",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-birdseye-maple-concert-l2-csfm-mandala-747.html
-152,L1-BSMU Spruce Merbau Baritone,L1,BSMU,Baritone,Spruce,Merbau,satin,,,new,945,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-merbau-baritone-l1-bsmu-s-708.html
-153,L2-BRR Redwood Rosewood Baritone 610,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-610.html
-153,L2-BRR Redwood Rosewood Baritone 644,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-baritone-l2-brr-red-ginger-644-2.html
-153,L2-BRR Redwood Rosewood Baritone 654,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-654.html
-154,L2-BK Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,blemished,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-koa-baritone-l2-bk-uhi-273.html
-155,L2-BMR Myrtle Baritone,L2,BMR,Baritone,Myrtle,Myrtle,gloss,limited edition,,,"1,695",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-731.html
-156,L2-BTSMR 690 Torrefied Spruce Myrtle Baritone,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-690.html
-157,L2-TK Koa Tenor,L2,TK,Tenor,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-koa-ms-tenor-l2-tk-uhi-679.html
-158,L2-TMR Myrtle Tenor,L2,TMR,Tenor,Myrtle,Myrtle,gloss,limited edition,,new,"1,495",https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-l2-tmr-le-red-ginger-699.html
-159,L2-TTSMR Torrefied Spruce Myrtle Tenor,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-658.html
-160,L2-TSFM Spruce Maple Tenor,L2,TSFM,Tenor,Spruce,Maple,gloss,,,,"1,395",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-tenor-l2-tsfm-v3-mandala-728.html
-161,L2-TRR Redwood Rosewood Tenor,L2,TRR,Tenor,Redwood,Rosewood,gloss,limited edition,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-590.html
-162,L2 CCW Cedar Walnut Concert,L2,CCW,Concert,Cedar,Walnut,gloss,"blemished, limited edition",,new,"1,145",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-concert-l2-ccw-red-ginger-736.html
-162,L2 CCW Cedar Walnut Concert,L2,CCW,Concert,Cedar,Walnut,gloss,limited edition,,,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-concert-l2-ccw-red-ginger-739.html
-164,L1-BSW Baritone Spruce Weru,L1,BSWU,Baritone,Spruce,Weru,satin,,,new,945,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-weru-baritone-l1-bswu-s-714.html
-165,L1 TSW Spruce Weru Tenor,L1,TSWU,Tenor,Spruce,Weru,satin,,,new,845,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-weru-tenor-l1-tswu-709.html
-166,L1 BCAS Cedar Acacia Baritone,L1,BCAS,Baritone,Cedar,Acacia,satin,,,new,895,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-acacia-baritone-l1-bcas-876.html
-167,L2 TTSMR Torrefied Spruce Myrtle 668,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-668.html
-168,L2 BTSMR Torrefied Spruce Myrtle Baritone 696,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,,,,,
-169,L2 BK 236 Baritone Koa,L2,BK,Baritone,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-koa-baritone-l2-bk-uhi-236.html
-170,Koa Tenor L2-TK 722,L2,TK,Tenor,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/oli-mastergrade-koa-tenor-l2-tk-uhi-722.html
-171,L2 CSR,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,1295,https://theukulelesite.com/oli-spruce-rosewood-concert-l2-csr-820.html
-172,Spruce Ebony Tenor L2 TSE,L2,TSE,Tenor,Spruce,Macassar Ebony ,gloss,,,,"1,495",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-tenor-l2-tse-768.html
-173,L2 TCA Cedar Acacia Tenor w Acacia faceplate,L2,TCA,Tenor,Cedar,Acacia,gloss,,,,"1,095",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-acacia-tenor-l2-tca-785.html
-174,L2 BTSMR 691,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-691-1.html
-175,L2-CRR 752 Redwood Rosewood Concert,L2,CRR,Concert,Redwood,Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/oli-redwood-rosewood-le-concert-l2-crr-red-ginger-752.html
-176,L2 CTSMR 677 Concert Torrefied Spruce Myrtle,L2,CTSMR,Concert,Torrefied spruce,Myrtle,gloss,,,,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-concert-l2-ctsmr-red-ginger-677.html
-177,L2-TFM-BR 766 Spruce Maple Tenor,L2,TSFM-BR,Tenor,Spruce,Maple,gloss,stained brown,,,"1,395",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-tenor-l2-tsfm-br-mandala-766.html
-178,L1 BAS Acacia Baritone,L1,BAS,Baritone,Acacia,Acacia,satin,,,,845,https://theukulelesite.com/shop-by/brand/oli/oli-acacia-baritone-satin-l1-bas-792.html
-179,L2-BSFM-BR Spruce Flame Maple Baritone,L2,BSFM-BR,Baritone,Spruce,Flame Maple,gloss,stained brown,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-baritone-l2-bsfm-mandala-773.html
-180,L2-BSE-SB Sunburst Spruce Ebony Baritone,L2,BSE-SB,Baritone,Spruce,Macassar Ebony ,gloss,sunburst stain,,new,1745,https://theukulelesite.com/shop-by/brand/oli/oli-sunburst-spruce-macassar-ebony-baritone-l2-bse-sb-869.html
-181,L2-BCR Cedar Rosewood Baritone,L2,BCR,Baritone,Cedar,Rosewood,gloss,,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-rosewood-baritone-l2-bcr-v3-870.html
-182,L2-BSE Spruce Ebony Baritone,L2,BSE,Baritone,Spruce,Macassar Ebony ,gloss,,,,"1,695",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-ebony-baritone-l2-bse-v3-863.html
-183,L2-BTSR Torrefied Spruce Rosewood Baritone,L2,BTSR,Baritone,Torrefied spruce,Rosewood,gloss,limited edition,,,"1,745",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-baritone-l2-btsr-le-828.html
-184,L2-CCR Cedar Rosewood Concert,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,1295,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-rosewood-concert-l2-ccr-842.html
-185,L2-CSR Spruce Rosewood Concert,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,1295,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-concert-l2-csr-797.html
-186,L1 CSWU Spruce Weru Concert,L1,CSWU,Concert,Spruce,Weru,satin,,,new,795,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-weru-concert-l1-ccwu-s-702.html
-187,L1-CSMU Spruce Top Merbau Concert,L1,CSMU,Concert,Spruce,Merbau,satin,,2024-11-17,new,,
+107,L2 TRR 594,L2,TRR,Tenor,Redwood,Rosewood,gloss,limited edition,,new,"1,695",https://theukulelesite.com/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-594.html
+108,L2 TRR 592,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+109,L2 TRR 582,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+110,L2 TRR 595,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+111,l2 TRR 588,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+112,L2 TRR 587,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+115,L2 BK 271 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,"2,195",https://theukulelesite.com/shop-by/brand/oli/oli-mastergrade-koa-baritone-l2-bk-uhi-256.html
+116,L2 TK 673 Koa Tenor,L2,TK,Tenor,Koa,Koa,gloss,,,,,
+117,Mango Pineapple Tenor Prototype,L2,TPMG,Tenor,Mango,Mango,gloss,pineapple,,new,995,https://theukulelesite.com/oli-tenor-pineapple-mango-prototype-l2-tpmg-522.html
+118,Redwood Rosewood Baritone L2 BRR 606,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,
+119,L2 TRR 591,L2,TRR,Tenor,Redwood,Rosewood,gloss,,,,,
+120,L1-TMG v2 Mango Tenor,L1,TMG,Tenor,Mango,Mango,gloss,,,,,
+121,L1-TA v2 Acacia Tenor,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
+122,L1 TMGS v2 Mango Tenor Satin,L1,TMGS,Tenor,Mango,Mango,satin,,,,,
+123,Oli L1 TAS v2 Acacia Tenor Satin,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
+126,L2 TTSMR Torrefied Spruce Myrtle Tenor,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,new,"1,595",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-658.html
+128,L2 BTSMR Torrefied Spruce Myrtle Baritone,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,new,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-692.html
+129,L2-BMR Myrtle Baritone,L2,BMR,Baritone,Myrtle,Myrtle,gloss,limited edition,,new,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-734.html
+130,L2-BSFM Spruce Top Flame Maple Baritone,L2,BSFM,Baritone,Spruce,Flame Maple,gloss,,,new,"1,595",https://theukulelesite.com/oli-spruce-flame-maple-baritone-l2-bsfm-mandala-774-1.html
+131,L2-BRR Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-590.html
+132,L2-TSFM V3 Spruce Flame Maple Mandala Tenor,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,,,new,"1,395",https://theukulelesite.com/shop-by/size/tenor/oli-spruce-flame-maple-tenor-l2-tsfm-v3-mandala-728.html
+133,L1 TSMU Spruce top Merbau Tenor,L1,TSMU,Tenor,Spruce,Merbau,satin,,,new,845,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-merbau-tenor-l1-smu-682.html
+134,L2 CTSR Torrefied Spruce Rosewood Concert,L2,CTSR,Concert,Torrefied spruce,Rosewood,gloss,,,new,"1,445",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-concert-l2-ctsr-790.html
+135,L2 BTSR Torrefied Spruce Rosewood Baritone,L2,BTSR,Baritone,Torrefied spruce,Rosewood,gloss,limited edition,,new,"1,745",https://theukulelesite.com/oli-torrefied-spruce-rosewood-baritone-le-l2-btsr-827.html
+137,L1-BA Acacia Baritone,L1,BA,Baritone,Acacia,Acacia,gloss,,,,895,https://theukulelesite.com/shop-by/brand/oli/oli-acacia-baritone-l1-ba-743.html
+138,L1-BMGS Baritone Mango Satin,L1,BMGS,Baritone,Mango,Mango,satin,,,,,
+139,L1-BMG Baritone Mango Gloss,L1,BMG,Baritone,Mango,Mango,gloss,,,,895,https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-l1-bmg-810.html
+140,L2-BCW Cedar Walnut Baritone,L2,BCW,Baritone,Cedar,Walnut,gloss,limited edition,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-baritone-l2-bcw-red-ginger-670.html
+141,L2-BSR v3 Spruce Rosewood Baritone,L2,BSR,Baritone,Spruce,Rosewood,gloss,,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-baritone-l2-bsr-831.html
+142,L2-BCM Curly Maple Baritone,L2,BCM,Baritone,Curly Maple,Curly Maple,gloss,,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-flame-maple-baritone-l2-bcm-mandala-710.html
+143,L2-BSQM-SB Spruce Quilted Maple Sunburst Baritone,L2,BSQM-SB,Baritone,Spruce,Quilted Maple,gloss,sunburst stain,,new,1645,https://theukulelesite.com/shop-by/oli-spruce-quilted-maple-baritone-l2-bsqm-sb-mandala-715.html
+144,L2 BMGS-LE Spalted Mango Baritone,L2,BMGSP,Baritone,Spalted Mango ,Spalted Mango ,gloss,,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spalted-mango-baritone-l2-bmgsp-603.html
+145,L2 TMGS Spalted Mango Tenor,L2,TMGSP,Tenor,Spalted Mango ,Spalted Mango ,gloss,limited edition,,new,1395,https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l2-tmgs-le-600.html
+146,L2-CMG-SP Spalted Mango Concert,L2,CMGSP,Concert,Spalted Mango ,Spalted Mango ,gloss,limited edition,,new,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-spalted-mango-concert-l2-cmgs-le-704.html
+147,L2 TCE V3 Cedar Top Macassar Ebony Tenor,L2,TCE,Tenor,Cedar,Macassar Ebony ,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-macassar-ebony-tenor-l2-tce-748.html
+148,L2-TCW Cedar Walnut Tenor,L2,TCW,Tenor,Cedar,Walnut,gloss,,,new,"1,445",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-tenor-l2-tcw-701.html
+149,L1 CCWU-S Cedar Weru Concert,L1,CCWU,Concert,Cedar,Weru,satin,,,new,795,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-weru-concert-l1-ccwu-s-874.html
+150,L2 CCR Curly Redwood & Figured Rosewood Concert,L2,CRR,Concert,Redwood,Rosewood,gloss,limited edition,,new,"1,595",https://theukulelesite.com/oli-redwood-rosewood-le-concert-l2-crr-red-ginger-769.html
+151,L2 CTSMR Torrefied Spruce Myrtle Concert,L2,CTSMR,Concert,Torrefied spruce,Myrtle,gloss,,,new,1395,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-concert-l2-ctsmr-red-ginger-676.html
+152,L2-CSFM Spruce Maple Concert,L2,CSFM,Concert,Spruce,Birds eye Maple,gloss,,,new,"1,245",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-birdseye-maple-concert-l2-csfm-mandala-747.html
+153,L1-BSMU Spruce Merbau Baritone,L1,BSMU,Baritone,Spruce,Merbau,satin,,,new,945,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-merbau-baritone-l1-bsmu-s-708.html
+154,L2-BRR Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-610.html
+,L2-BRR Redwood Rosewood Baritone 644,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-baritone-l2-brr-red-ginger-644-2.html
+,L2-BRR Redwood Rosewood Baritone 654,L2,BRR,Baritone,Redwood,Rosewood,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-654.html
+155,L2-BK Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,blemished,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-koa-baritone-l2-bk-uhi-273.html
+156,L2-BMR Myrtle Baritone,L2,BMR,Baritone,Myrtle,Myrtle,gloss,limited edition,,,"1,695",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-731.html
+157,L2-BTSMR 690 Torrefied Spruce Myrtle Baritone,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,795",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-690.html
+158,L2-TK Koa Tenor,L2,TK,Tenor,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-koa-ms-tenor-l2-tk-uhi-679.html
+159,L2-TMR Myrtle Tenor,L2,TMR,Tenor,Myrtle,Myrtle,gloss,limited edition,,new,"1,495",https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-l2-tmr-le-red-ginger-699.html
+160,L2-TTSMR Torrefied Spruce Myrtle Tenor,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-658.html
+161,L2-TSFM Spruce Maple Tenor,L2,TSFM,Tenor,Spruce,Maple,gloss,,,,"1,395",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-tenor-l2-tsfm-v3-mandala-728.html
+162,L2-TRR Redwood Rosewood Tenor,L2,TRR,Tenor,Redwood,Rosewood,gloss,limited edition,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-rosewood-le-tenor-l2-trr-red-ginger-590.html
+,L2 CCW Cedar Walnut Concert,L2,CCW,Concert,Cedar,Walnut,gloss,"blemished, limited edition",,new,"1,145",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-concert-l2-ccw-red-ginger-736.html
+163,L2 CCW Cedar Walnut Concert,L2,CCW,Concert,Cedar,Walnut,gloss,limited edition,,,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-walnut-le-concert-l2-ccw-red-ginger-739.html
+165,L1-BSW Baritone Spruce Weru,L1,BSWU,Baritone,Spruce,Weru,satin,,,new,945,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-weru-baritone-l1-bswu-s-714.html
+166,L1 TSW Spruce Weru Tenor,L1,TSWU,Tenor,Spruce,Weru,satin,,,new,845,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-top-weru-tenor-l1-tswu-709.html
+167,L1 BCAS Cedar Acacia Baritone,L1,BCAS,Baritone,Cedar,Acacia,satin,,,new,895,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-acacia-baritone-l1-bcas-876.html
+168,L2 TTSMR Torrefied Spruce Myrtle 668,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,595",https://theukulelesite.com/shop-by/oli-torrefied-spruce-myrtle-le-tenor-l2-ttsmr-red-ginger-668.html
+169,L2 BTSMR Torrefied Spruce Myrtle Baritone 696,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,,,,,
+170,L2 BK 236 Baritone Koa,L2,BK,Baritone,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-koa-baritone-l2-bk-uhi-236.html
+171,Koa Tenor L2-TK 722,L2,TK,Tenor,Koa,Koa,gloss,,,,1995,https://theukulelesite.com/oli-mastergrade-koa-tenor-l2-tk-uhi-722.html
+172,L2 CSR,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,1295,https://theukulelesite.com/oli-spruce-rosewood-concert-l2-csr-820.html
+173,Spruce Ebony Tenor L2 TSE,L2,TSE,Tenor,Spruce,Macassar Ebony ,gloss,,,,"1,495",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-tenor-l2-tse-768.html
+174,L2 TCA Cedar Acacia Tenor w Acacia faceplate,L2,TCA,Tenor,Cedar,Acacia,gloss,,,,"1,095",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-acacia-tenor-l2-tca-785.html
+175,L2 BTSMR 691,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,"1,795",https://theukulelesite.com/oli-torrefied-spruce-myrtle-le-baritone-l2-btsmr-red-ginger-691-1.html
+176,L2-CRR 752 Redwood Rosewood Concert,L2,CRR,Concert,Redwood,Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/oli-redwood-rosewood-le-concert-l2-crr-red-ginger-752.html
+177,L2 CTSMR 677 Concert Torrefied Spruce Myrtle,L2,CTSMR,Concert,Torrefied spruce,Myrtle,gloss,,,,"1,345",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-myrtle-concert-l2-ctsmr-red-ginger-677.html
+178,L2-TFM-BR 766 Spruce Maple Tenor,L2,TSFM-BR,Tenor,Spruce,Maple,gloss,stained brown,,,"1,395",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-tenor-l2-tsfm-br-mandala-766.html
+179,L1 BAS Acacia Baritone,L1,BAS,Baritone,Acacia,Acacia,satin,,,,845,https://theukulelesite.com/shop-by/brand/oli/oli-acacia-baritone-satin-l1-bas-792.html
+180,L2-BSFM-BR Spruce Flame Maple Baritone,L2,BSFM-BR,Baritone,Spruce,Flame Maple,gloss,stained brown,,new,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-baritone-l2-bsfm-mandala-773.html
+181,L2-BSE-SB Sunburst Spruce Ebony Baritone,L2,BSE-SB,Baritone,Spruce,Macassar Ebony ,gloss,sunburst stain,,new,1745,https://theukulelesite.com/shop-by/brand/oli/oli-sunburst-spruce-macassar-ebony-baritone-l2-bse-sb-869.html
+182,L2-BCR Cedar Rosewood Baritone,L2,BCR,Baritone,Cedar,Rosewood,gloss,,,,"1,595",https://theukulelesite.com/shop-by/brand/oli/oli-cedar-rosewood-baritone-l2-bcr-v3-870.html
+183,L2-BSE Spruce Ebony Baritone,L2,BSE,Baritone,Spruce,Macassar Ebony ,gloss,,,,"1,695",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-ebony-baritone-l2-bse-v3-863.html
+184,L2-BTSR Torrefied Spruce Rosewood Baritone,L2,BTSR,Baritone,Torrefied spruce,Rosewood,gloss,limited edition,,,"1,745",https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-baritone-l2-btsr-le-828.html
+185,L2-CCR Cedar Rosewood Concert,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,1295,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-rosewood-concert-l2-ccr-842.html
+186,L2-CSR Spruce Rosewood Concert,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,1295,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-concert-l2-csr-797.html
+187,L1 CSWU Spruce Weru Concert,L1,CSWU,Concert,Spruce,Weru,satin,,,new,795,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-weru-concert-l1-ccwu-s-702.html
+188,L1-CSMU Spruce Top Merbau Concert,L1,CSMU,Concert,Spruce,Merbau,satin,,2024-11-17,new,,
 ,'Oli 2025 Preview & Sample w Corey,,,,,,,,2024-12-30,,,
-189,L1-TA Acacia Gloss Tenor (2025),L1,TA,Tenor,Acacia,Acacia,gloss,,2025-01-03,new,,
-190,L1 BCA,L1,BCA,Baritone,Cedar,Acacia,gloss,,,new,,
-191,L1 TCA Cedar Acacia Tenor,L1,TCA,Tenor,Cedar,Acacia,gloss,,,new,,
-192,"L1 Cedar Acacia Baritone & Tenor ""Island Style""",--,,--,,,,,,,,
-193,L1 TCA S Cedar Top Acacia Satin Tenor,L1,TCAS,Tenor,Cedar,Acacia,satin,,,,,
-194,L1-CCAS Cedar Top Acacia Concert,L1,CCAS,Concert,Cedar,Acacia,satin,,,,,
-195,L1 CCA Cedar Top Acacia Concert,L1,CCA,Concert,Cedar,Acacia,gloss,,,,,
-196,L1 BCA S Cedar Acacia Baritone Satin,L1,BCAS,Baritone,Cedar,Acacia,satin,,,,,
-197,"“Kawaipunahele” on L1 Acacia Satin w Mika, Kalei, & Corey",--,,--,,,,,,,,
-198,L1 CAS Acacia Concert Satin,L1,CAS,Concert,Acacia,Acacia,satin,,,,,
-199,L1 CA 2025 Acacia Concert,L1,CA,Concert,Acacia,Acacia,gloss,,,,,
-200,"Kiss From a Rose w Kalei, Corey, & Mika on 'Oli L1 Acacia gloss",--,,--,,,,,,,,
-201,L1 TA 2025 Tenor Acacia,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
-202,L1-CA Concert Acacia w Kalei,L1,CA,Concert,Acacia,Acacia,gloss,,,,,
-203,L1 TAS Acacia Tenor Satin,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
-204,L1 CMG Concert Mango w Matt Dahlberg,L1,CMG,Concert,Mango,Mango,gloss,,,,,
-205,L2 TQM BL w Low G,L2,TQM-BL,Tenor,Quilted Maple,Quilted Maple,gloss,"blue stain, limited series",,yes,"$1,645",https://theukulelesite.com/oli-quilted-maple-ocean-blue-tenor-l2-tqm-bl-1035.html
-206,L2 TQM BL w High G,L2,TQM-BL,Tenor,Quilted Maple,Quilted Maple,gloss,"blue stain, limited series",,,"$1,645",https://theukulelesite.com/oli-quilted-maple-ocean-blue-tenor-l2-tqm-bl-1035.html
-207,L2 TQM LB,L2,TQM-LB,Tenor,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,"$1,595",https://theukulelesite.com/oli-quilted-maple-light-burst-tenor-l2-tqm-sb-1036.html
-208,L2 BQM LB,L2,BQM-LB,Baritone,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,,
-209,L2 BQM BL Quilted Maple Baritone,L2,BQM-BL,Baritone,Quilted Maple,Quilted Maple,gloss,blue stain,2025-01-19,,"$1,745",https://theukulelesite.com/oli-quilted-maple-ocean-baritone-l2-bqm-bl-1039.html
+191,L1-TA Acacia Gloss Tenor (2025),L1,TA,Tenor,Acacia,Acacia,gloss,,2025-01-03,new,,
+192,L1 BCA,L1,BCA,Baritone,Cedar,Acacia,gloss,,,new,,
+193,L1 TCA Cedar Acacia Tenor,L1,TCA,Tenor,Cedar,Acacia,gloss,,,new,,
+194,"L1 Cedar Acacia Baritone & Tenor ""Island Style""",,,,,,,,,,,
+195,L1 TCA S Cedar Top Acacia Satin Tenor,L1,TCAS,Tenor,Cedar,Acacia,satin,,,,,
+196,L1-CCAS Cedar Top Acacia Concert,L1,CCAS,Concert,Cedar,Acacia,satin,,,,,
+197,L1 CCA Cedar Top Acacia Concert,L1,CCA,Concert,Cedar,Acacia,gloss,,,,,
+198,L1 BCA S Cedar Acacia Baritone Satin,L1,BCAS,Baritone,Cedar,Acacia,satin,,,,,
+199,"“Kawaipunahele” on L1 Acacia Satin w Mika, Kalei, & Corey",,,,,,,,,,,
+200,L1 CAS Acacia Concert Satin,L1,CAS,Concert,Acacia,Acacia,satin,,,,,
+201,L1 CA 2025 Acacia Concert,L1,CA,Concert,Acacia,Acacia,gloss,,,,,
+202,"Kiss From a Rose w Kalei, Corey, & Mika on 'Oli L1 Acacia gloss",,,,,,,,,,,
+203,L1 TA 2025 Tenor Acacia,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
+204,L1-CA Concert Acacia w Kalei,L1,CA,Concert,Acacia,Acacia,gloss,,,,,
+205,L1 TAS Acacia Tenor Satin,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
+206,L1 CMG Concert Mango w Matt Dahlberg,L1,CMG,Concert,Mango,Mango,gloss,,,,,
+207,L2 TQM BL w Low G,L2,TQM-BL,Tenor,Quilted Maple,Quilted Maple,gloss,"blue stain, limited series",,yes,"$1,645",https://theukulelesite.com/oli-quilted-maple-ocean-blue-tenor-l2-tqm-bl-1035.html
+208,L2 TQM BL w High G,L2,TQM-BL,Tenor,Quilted Maple,Quilted Maple,gloss,"blue stain, limited series",,,"$1,645",https://theukulelesite.com/oli-quilted-maple-ocean-blue-tenor-l2-tqm-bl-1035.html
+209,L2 TQM LB,L2,TQM-LB,Tenor,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,"$1,595",https://theukulelesite.com/oli-quilted-maple-light-burst-tenor-l2-tqm-sb-1036.html
+210,L2 BQM LB,L2,BQM-LB,Baritone,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,,
+212,L2 BQM BL Quilted Maple Baritone,L2,BQM-BL,Baritone,Quilted Maple,Quilted Maple,gloss,blue stain,2025-01-19,,"$1,745",https://theukulelesite.com/oli-quilted-maple-ocean-baritone-l2-bqm-bl-1039.html
 ,2025 NAMM,,,,,,,,2025-01-21 / 25,,,
-210,L1 TMG Mango Tenor Gloss,L1,TMG,Tenor,Mango,Mango,gloss,,2025-01-29,,,
-211,You Are My Sunshine on 2025 'Oli Mango Satin Models,--,,--,,,,,,,,
-212,L1 CMGS 2025 Concert Mango Satin,L1,CMGS,Concert,Mango,Mango,satin,,,,,
-213,L1SP-TSWA-VB Spruce Waru Vintage Burst Tenor,L1,TSWU-VB,Tenor,Spruce,Weru,gloss,vintage burst stain,,,,
-214,L2 CQM BL Quilted Maple Concert,L2,CQM-LB,Concert,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,"$1,395",https://theukulelesite.com/oli-light-burst-quilted-maple-concert-l2-cqm-lb-1047.html
-215,l2 TSFM LB,L2,TSFM-LB,Tenor,Spruce,Flame Maple,gloss,light burst stain,,,,
-216,2025 L2 TSR Spruce Rosewoodf Tenor,L2,TSR,Tenor,Spruce,Rosewood,gloss,pink binding,,,,
-217,L1SP-BSWA Baritone Spruce Waru Vintage Burst w Corey and Matt,L1,BSWU-VB,Baritone,Spruce,Weru,gloss,vintage burst stain,,yes,"$1,195",https://theukulelesite.com/oli-spruce-waru-vintage-burst-baritone-l1sp-bswa-1008.html
-218,L2 CCR Cedar Rosewood Concert,L2,CCR,Concert,Cedar,Rosewood,gloss,blue binding,,,,
-219,L2 CSR 2025 Spruce Rosewood Concert,L2,CSR,Concert,Spruce,Rosewood,gloss,pink binding,,,,
-220,X-SMH-S Mahogany Soprano,X,SMHS,Soprano,Mahogany,Mahogany,satin,,,,,
-221,L1-TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,yes,795,https://theukulelesite.com/oli-mango-pineapple-tenor-l1-tpmg-1044.html
-222,L2 Mango Tenor,L2,TMG,Tenor,Mahogany,Mango,gloss,,,,,
-223,2025 Monstera Tenor,L2,TCA,Tenor,Cedar,Acacia,gloss,monstera,,,,
-224,2025 L1 Baritone Mango Gloss,L1,BMG,Baritone,Mango,Mango,gloss,,,,,
-225,2025 L2 Concert Mango,L2,CMG,Concert,Mango,Mango,gloss,,,,,
-226,L2 TSFM 729 Spruce Top Flame Maple Tenor,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,,,,,
-227,BRR 645 Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-645-1.html
-228,L2 BK 251 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-229,L2 BK 316 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-230,L2 BK 669 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-231,L2 Bk 665 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-232,L2 BK 325 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-233,l2 CRR 745,L2,CRR,Concert,Redwood,Rosewood,gloss,,,,,
-234,2025 L1-CAS 1055 Acacia Satin Concert,L1,CAS,Concert,Acacia,Acacia,satin,,,,,
-235,L2 BRR 609 Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-609-1.html
-236,L2-BSR 2025 1102,L2,BSR,Baritone,Spruce,Rosewood,gloss,,,,,
-237,2025 L2 BCR,L2,BCR,Baritone,Cedar,Rosewood,gloss,,,,,
-238,L3-CRMI Redwood Milo Concert 1,L3,CRML,Concert,Redwood,Milo,gloss,,,yes,2195,https://theukulelesite.com/oli-redwood-hawaiian-milo-le-concert-l3-crmi-hoala-milo-1.html
-239,L3 Plumeria Tenor 1033,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,Plumeria,,yes,1995,https://theukulelesite.com/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1.html
-240,In My Life 'Oli L3-TCE L3-TSR L2-GSR,--,,--,,,,,,,,
-241,L1 TAS 963,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
-242,L1 CMGS 919,L1,CMGS,Concert,Mango,Mango,satin,,,,,
-243,2025 L2-BMG 1038,L2,BMG,Baritone,Mango,Mango,gloss,,2025-02-09,,,
-,,,,,,,,,,,,
-244,L2 BSFM-LB 1071 Spruce Maple Baritone,L2,BSFM-LB,Baritone,Spruce,Flame Maple,gloss,light burst stain,2025-02-14,,,
-245,L2 CQM LB 1047,L2,CQM-LB,Concert,Quilted Maple,Quilted Maple,gloss,light burst stain,,,"$1,395",https://theukulelesite.com/oli-light-burst-quilted-maple-concert-l2-cqm-lb-1047.html
-246,L2 BMR 733,L2,BMR,Baritone,Myrtle,Myrtle,gloss,,,,,
-247,L2-BTSMR 684,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,,,,,
-248,L2 TMG Spalted Mango Tenor 596,L2,TMG,Tenor,Spalted Mango ,Spalted Mango ,gloss,,,,,
-249,L2 TCA 783,L2,TCA,Tenor,Cedar,Acacia,gloss,,,,,
-250,L2 CSR 799,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,,
-251,Baritone L2 BSFM BR 798,L2,BSFM-BR,Baritone,Flame Maple,Flame Maple,gloss,stained brown,,,,
-252,Baritone L2 BRR 650,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-650-1.html
-253,L2 BSE 862,L2,BSE,Baritone,Spruce,Ebony,gloss,,2025-02-22,,,
-254,L2-BTSMR 689 Baritone Torrefied Spruce Myrtle Limited Edition,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,,
-255,L2 TTSMR Torrefied Spruce Myrtle Tenor 667,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,,,,,
-256,L2 BRR 608,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-608-1.html
-257,L2 BK 317 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
-258,L2-CCR 1096 w Kalei,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,,
-259,L2 CCR w Low G,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,,
-260,L2-TMG 599 Spalted Mango Tenor,L2,TMG,Tenor,Spalted Mango ,Spalted Mango ,gloss,,,,,
-261,L1 TA Acacia Tenor Gloss w High G,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
-262,L1 BMG w High D Reentrant tuning,L1,BMG,Baritone,Mango,Mango,gloss,,,,,
-263,L2-BSR Spruce Rosewood Baritone 208,L2,BSR,Baritone,Spruce,Rosewood,gloss,,2025-03-25,,,
+213,L1 TMG Mango Tenor Gloss,L1,TMG,Tenor,Mango,Mango,gloss,,2025-01-29,,,
+214,You Are My Sunshine on 2025 'Oli Mango Satin Models,,,,,,,,,,,
+215,L1 CMGS 2025 Concert Mango Satin,L1,CMGS,Concert,Mango,Mango,satin,,,,,
+216,L1SP-TSWA-VB Spruce Waru Vintage Burst Tenor,L1,TSWU-VB,Tenor,Spruce,Weru,gloss,vintage burst stain,,,,
+217,L2 CQM BL Quilted Maple Concert,L2,CQM-LB,Concert,Quilted Maple,Quilted Maple,gloss,"light burst stain, limited series",,yes,"$1,395",https://theukulelesite.com/oli-light-burst-quilted-maple-concert-l2-cqm-lb-1047.html
+218,l2 TSFM LB,L2,TSFM-LB,Tenor,Spruce,Flame Maple,gloss,light burst stain,,,,
+219,2025 L2 TSR Spruce Rosewoodf Tenor,L2,TSR,Tenor,Spruce,Rosewood,gloss,pink binding,,,,
+220,L1SP-BSWA Baritone Spruce Waru Vintage Burst w Corey and Matt,L1,BSWU-VB,Baritone,Spruce,Weru,gloss,vintage burst stain,,yes,"$1,195",https://theukulelesite.com/oli-spruce-waru-vintage-burst-baritone-l1sp-bswa-1008.html
+221,L2 CCR Cedar Rosewood Concert,L2,CCR,Concert,Cedar,Rosewood,gloss,blue binding,,,,
+222,L2 CSR 2025 Spruce Rosewood Concert,L2,CSR,Concert,Spruce,Rosewood,gloss,pink binding,,,,
+223,X-SMH-S Mahogany Soprano,X,SMHS,Soprano,Mahogany,Mahogany,satin,,,,,
+224,L1-TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,yes,795,https://theukulelesite.com/oli-mango-pineapple-tenor-l1-tpmg-1044.html
+225,L2 Mango Tenor,L2,TMG,Tenor,Mahogany,Mango,gloss,,,,,
+226,2025 Monstera Tenor,L2,TCA,Tenor,Cedar,Acacia,gloss,monstera,,,,
+227,2025 L1 Baritone Mango Gloss,L1,BMG,Baritone,Mango,Mango,gloss,,,,,
+228,2025 L2 Concert Mango,L2,CMG,Concert,Mango,Mango,gloss,,,,,
+229,L2 TSFM 729 Spruce Top Flame Maple Tenor,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,,,,,
+230,BRR 645 Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-645-1.html
+231,L2 BK 251 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+232,L2 BK 316 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+233,L2 BK 669 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+234,L2 Bk 665 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+235,L2 BK 325 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+236,l2 CRR 745,L2,CRR,Concert,Redwood,Rosewood,gloss,,,,,
+237,2025 L1-CAS 1055 Acacia Satin Concert,L1,CAS,Concert,Acacia,Acacia,satin,,,,,
+238,L2 BRR 609 Redwood Rosewood Baritone,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-609-1.html
+239,L2-BSR 2025 1102,L2,BSR,Baritone,Spruce,Rosewood,gloss,,,,,
+240,2025 L2 BCR,L2,BCR,Baritone,Cedar,Rosewood,gloss,,,,,
+241,L3-CRMI Redwood Milo Concert 1,L3,CRML,Concert,Redwood,Milo,gloss,,,yes,2195,https://theukulelesite.com/oli-redwood-hawaiian-milo-le-concert-l3-crmi-hoala-milo-1.html
+242,L3 Plumeria Tenor 1033,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,Plumeria,,yes,1995,https://theukulelesite.com/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1.html
+243,In My Life 'Oli L3-TCE L3-TSR L2-GSR,,,,,,,,,,,
+244,L1 TAS 963,L1,TAS,Tenor,Acacia,Acacia,satin,,,,,
+245,L1 CMGS 919,L1,CMGS,Concert,Mango,Mango,satin,,,,,
+246,2025 L2-BMG 1038,L2,BMG,Baritone,Mango,Mango,gloss,,2025-02-09,,,
+247,L2 BSFM-LB 1071 Spruce Maple Baritone,L2,BSFM-LB,Baritone,Spruce,Flame Maple,gloss,light burst stain,2025-02-14,,,
+248,L2 CQM LB 1047,L2,CQM-LB,Concert,Quilted Maple,Quilted Maple,gloss,light burst stain,,,"$1,395",https://theukulelesite.com/oli-light-burst-quilted-maple-concert-l2-cqm-lb-1047.html
+249,L2 BMR 733,L2,BMR,Baritone,Myrtle,Myrtle,gloss,,,,,
+250,L2-BTSMR 684,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,,,,,
+251,L2 TMG Spalted Mango Tenor 596,L2,TMG,Tenor,Spalted Mango ,Spalted Mango ,gloss,,,,,
+252,L2 TCA 783,L2,TCA,Tenor,Cedar,Acacia,gloss,,,,,
+253,L2 CSR 799,L2,CSR,Concert,Spruce,Rosewood,gloss,,,,,
+254,Baritone L2 BSFM BR 798,L2,BSFM-BR,Baritone,Flame Maple,Flame Maple,gloss,stained brown,,,,
+255,Baritone L2 BRR 650,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-650-1.html
+256,L2 BSE 862,L2,BSE,Baritone,Spruce,Ebony,gloss,,2025-02-22,,,
+257,L2-BTSMR 689 Baritone Torrefied Spruce Myrtle Limited Edition,L2,BTSMR,Baritone,Torrefied spruce,Myrtle,gloss,limited edition,,,,
+258,L2 TTSMR Torrefied Spruce Myrtle Tenor 667,L2,TTSMR,Tenor,Torrefied spruce,Myrtle,gloss,,,,,
+259,L2 BRR 608,L2,BRR,Baritone,Redwood,Rosewood,gloss,,,,,https://theukulelesite.com/oli-redwood-rosewood-le-baritone-l2-brr-red-ginger-608-1.html
+260,L2 BK 317 Koa Baritone,L2,BK,Baritone,Koa,Koa,gloss,,,,,
+261,L2-CCR 1096 w Kalei,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,,
+262,L2 CCR w Low G,L2,CCR,Concert,Cedar,Rosewood,gloss,,,,,
+263,L2-TMG 599 Spalted Mango Tenor,L2,TMG,Tenor,Spalted Mango ,Spalted Mango ,gloss,,,,,
+264,L1 TA Acacia Tenor Gloss w High G,L1,TA,Tenor,Acacia,Acacia,gloss,,,,,
+265,L1 BMG w High D Reentrant tuning,L1,BMG,Baritone,Mango,Mango,gloss,,,,,
+266,L2-BSR Spruce Rosewood Baritone 208,L2,BSR,Baritone,Spruce,Rosewood,gloss,,2025-03-25,,,
 ,Team Trip to 'Oli w Music by Kalei & Suar,,,,,,,,2025-04-22,,,
-264,L2-BCPW 1202 Port Orford Cedar Walnut Baritone,L2,BCPW,Baritone,Port Orford Cedar,Walnut,gloss,limited edition,2025-04-23,,"$1,795",https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-baritone-l2-bcpw-diamond-head-moon-1202.html
-265,L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone,L2,BRCM,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,,,yes,1895,https://theukulelesite.com/shop-by/oli-curly-redwood-hawaiian-cuban-mahogany-le-baritone-l2-brcm-1177.html
-266,X2-TTSRR Torrefied Spruce Rosewood Tenor,X2,TTSRR,Tenor,Torrefied spruce,Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-tenor-x2-ttsrr-1165.html
--1,X2-TTSR-BW Torrefied Spruce Rosewood LE Tenor 1233,X2,TTSRBW,Tenor,Torrefied spruce,Black and White Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-le-tenor-x2-ttsr-bw-1233.html
-267,X2 TCRBW 1161Cedar Rosewood Tenor,X2,TCRBW,Tenor,Cedar,Black and White Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-bw-rosewood-le-tenor-x2-tcr-bw-1161.html
-268,L2-TCPMR Port Orford Cedar Myrtle Tenor 1194,L2,TCPMR,Tenor,Port Orford Cedar,Myrtle,gloss,,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-myrtle-le-tenor-l2-tcpmr-diamond-head-moon-1194.html
-269,L3 TCPML Port Orford Cedar Milo Tenor LE 1272,L3,TCPML,Tenor,Port Orford Cedar,Milo,gloss,limited edition,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-hawaiian-milo-le-tenor-l3-tcpml-hoala-milo-1272.html
-270,L3 TSML Spruce Milo LE Tenor 1266,L3,TSML,Tenor,Spruce,Milo,gloss,limited edition,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-hawaiian-milo-le-tenor-l3-tsml-hoala-milo-1266.html
-271,L2-TMR 1264,L2,TMR,Tenor,Myrtle,Myrtle,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-l2-tmr-le-1264.html
-272,L2 TMR Tiger Myrtle Tenor w GOAA Pickup,L2,TMR,Tenor,Myrtle,Myrtle,gloss,GOAA Pickup,,,1795,https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-w-goaa-pickup-installed-l2-tmr-eg-1263.html
-273,X2-BCR-BW 1144 Cedar Rosewood X braced Baritone,X2,BCRBW,Baritone,Cedar,Black and White Rosewood,gloss,,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-bw-rosewood-le-baritone-x2-bcr-bw-1144.html
-274,L3 TRML Curly Redwood Milo Tenor 1271,L3,TRML,Tenor,Curly Redwood,Milo,gloss,limited edition,,yes,2095,https://theukulelesite.com/shop-by/price/999-and-up/oli-curly-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1271.html
-275,L3 TRML 1290 Curly Redwood Milo LE Tenor,L3,TRML,Tenor,Curly Redwood,Milo,gloss,limited edition,,,2095,https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1290.html
-276,L-CM-S Satin Mahogany Concert,L,CMS,Concert,Mahogany,Mahogany,satin,,,yes,495,https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-concert-satin-l-cm-s-1085.html
-277,L-TM-S Satin Mahogany Tenor,L,TMS,Tenor,Mahogany,Mahogany,satin,,,yes,565,https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-tenor-satin-l-tm-s-1095.html
-278,L-BM-S Satin Mahogany Baritone,L,BMS,Baritone,Mahogany,Mahogany,satin,,,yes,625,https://theukulelesite.com/oli-satin-mahogany-baritone-l-bm-s-1079.html
-279,L2 TKE Koa Ebony Tenor,L2,TKE,Tenor,Koa,Ebony,gloss,,,yes,1795,https://theukulelesite.com/shop-by/brand/oli/oli-koa-macassar-ebony-tenor-l2-tke-1190.html
-280,L2 CQM BL Quilted Maple Concert 1155,L2,CQM-BL,Concert,Quilted Maple,Quilted Maple,gloss,blue stain,,yes,1495,https://theukulelesite.com/shop-by/brand/oli/oli-ocean-blue-quilted-maple-concert-l2-cqm-bl-1155.html
-281,X2 BTSRR 1109 Torrefied Spruce Rosewood Baritone,X2,BTSRR,Baritone,Torrefied spruce,Red Rosewood,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-baritone-x2-btsrr-1109.html
-282,L2 TCPE 1191 Port Orford Cedar Ebony Tenor,L2,TCPE,Tenor,Port Orford Cedar,Ebony,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-macassar-ebony-tenor-l2-tcpe-1191.html
-283,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor,L2,TTSCM,Tenor,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-mahogany-le-tenor-l2-ttscm-1193.html
-284,L3 BSR P Spruce Rosewood Plumeria LE Baritone,L3,BSR-P,Baritone,Spruce,Rosewood,gloss,Plumeria,,yes,,
-285,L2 BRCM Redwood Cuban Hawaiian Mahogany 1174,L2,BRCM-SB,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,sunburst stain,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-cuban-mahogany-le-baritone-l2-brcm-1174.html
-286,L2-TFM-SB Flame Maple Sunburst Tenor 1188,L2,TFM-SB,Tenor,Flame Maple,Flame Maple,gloss,sunburst stain,,yes,1495,https://theukulelesite.com/shop-by/brand/oli/oli-flame-maple-tenor-sunburst-l2-tfm-1188.html
-287,L2 BTSCM Torrefied Spruce Hawaiian Mahogany Baritone,L2,BTSCM,Baritone,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,,,yes,1695,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-cuban-mahogany-le-baritone-l2-btscm-1173.html
-288,L3 CSR P Spruce Rosewood LE Plumeria Concert,L3,CSR-P,Concert,Spruce,Rosewood,gloss,Plumeria,,yes,1795,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-limited-edition-concert-l3-csr-plumeria-1227.html
-289,"Spruce Rosewood 18"" Scale Tenor Cutaway (L2-TSR-LC 1284)",L2,TSR-LC,Tenor,Spruce,Rosewood,gloss,"Cutaway, 18"", 15 frets to the body",,yes,1695,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-18-scale-tenor-cutaway-l2-tsr-lc-1284.html
-290,L2 CMR Tiger Myrtle Concert,L2,CMR,Concert,Myrtle,Myrtle,gloss,,,yes,1395,https://theukulelesite.com/shop-by/brand/oli/oli-tiger-myrtle-concert-l2-cmr-le-1180.html
-291,L3-TRML Redwood Milo LE Tenor 1289,L3,TRML,Tenor,Redwood,Milo,gloss,limited edition,,,2095,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1289.html
-292,L3-TTSML Torrefied Spruce Milo LE Tenor,L3,TTSML,Tenor,Torrefied spruce,Milo,gloss,limited edition,,yes,2095,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-milo-le-tenor-l3-ttsml-hoala-milo-1276.html
-293,L2 BRW Redwood Walnut Diamond Head Moon Baritone,L2,BRW,Baritone,Redwood,Walnut,gloss,,,yes,1795,https://theukulelesite.com/shop-by/oli-redwood-claro-walnut-le-baritone-l2-brw-diamond-head-moon-1207.html
-294,L3 TSE-H Spruce Ebony Honeycomb Tenor,L3,TSE,Tenor,Spruce,Ebony,gloss,,,yes,2095,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-le-tenor-l3-tse-h-honeycomb-1250.html
-295,L2 CCPW Port Orford Cedar Walnut Concert,L2,CCPW,Concert,Port Orford Cedar,Walnut,gloss,,,yes,1395,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-concert-l2-ccpw-diamond-head-moon-1230.html
-296,L1SP TMGBK Mango Tenor,L1,TMG-BK,Tenor,Mango,Mango,gloss,black stain,,yes,1095,https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l1sp-tmg-bk-1118.html
-297,L3 BSE H Spruce Ebony Honeycomb Baritone,L3,BSE,Baritone,Spruce,Ebony,gloss,,,yes,,
-298,L1 TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,,895.00895,https://theukulelesite.com/shop-by/brand/oli/oli-mango-pineapple-tenor-l1-tpmg-1138.html
-299,L3-TSR-P Plumeria Tenor 1247,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1247-1.html
-300,L3 CCE 1237 Cedar Ebony Honeycomb LE Concert,L3,CCE-H,Concert,Cedar,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-macassar-ebony-le-concert-l3-cce-h-honeycomb-1237.html
-301,L3 CSE H 1186,L3,CSE-H,Concert,Spruce,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-le-concert-l3-cse-h-honeycomb-1186.html
-302,L3-BRML Redwood Milo Baritone,L3,BRML,Baritone,Redwood,Milo,gloss,,,yes,2295,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-milo-le-baritone-l3-brml-hoala-milo-1241.html
+267,L2-BCPW 1202 Port Orford Cedar Walnut Baritone,L2,BCPW,Baritone,Port Orford Cedar,Walnut,gloss,limited edition,2025-04-23,,"$1,795",https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-baritone-l2-bcpw-diamond-head-moon-1202.html
+268,L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone,L2,BRCM,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,,,yes,1895,https://theukulelesite.com/shop-by/oli-curly-redwood-hawaiian-cuban-mahogany-le-baritone-l2-brcm-1177.html
+269,X2-TTSRR Torrefied Spruce Rosewood Tenor,X2,TTSRR,Tenor,Torrefied spruce,Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-tenor-x2-ttsrr-1165.html
+-2,X2-TTSR-BW Torrefied Spruce Rosewood LE Tenor 1233,X2,TTSRBW,Tenor,Torrefied spruce,Black and White Rosewood,gloss,limited edition,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-rosewood-le-tenor-x2-ttsr-bw-1233.html
+270,X2 TCRBW 1161Cedar Rosewood Tenor,X2,TCRBW,Tenor,Cedar,Black and White Rosewood,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-bw-rosewood-le-tenor-x2-tcr-bw-1161.html
+271,L2-TCPMR Port Orford Cedar Myrtle Tenor 1194,L2,TCPMR,Tenor,Port Orford Cedar,Myrtle,gloss,,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-myrtle-le-tenor-l2-tcpmr-diamond-head-moon-1194.html
+272,L3 TCPML Port Orford Cedar Milo Tenor LE 1272,L3,TCPML,Tenor,Port Orford Cedar,Milo,gloss,limited edition,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-hawaiian-milo-le-tenor-l3-tcpml-hoala-milo-1272.html
+273,L3 TSML Spruce Milo LE Tenor 1266,L3,TSML,Tenor,Spruce,Milo,gloss,limited edition,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-hawaiian-milo-le-tenor-l3-tsml-hoala-milo-1266.html
+274,L2-TMR 1264,L2,TMR,Tenor,Myrtle,Myrtle,gloss,,,,1495,https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-l2-tmr-le-1264.html
+275,L2 TMR Tiger Myrtle Tenor w GOAA Pickup,L2,TMR,Tenor,Myrtle,Myrtle,gloss,GOAA Pickup,,,1795,https://theukulelesite.com/shop-by/brand/oli/oli-myrtle-tenor-w-goaa-pickup-installed-l2-tmr-eg-1263.html
+276,X2-BCR-BW 1144 Cedar Rosewood X braced Baritone,X2,BCRBW,Baritone,Cedar,Black and White Rosewood,gloss,,,,1595,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-bw-rosewood-le-baritone-x2-bcr-bw-1144.html
+277,L3 TRML Curly Redwood Milo Tenor 1271,L3,TRML,Tenor,Curly Redwood,Milo,gloss,limited edition,,yes,2095,https://theukulelesite.com/shop-by/price/999-and-up/oli-curly-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1271.html
+278,L3 TRML 1290 Curly Redwood Milo LE Tenor,L3,TRML,Tenor,Curly Redwood,Milo,gloss,limited edition,,,2095,https://theukulelesite.com/shop-by/brand/oli/oli-curly-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1290.html
+279,L-CM-S Satin Mahogany Concert,L,CMS,Concert,Mahogany,Mahogany,satin,,,yes,495,https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-concert-satin-l-cm-s-1085.html
+280,L-TM-S Satin Mahogany Tenor,L,TMS,Tenor,Mahogany,Mahogany,satin,,,yes,565,https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-tenor-satin-l-tm-s-1095.html
+281,L-BM-S Satin Mahogany Baritone,L,BMS,Baritone,Mahogany,Mahogany,satin,,,yes,625,https://theukulelesite.com/oli-satin-mahogany-baritone-l-bm-s-1079.html
+282,L2 TKE Koa Ebony Tenor,L2,TKE,Tenor,Koa,Ebony,gloss,,,yes,1795,https://theukulelesite.com/shop-by/brand/oli/oli-koa-macassar-ebony-tenor-l2-tke-1190.html
+283,L2 CQM BL Quilted Maple Concert 1155,L2,CQM-BL,Concert,Quilted Maple,Quilted Maple,gloss,blue stain,,yes,1495,https://theukulelesite.com/shop-by/brand/oli/oli-ocean-blue-quilted-maple-concert-l2-cqm-bl-1155.html
+284,X2 BTSRR 1109 Torrefied Spruce Rosewood Baritone,X2,BTSRR,Baritone,Torrefied spruce,Red Rosewood,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-baritone-x2-btsrr-1109.html
+285,L2 TCPE 1191 Port Orford Cedar Ebony Tenor,L2,TCPE,Tenor,Port Orford Cedar,Ebony,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-macassar-ebony-tenor-l2-tcpe-1191.html
+286,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor,L2,TTSCM,Tenor,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-mahogany-le-tenor-l2-ttscm-1193.html
+287,L3 BSR P Spruce Rosewood Plumeria LE Baritone,L3,BSR-P,Baritone,Spruce,Rosewood,gloss,Plumeria,,yes,,
+288,L2 BRCM Redwood Cuban Hawaiian Mahogany 1174,L2,BRCM-SB,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,sunburst stain,,yes,1595,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-cuban-mahogany-le-baritone-l2-brcm-1174.html
+289,L2-TFM-SB Flame Maple Sunburst Tenor 1188,L2,TFM-SB,Tenor,Flame Maple,Flame Maple,gloss,sunburst stain,,yes,1495,https://theukulelesite.com/shop-by/brand/oli/oli-flame-maple-tenor-sunburst-l2-tfm-1188.html
+290,L2 BTSCM Torrefied Spruce Hawaiian Mahogany Baritone,L2,BTSCM,Baritone,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,,,yes,1695,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-cuban-mahogany-le-baritone-l2-btscm-1173.html
+291,L3 CSR P Spruce Rosewood LE Plumeria Concert,L3,CSR-P,Concert,Spruce,Rosewood,gloss,Plumeria,,yes,1795,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-limited-edition-concert-l3-csr-plumeria-1227.html
+292,"Spruce Rosewood 18"" Scale Tenor Cutaway (L2-TSR-LC 1284)",L2,TSR-LC,Tenor,Spruce,Rosewood,gloss,"Cutaway, 18"", 15 frets to the body",,yes,1695,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-18-scale-tenor-cutaway-l2-tsr-lc-1284.html
+293,L2 CMR Tiger Myrtle Concert,L2,CMR,Concert,Myrtle,Myrtle,gloss,,,yes,1395,https://theukulelesite.com/shop-by/brand/oli/oli-tiger-myrtle-concert-l2-cmr-le-1180.html
+294,L3-TRML Redwood Milo LE Tenor 1289,L3,TRML,Tenor,Redwood,Milo,gloss,limited edition,,,2095,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-milo-le-tenor-l3-trml-hoala-milo-1289.html
+295,L3-TTSML Torrefied Spruce Milo LE Tenor,L3,TTSML,Tenor,Torrefied spruce,Milo,gloss,limited edition,,yes,2095,https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-milo-le-tenor-l3-ttsml-hoala-milo-1276.html
+296,L2 BRW Redwood Walnut Diamond Head Moon Baritone,L2,BRW,Baritone,Redwood,Walnut,gloss,,,yes,1795,https://theukulelesite.com/shop-by/oli-redwood-claro-walnut-le-baritone-l2-brw-diamond-head-moon-1207.html
+297,L3 TSE-H Spruce Ebony Honeycomb Tenor,L3,TSE,Tenor,Spruce,Ebony,gloss,,,yes,2095,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-le-tenor-l3-tse-h-honeycomb-1250.html
+298,L2 CCPW Port Orford Cedar Walnut Concert,L2,CCPW,Concert,Port Orford Cedar,Walnut,gloss,,,yes,1395,https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-claro-walnut-le-concert-l2-ccpw-diamond-head-moon-1230.html
+299,L1SP TMGBK Mango Tenor,L1,TMG-BK,Tenor,Mango,Mango,gloss,black stain,,yes,1095,https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l1sp-tmg-bk-1118.html
+300,L3 BSE H Spruce Ebony Honeycomb Baritone,L3,BSE,Baritone,Spruce,Ebony,gloss,,,yes,,
+301,L1 TPMG Mango Pineapple Tenor,L1,TPMG,Tenor,Mango,Mango,gloss,pineapple,,,895.00895,https://theukulelesite.com/shop-by/brand/oli/oli-mango-pineapple-tenor-l1-tpmg-1138.html
+302,L3-TSR-P Plumeria Tenor 1247,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,,,,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-tenor-le-l3-tsr-plumeria-1247-1.html
+303,L3 CCE 1237 Cedar Ebony Honeycomb LE Concert,L3,CCE-H,Concert,Cedar,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-cedar-macassar-ebony-le-concert-l3-cce-h-honeycomb-1237.html
+304,L3 CSE H 1186,L3,CSE-H,Concert,Spruce,Ebony,gloss,,,yes,1995,https://theukulelesite.com/shop-by/brand/oli/oli-spruce-macassar-ebony-le-concert-l3-cse-h-honeycomb-1186.html
+305,L3-BRML Redwood Milo Baritone,L3,BRML,Baritone,Redwood,Milo,gloss,,,yes,2295,https://theukulelesite.com/shop-by/brand/oli/oli-redwood-hawaiian-milo-le-baritone-l3-brml-hoala-milo-1241.html
