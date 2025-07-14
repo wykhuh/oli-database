@@ -2,43 +2,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>'Oli</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <title>Google Forms Demo</title>
+    <link rel="stylesheet" href="./styles/style.css" />
 
-    <script src="./js/list.min.js"></script>
+    <script src="./lib/papaparse.min.js"></script>
+    <script src="./lib/list.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
   </head>
   <body>
-    <div class="temp"></div>
+    <main>
+      <h1 class="title"></h1>
+      <div class="summary"></div>
 
-    <div id="ukes">
-      <input class="search" placeholder="Search" />
-      <table class="table">
-        <thead>
-          <tr>
-            <th class="sort" data-sort="title">Video Title</th>
-            <th>Model</th>
-            <th>Bracing</th>
-            <th>Type</th>
-            <th>Size</th>
-            <th>Top Wood</th>
-            <th>Back Wood</th>
-            <th>Finish</th>
-            <th>Other</th>
-            <th>Price</th>
-            <th>Link</th>
-            <th>Video Published</th>
-            <th>New Model</th>
-          </tr>
-        </thead>
-        <tbody class="list"></tbody>
-      </table>
-    </div>
-
-    <script src="./js/app.js"></script>
+      <div id="data-container">
+        <div id="loader"></div>
+        <input id="search-form" class="search" placeholder="Search" />
+      </div>
+    </main>
   </body>
 </html>

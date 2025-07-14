@@ -1,52 +1,25 @@
-async function getData() {
-  return fetch("./oli_lists.json")
-    .then((res) => res.json())
-    .then((data) => data);
-}
+import {
+  processConfig,
+  getAndParseCSV,
+  renderTabularData,
+  renderPageIntro,
+} from "./dataTable.js";
 
-(async () => {
-  const data = await getData();
-  // data.forEach((row) => {
-  //   row["links"] = "hi";
-  // });
+window.addEventListener("DOMContentLoaded", async () => {
+  let loaderEl = document.getElementById("loader");
 
-  const pel = document.createElement("p");
-  pel.textContent = JSON.stringify(data[3]);
-  const tempEl = document.querySelector(".temp");
-  tempEl?.appendChild(pel);
+  if (loaderEl) {
+    loaderEl.className = "loading";
 
-  var options = {
-    valueNames: [
-      "model",
-      "tier",
-      "type",
-      "size",
-      "top_wood",
-      "back_wood",
-      "finish",
-      "other",
-      "price",
-      "links",
-      "published_at",
-      "new_model",
-    ],
-    item: `
-      <td class="model"></td>
-      <td class="tier"></td>
-      <td class="type"></td>
-      <td class="size"></td>
-      <td class="top_wood"></td>
-      <td class="back_wood"></td>
-      <td class="finish"></td>
-      <td class="other"></td>
-      <td class="price"></td>
-      <td class="links"></td>
-      <td class="published_at"></td>
-      <td class="new_model"></td>
-      </tr>`,
-  };
+    let configData = await getAndParseCSV("./config.csv", false, true);
+    let config = processConfig(configData);
 
-  console.log(options);
-  console.log(data);
-  new List("ukes", options, data);
-})();
+    let allRecords = await getAndParseCSV("../data/oli_lists.csv", true, true);
+    allRecords = allRecords.filter((row) => row.Model);
+    // console.log(allRecords[0]);
+
+    loaderEl.className = "";
+    renderPageIntro(config);
+    renderTabularData(allRecords, config);
+  }
+});
