@@ -1,0 +1,410 @@
+id,my id,name,position,video_title,video_id,temp_title
+1,1,L1 MGBG Mango Baritone,1,'Oli L1 MGBG Mango Baritone,uBJy6pgpNIU,L1 MGBG Mango Baritone
+3,2,L2 TCE Cedar Macassar Ebony Tenor,3,'Oli L2 TCE Cedar Macassar Ebony Tenor,mSw_GV9LxOM,L2 TCE Cedar Macassar Ebony Tenor
+4,3,Cedar Macassar L2 Baritone,4,'Oli Cedar Macassar L2 Baritone,uDCKmlLujrs,Cedar Macassar L2 Baritone
+5,4,Spruce Rosewood L2 Baritone,5,'Oli Spruce Rosewood L2 Baritone,TkO2YRW2vQE,Spruce Rosewood L2 Baritone
+6,5,L1 Mango Baritone Satin,6,'Oli L1 Mango Baritone Satin,khwhxdSi-mY,L1 Mango Baritone Satin
+7,6,L2 Cedar Acacia Satin,7,'Oli L2 Cedar Acacia Satin,u5KrGSLuAXc,L2 Cedar Acacia Satin
+8,7,L2 Cedar Acacia Tenor,8,'Oli L2 Cedar Acacia Tenor,WL27LBQ945s,L2 Cedar Acacia Tenor
+9,8,L1 Acacia Tenor,9,'Oli L1 Acacia Tenor,y_PTYfaS2tM,L1 Acacia Tenor
+10,9,L1 Mango Tenor Satin,10,'Oli L1 Mango Tenor Satin,Soq6E4n5itM,L1 Mango Tenor Satin
+10,9,L1 Mango Tenor Satin,15,'Oli L1 Mango Tenor Satin,loV_awbwQUw,L1 Mango Tenor Satin
+11,10,L1 Mango Tenor,11,'Oli L1 Mango Tenor,Rs3343kcjXk,L1 Mango Tenor
+11,10,L1 Mango Tenor,14,'Oli L1 Mango Tenor,XByuCDF8o0w,L1 Mango Tenor
+12,11,L1 Acacia Baritone,12,'Oli L1 Acacia Baritone,Lb8ybMXLMIc,L1 Acacia Baritone
+13,12,L1 Acacia Baritone Satin,13,'Oli L1 Acacia Baritone Satin,nIXapx821eY,L1 Acacia Baritone Satin
+14,13,L1 Mango Tenor,11,'Oli L1 Mango Tenor,Rs3343kcjXk,L1 Mango Tenor
+14,13,L1 Mango Tenor,14,'Oli L1 Mango Tenor,XByuCDF8o0w,L1 Mango Tenor
+15,14,L1 Mango Tenor Satin,10,'Oli L1 Mango Tenor Satin,Soq6E4n5itM,L1 Mango Tenor Satin
+15,14,L1 Mango Tenor Satin,15,'Oli L1 Mango Tenor Satin,loV_awbwQUw,L1 Mango Tenor Satin
+16,15,L2 Mango Baritone,16,'Oli L2 Mango Baritone,s1FzFA5sE6s,L2 Mango Baritone
+17,16,L2 Mango Tenor,17,'Oli L2 Mango Tenor,7-ng4od9E60,L2 Mango Tenor
+17,16,L2 Mango Tenor,225,'Oli L2 Mango Tenor,GG-4-RpFUOA,L2 Mango Tenor
+18,17,"Koa Tenor ""Loulu"" 0146",18,"'Oli Koa Tenor ""Loulu"" 0146",mvHvi-3nnu4,"Koa Tenor ""Loulu"" 0146"
+19,18,"Koa Tenor ""Uhi"" 0076",19,"'Oli Koa Tenor ""Uhi"" 0076",tldcsOZN74A,"Koa Tenor ""Uhi"" 0076"
+20,19,"Koa Tenor ""Loulu"" 0117",20,"'Oli Koa Tenor ""Loulu"" 0117",SGuTHydddz8,"Koa Tenor ""Loulu"" 0117"
+21,20,Koa Tenor Uhi 0147,21,'Oli Koa Tenor Uhi 0147,HVqXU0gfEyY,Koa Tenor Uhi 0147
+22,21,"Koa Tenor ""Loulu"" 150 w High G",22,"'Oli Koa Tenor ""Loulu"" 150 w High G",90WJ5B2io90,"Koa Tenor ""Loulu"" 150 w High G"
+24,22,L2 Spruce Ebony Baritone,24,'Oli L2 Spruce Ebony Baritone,R5cMlwokGlg,L2 Spruce Ebony Baritone
+25,23,L2 Spruce Top Ebony Tenor,25,'Oli L2 Spruce Top Ebony Tenor,VrNGaAiNwE4,L2 Spruce Top Ebony Tenor
+26,24,Spruce Maple Tenor,26,'Oli Spruce Maple Tenor,xEF2M4HKBRc,Spruce Maple Tenor
+27,25,Spruce Quilted Maple Sunburst Tenor,27,'Oli Spruce Quilted Maple Sunburst Tenor,ygsknEQj5NI,Spruce Quilted Maple Sunburst Tenor
+28,26,L1 Concert Mango,28,'Oli L1 Concert Mango,SITcQvzucKo,L1 Concert Mango
+29,27,L1 Acacia Concert,29,'Oli L1 Acacia Concert,ZrJQeXvp4HE,L1 Acacia Concert
+30,28,Quilted Maple Sunburst Tenor,30,'Oli Quilted Maple Sunburst Tenor,HNenXmQh9Wg,Quilted Maple Sunburst Tenor
+31,29,L2 Cedar Ebony Tenor,31,'Oli L2 Cedar Ebony Tenor,ht5mFeLnanM,L2 Cedar Ebony Tenor
+32,30,L2 Cedar Rosewood Baritone,32,'Oli L2 Cedar Rosewood Baritone,qgPeQYPmIdY,L2 Cedar Rosewood Baritone
+33,31,L2 Cedar Rosewood Tenor,33,'Oli L2 Cedar Rosewood Tenor,bAUpLxDCNV8,L2 Cedar Rosewood Tenor
+34,32,L2 Flame Maple Tenor,34,'Oli L2 Flame Maple Tenor,wdNBvGFFY9w,L2 Flame Maple Tenor
+35,33,Spruce Rosewood Tenor,35,'Oli Spruce Rosewood Tenor,F0hxa4dcVm4,Spruce Rosewood Tenor
+36,34,"Koa Baritone ""Uhi""",36,"'Oli Koa Baritone ""Uhi""",hX22sy42QD8,"Koa Baritone ""Uhi"""
+37,35,L2 TSE Spruce Ebony Tenor,37,'Oli L2 TSE Spruce Ebony Tenor,4kGV1Ba9NGc,L2 TSE Spruce Ebony Tenor
+38,36,Cedar Rosewood Tenor L2 TCR,38,'Oli Cedar Rosewood Tenor L2 TCR,A6ZZwmIQRTw,Cedar Rosewood Tenor L2 TCR
+39,37,L2 BCE Cedar Ebony Baritone,39,'Oli L2 BCE Cedar Ebony Baritone,K30riOSznUE,L2 BCE Cedar Ebony Baritone
+41,38,L1 CAS Satin Acacia Tenor,41,'Oli L1 CAS Satin Acacia Tenor,PCZN5j1CQoM,L1 CAS Satin Acacia Tenor
+42,39,L1 TAS Satin Acacia Tenor,,,,
+43,40,L1 CMGS Satin Mango Concert,43,'Oli L1 CMGS Satin Mango Concert,GFjqsXCJmkE,L1 CMGS Satin Mango Concert
+44,41,Mastergrade Koa Tenor 157,44,'Oli Mastergrade Koa Tenor 157,AMrBm7gwL9A,Mastergrade Koa Tenor 157
+45,42,Mastergrade Koa Tenor 115,45,'Oli Mastergrade Koa Tenor 115,oBssHayGSkY,Mastergrade Koa Tenor 115
+47,43,Spruce Rosewood Tenor L2-TSR,47,'Oli Spruce Rosewood Tenor L2-TSR,B4LUZiLLEfc,Spruce Rosewood Tenor L2-TSR
+48,44,Cedar Rosewood Tenor w High G,48,'Oli Cedar Rosewood Tenor w High G,kIgjZQwzU_Q,Cedar Rosewood Tenor w High G
+49,45,Cedar Rosewood Concert,49,'Oli Cedar Rosewood Concert,9ie6JcRcsEM,Cedar Rosewood Concert
+51,46,Koa Tenor,51,'Oli Koa Tenor,NSfC9a594qk,Koa Tenor
+52,47,L1 TA Acacia Tenor Gloss,52,'Oli L1 TA Acacia Tenor Gloss,JZZWiAJoqtE,L1 TA Acacia Tenor Gloss
+53,48,Mastergrade Koa Tenor L2 TK 155,53,'Oli Mastergrade Koa Tenor L2 TK 155,mLfkAzdJb7Q,Mastergrade Koa Tenor L2 TK 155
+54,49,L2 TK Mastergrade Koa Tenor 161,54,'Oli L2 TK Mastergrade Koa Tenor 161,NIpeJ9yIEpY,L2 TK Mastergrade Koa Tenor 161
+55,50,L2 Mango Concert,55,'Oli L2 Mango Concert,hRSEitMRsrY,L2 Mango Concert
+57,51,"L2 Koa Baritone ""Uhi"" 261",57,"'Oli L2 Koa Baritone ""Uhi"" 261",_vCUfMGJEA4,"L2 Koa Baritone ""Uhi"" 261"
+58,52,Baritone Cedar Acacia L2 BCA,58,'Oli Baritone Cedar Acacia L2 BCA,0dzwp9R6F3k,Baritone Cedar Acacia L2 BCA
+61,53,"L2 Koa Baritone ""Loulu"" 335",61,"'Oli L2 Koa Baritone ""Loulu"" 335",pxZ1atAoOFA,"L2 Koa Baritone ""Loulu"" 335"
+62,54,L2 Spruce Rosewood Baritone,62,'Oli L2 Spruce Rosewood Baritone,eCu7Rgt7iWg,L2 Spruce Rosewood Baritone
+63,55,Spruce Ebony Concert L2-CSE,63,'Oli Spruce Ebony Concert L2-CSE,-RtOCwJexIU,Spruce Ebony Concert L2-CSE
+64,56,L2 CK Concert Koa,64,'Oli L2 CK Concert Koa,3KpJB2KERv0,L2 CK Concert Koa
+66,57,L2 CSR Concert Spruce Rosewood,66,'Oli L2 CSR Concert Spruce Rosewood,Uwr5wQ-eM1M,L2 CSR Concert Spruce Rosewood
+67,58,L2 BK Baritone Koa,67,'Oli L2 BK Baritone Koa,QSUmb8FhdPs,L2 BK Baritone Koa
+68,59,Koa Baritone L2 BK Laolu,68,'Oli Koa Baritone L2 BK Laolu,xpv9ZTFoo_M,Koa Baritone L2 BK Laolu
+69,60,"L2 TK Koa tenor ""Laolu"" 159 w Mika",69,"'Oli L2 TK Koa tenor ""Laolu"" 159 w Mika",cvHYTJAjhP4,"L2 TK Koa tenor ""Laolu"" 159 w Mika"
+70,61,L2 TK Uhi 157 High G w Mika,70,'Oli L2 TK Uhi 157 High G w Mika,487oFyXPKzc,L2 TK Uhi 157 High G w Mika
+71,62,L2 CK Luolu 374,71,'Oli L2 CK Luolu 374,Szh9zXfRWYY,L2 CK Luolu 374
+72,63,L2 BSE Baritone Spruce Ebony w Mika,72,'Oli L2 BSE Baritone Spruce Ebony w Mika,lG8kVrAajv0,L2 BSE Baritone Spruce Ebony w Mika
+73,64,L2 CSR Spruce Rosewood Concert w Mika,73,'Oli L2 CSR Spruce Rosewood Concert w Mika,YVEQGYUnoQc,L2 CSR Spruce Rosewood Concert w Mika
+74,65,L2 CCA Cedar Acacia Concert w Mika,74,'Oli L2 CCA Cedar Acacia Concert w Mika,wl1SpoujiRM,L2 CCA Cedar Acacia Concert w Mika
+75,66,L2 CCE Cedar Ebony Concert w Mika,75,'Oli L2 CCE Cedar Ebony Concert w Mika,6n5BTsW2Nfc,L2 CCE Cedar Ebony Concert w Mika
+77,67,L2 TSCA Slimline Tenor,77,'Oli L2 TSCA Slimline Tenor,AoJaXCLwkMY,L2 TSCA Slimline Tenor
+78,68,L2 BK Uhi 324,78,'Oli L2 BK Uhi 324,eyggDk_gSo4,L2 BK Uhi 324
+79,69,L2 BK Laolu 328,79,'Oli L2 BK Laolu 328,z-F01J4eDuQ,L2 BK Laolu 328
+80,70,Concert Spruce Ebony L2 CSE sample w Low G,80,'Oli Concert Spruce Ebony L2 CSE sample w Low G,w6HI3kLzZVI,Concert Spruce Ebony L2 CSE sample w Low G
+81,71,Concert Koa L2 CK 370,81,'Oli Concert Koa L2 CK 370,Glz0DSQiTQw,Concert Koa L2 CK 370
+82,72,L2-BCE Baritone Cedar Ebony V2,82,'Oli L2-BCE Baritone Cedar Ebony V2,wH6khWtmCq8,L2-BCE Baritone Cedar Ebony V2
+83,73,L2 TSCR Slim Tenor Cedar Rosewood,83,'Oli L2 TSCR Slim Tenor Cedar Rosewood,wg8sKv3ZbOg,L2 TSCR Slim Tenor Cedar Rosewood
+84,74,L2-BCA Cedar Acacia Baritone V2,84,'Oli L2-BCA Cedar Acacia Baritone V2,CFPprogW2-M,L2-BCA Cedar Acacia Baritone V2
+85,75,L1SP TA Spruce Top Acacia Tenor,85,'Oli L1SP TA Spruce Top Acacia Tenor,b6DkAEx4_Qk,L1SP TA Spruce Top Acacia Tenor
+86,76,L1SP BA Spruce top Acacia Baritone,86,'Oli L1SP BA Spruce top Acacia Baritone,-mvYNLFPa0w,L1SP BA Spruce top Acacia Baritone
+87,77,L2 TCA Monstera Tenor Cedar Top Acacia,87,'Oli L2 TCA Monstera Tenor Cedar Top Acacia,rLgcHFQnzVY,L2 TCA Monstera Tenor Cedar Top Acacia
+88,78,L2 TCR V2 Cedar Rosewood Tenor,88,'Oli L2 TCR V2 Cedar Rosewood Tenor,4sOurwVPwX4,L2 TCR V2 Cedar Rosewood Tenor
+89,79,Mastegrade Koa Baritone L2-BK 255,89,'Oli Mastegrade Koa Baritone L2-BK 255,ox0FrtcInNU,Mastegrade Koa Baritone L2-BK 255
+90,80,L2 CK 373,90,'Oli L2 CK 373,26MtDz5l63s,L2 CK 373
+91,81,L2 BSE V2 Spruce Macassar Ebony Baritone,91,'Oli L2 BSE V2 Spruce Macassar Ebony Baritone,bp-rjwVo5nY,L2 BSE V2 Spruce Macassar Ebony Baritone
+92,82,L2 TPCA Tenor Pineapple Cedar Acacia Prototype,92,'Oli L2 TPCA Tenor Pineapple Cedar Acacia Prototype,zxx7lMkftKM,L2 TPCA Tenor Pineapple Cedar Acacia Prototype
+93,83,L2 BCE V2 Cedar Maccasar Ebony Baritone,93,'Oli L2 BCE V2 Cedar Maccasar Ebony Baritone,TuSjuqhjym0,L2 BCE V2 Cedar Maccasar Ebony Baritone
+94,84,L2 BSR V2 Spruce Rosewood Baritone,94,'Oli L2 BSR V2 Spruce Rosewood Baritone,pBMLOLj9UiE,L2 BSR V2 Spruce Rosewood Baritone
+96,85,L2 TSCR Cedar Rosewood Slimline Tenor w Uke Logic Low G Set,96,'Oli L2 TSCR Cedar Rosewood Slimline Tenor w Uke Logic Low G Set,_r1pER-Z2RU,L2 TSCR Cedar Rosewood Slimline Tenor w Uke Logic Low G Set
+97,86,L2 TSE Tenor Spruce Macassar Ebony w Uke Logic HT Low G Set,97,'Oli L2 TSE Tenor Spruce Macassar Ebony w Uke Logic HT Low G Set,t3ykbRXzvwU,L2 TSE Tenor Spruce Macassar Ebony w Uke Logic HT Low G Set
+98,87,L2 TCE V2 Tenor Cedar Ebony w Uke Logic Low G Set,98,'Oli L2 TCE V2 Tenor Cedar Ebony w Uke Logic Low G Set,cQnLbXT1k9g,L2 TCE V2 Tenor Cedar Ebony w Uke Logic Low G Set
+99,88,L1SP TA w Uke Logic HT Low G,99,'Oli L1SP TA w Uke Logic HT Low G,bH4FSkCSCf0,L1SP TA w Uke Logic HT Low G
+100,89,L2 TCAS Cedar Acacia Monstera Tenor Satin Finish,100,'Oli L2 TCAS Cedar Acacia Monstera Tenor Satin Finish,15YnTFJL82M,L2 TCAS Cedar Acacia Monstera Tenor Satin Finish
+101,90,L2 TMG V2 Mango Tenor,101,'Oli L2 TMG V2 Mango Tenor,Vh1WK7Lh6Do,L2 TMG V2 Mango Tenor
+102,91,L2 BCAS Baritone Cedar Acacia Satin,102,'Oli L2 BCAS Baritone Cedar Acacia Satin,gydjD5VKZGU,L2 BCAS Baritone Cedar Acacia Satin
+103,92,L2 CCAS Concert Cedar Acacia Satin,103,'Oli L2 CCAS Concert Cedar Acacia Satin,vfIHtDjlbT8,L2 CCAS Concert Cedar Acacia Satin
+104,93,L2 TSR v2 Spruce Rosewood Tenor,104,'Oli L2 TSR v2 Spruce Rosewood Tenor,ARPyhkifASw,L2 TSR v2 Spruce Rosewood Tenor
+105,94,L2 BRR 642 Redwood Rosewood,105,'Oli L2 BRR 642 Redwood Rosewood,Md7Cl_Tb4P4,L2 BRR 642 Redwood Rosewood
+107,95,L2 TRR 594,107,'Oli L2 TRR 594,I6HCC64-5Cg,L2 TRR 594
+108,96,L2 TRR 592,108,'Oli L2 TRR 592,DLnxyFUJuNU,L2 TRR 592
+109,97,L2 TRR 582,109,'Oli L2 TRR 582,kDCSRi57Kkc,L2 TRR 582
+110,98,L2 TRR 595,110,'Oli L2 TRR 595,f0657LmlSf0,L2 TRR 595
+111,99,l2 TRR 588,111,'Oli l2 TRR 588,ZCm3gfyWhZw,l2 TRR 588
+112,100,L2 TRR 587,112,'Oli L2 TRR 587,vfFOc-Z_Rhg,L2 TRR 587
+115,101,L2 BK 271 Koa Baritone,115,'Oli L2 BK 271 Koa Baritone,di9KR6mFCNU,L2 BK 271 Koa Baritone
+116,102,L2 TK 673 Koa Tenor,116,'Oli L2 TK 673 Koa Tenor,zGX37Krcjvc,L2 TK 673 Koa Tenor
+117,103,Mango Pineapple Tenor Prototype,117,'Oli Mango Pineapple Tenor Prototype,y2IO3mtZDHs,Mango Pineapple Tenor Prototype
+118,104,Redwood Rosewood Baritone L2 BRR 606,118,'Oli Redwood Rosewood Baritone L2 BRR 606,bVADBnIbcrc,Redwood Rosewood Baritone L2 BRR 606
+119,105,L2 TRR 591,119,'Oli L2 TRR 591,XAjagra4JBM,L2 TRR 591
+120,106,L1-TMG v2 Mango Tenor,120,'Oli L1-TMG v2 Mango Tenor,W-WZyw89dOg,L1-TMG v2 Mango Tenor
+121,107,L1-TA v2 Acacia Tenor,121,'Oli L1-TA v2 Acacia Tenor,2HuYmkfbmxo,L1-TA v2 Acacia Tenor
+122,108,L1 TMGS v2 Mango Tenor Satin,122,'Oli L1 TMGS v2 Mango Tenor Satin,mSzbaVdqEUg,L1 TMGS v2 Mango Tenor Satin
+123,109,Oli L1 TAS v2 Acacia Tenor Satin,123,Oli L1 TAS v2 Acacia Tenor Satin,hTiMM-sD5U0,Oli L1 TAS v2 Acacia Tenor Satin
+126,110,L2 TTSMR Torrefied Spruce Myrtle Tenor,126,'Oli L2 TTSMR Torrefied Spruce Myrtle Tenor,gATbdN6qPuo,L2 TTSMR Torrefied Spruce Myrtle Tenor
+128,111,L2 BTSMR Torrefied Spruce Myrtle Baritone,128,'Oli L2 BTSMR Torrefied Spruce Myrtle Baritone,6OASXiX870I,L2 BTSMR Torrefied Spruce Myrtle Baritone
+129,112,L2-BMR Myrtle Baritone,129,'Oli L2-BMR Myrtle Baritone,Mebs3MDnzOY,L2-BMR Myrtle Baritone
+129,112,L2-BMR Myrtle Baritone,156,'Oli L2-BMR Myrtle Baritone,3U8nR7XUqK4,L2-BMR Myrtle Baritone
+130,113,L2-BSFM Spruce Top Flame Maple Baritone,130,'Oli L2-BSFM Spruce Top Flame Maple Baritone,xKluQpe_nFk,L2-BSFM Spruce Top Flame Maple Baritone
+131,114,L2-BRR Redwood Rosewood Baritone,131,'Oli L2-BRR Redwood Rosewood Baritone,f67SM7I5oYg,L2-BRR Redwood Rosewood Baritone
+131,114,L2-BRR Redwood Rosewood Baritone,154,'Oli L2-BRR Redwood Rosewood Baritone,kw116fM159g,L2-BRR Redwood Rosewood Baritone
+132,115,L2-TSFM V3 Spruce Flame Maple Mandala Tenor,132,'Oli L2-TSFM V3 Spruce Flame Maple Mandala Tenor,ad_roeny5h8,L2-TSFM V3 Spruce Flame Maple Mandala Tenor
+133,116,L1 TSMU Spruce top Merbau Tenor,133,'Oli L1 TSMU Spruce top Merbau Tenor,3Og2_nBuHUs,L1 TSMU Spruce top Merbau Tenor
+134,117,L2 CTSR Torrefied Spruce Rosewood Concert,134,'Oli L2 CTSR Torrefied Spruce Rosewood Concert,Ar6JmJ9HBP8,L2 CTSR Torrefied Spruce Rosewood Concert
+135,118,L2 BTSR Torrefied Spruce Rosewood Baritone,135,'Oli L2 BTSR Torrefied Spruce Rosewood Baritone,x9ZNIy75QqI,L2 BTSR Torrefied Spruce Rosewood Baritone
+137,119,L1-BA Acacia Baritone,137,'Oli L1-BA Acacia Baritone,alB_BPTYCeI,L1-BA Acacia Baritone
+138,120,L1-BMGS Baritone Mango Satin,138,'Oli L1-BMGS Baritone Mango Satin,qtIlSqUWQmM,L1-BMGS Baritone Mango Satin
+139,121,L1-BMG Baritone Mango Gloss,139,'Oli L1-BMG Baritone Mango Gloss,NW4n7Afwym0,L1-BMG Baritone Mango Gloss
+140,122,L2-BCW Cedar Walnut Baritone,,,,
+141,123,L2-BSR v3 Spruce Rosewood Baritone,141,'Oli L2-BSR v3 Spruce Rosewood Baritone,Z9w9GMqXe5M,L2-BSR v3 Spruce Rosewood Baritone
+142,124,L2-BCM Curly Maple Baritone,142,'Oli L2-BCM Curly Maple Baritone,UPjhv7yQP2k,L2-BCM Curly Maple Baritone
+143,125,L2-BSQM-SB Spruce Quilted Maple Sunburst Baritone,143,'Oli L2-BSQM-SB Spruce Quilted Maple Sunburst Baritone,-QxAxACwwPI,L2-BSQM-SB Spruce Quilted Maple Sunburst Baritone
+144,126,L2 BMGS-LE Spalted Mango Baritone,144,'Oli L2 BMGS-LE Spalted Mango Baritone,QlInCin8PIg,L2 BMGS-LE Spalted Mango Baritone
+145,127,L2 TMGS Spalted Mango Tenor,145,'Oli L2 TMGS Spalted Mango Tenor,Le_QVb82fKw,L2 TMGS Spalted Mango Tenor
+146,128,L2-CMG-SP Spalted Mango Concert,146,'Oli L2-CMG-SP Spalted Mango Concert,74M5f2W8iBo,L2-CMG-SP Spalted Mango Concert
+147,129,L2 TCE V3 Cedar Top Macassar Ebony Tenor,147,'Oli L2 TCE V3 Cedar Top Macassar Ebony Tenor,EkK-cy3vWPg,L2 TCE V3 Cedar Top Macassar Ebony Tenor
+148,130,L2-TCW Cedar Walnut Tenor,148,'Oli L2-TCW Cedar Walnut Tenor,EBTd6lsuR0A,L2-TCW Cedar Walnut Tenor
+149,131,L1 CCWU-S Cedar Weru Concert,149,'Oli L1 CCWU-S Cedar Weru Concert,zMuo6U9QGJQ,L1 CCWU-S Cedar Weru Concert
+150,132,L2 CCR Curly Redwood & Figured Rosewood Concert,150,'Oli L2 CCR Curly Redwood & Figured Rosewood Concert,-A5Yw9nPdr0,L2 CCR Curly Redwood & Figured Rosewood Concert
+151,133,L2 CTSMR Torrefied Spruce Myrtle Concert,151,'Oli L2 CTSMR Torrefied Spruce Myrtle Concert,uhl_xaJSziY,L2 CTSMR Torrefied Spruce Myrtle Concert
+152,134,L2-CSFM Spruce Maple Concert,152,'Oli L2-CSFM Spruce Maple Concert,LTzd_qjCqIY,L2-CSFM Spruce Maple Concert
+153,135,L1-BSMU Spruce Merbau Baritone,153,'Oli L1-BSMU Spruce Merbau Baritone,SSdVw7I5FaI,L1-BSMU Spruce Merbau Baritone
+154,136,L2-BRR Redwood Rosewood Baritone,131,'Oli L2-BRR Redwood Rosewood Baritone,f67SM7I5oYg,L2-BRR Redwood Rosewood Baritone
+154,136,L2-BRR Redwood Rosewood Baritone,154,'Oli L2-BRR Redwood Rosewood Baritone,kw116fM159g,L2-BRR Redwood Rosewood Baritone
+,137,154.2 L2-BRR Redwood Rosewood Baritone 644,,,,
+,138,154.3 L2-BRR Redwood Rosewood Baritone 654,,,,
+155,139,L2-BK Koa Baritone,155,'Oli L2-BK Koa Baritone,r_boSxcGVhs,L2-BK Koa Baritone
+156,140,L2-BMR Myrtle Baritone,129,'Oli L2-BMR Myrtle Baritone,Mebs3MDnzOY,L2-BMR Myrtle Baritone
+156,140,L2-BMR Myrtle Baritone,156,'Oli L2-BMR Myrtle Baritone,3U8nR7XUqK4,L2-BMR Myrtle Baritone
+157,141,L2-BTSMR 690 Torrefied Spruce Myrtle Baritone,157,'Oli L2-BTSMR 690 Torrefied Spruce Myrtle Baritone,JMqVqak69jU,L2-BTSMR 690 Torrefied Spruce Myrtle Baritone
+158,142,L2-TK Koa Tenor,158,'Oli L2-TK Koa Tenor,EbClk1JSk9U,L2-TK Koa Tenor
+159,143,L2-TMR Myrtle Tenor,159,'Oli L2-TMR Myrtle Tenor,tg6itUM1rGo,L2-TMR Myrtle Tenor
+160,144,L2-TTSMR Torrefied Spruce Myrtle Tenor,160,'Oli L2-TTSMR Torrefied Spruce Myrtle Tenor,xMqPRcZ_3iY,L2-TTSMR Torrefied Spruce Myrtle Tenor
+161,145,L2-TSFM Spruce Maple Tenor,161,'Oli L2-TSFM Spruce Maple Tenor,2cXE8fURmhw,L2-TSFM Spruce Maple Tenor
+162,146,L2-TRR Redwood Rosewood Tenor,162,'Oli L2-TRR Redwood Rosewood Tenor,znrZRv_AvsM,L2-TRR Redwood Rosewood Tenor
+163,147,L2 CCW Cedar Walnut Concert,163,'Oli L2 CCW Cedar Walnut Concert,7CBLztOz62E,L2 CCW Cedar Walnut Concert
+,148,163.2 L2 CCW Cedar Walnut Concert,,,,
+165,149,L1-BSW Baritone Spruce Weru,165,'Oli L1-BSW Baritone Spruce Weru,Jvikcb71dCg,L1-BSW Baritone Spruce Weru
+166,150,L1 TSW Spruce Weru Tenor,166,'Oli L1 TSW Spruce Weru Tenor,Op5hUHmjFWM,L1 TSW Spruce Weru Tenor
+167,151,L1 BCAS Cedar Acacia Baritone,167,'Oli L1 BCAS Cedar Acacia Baritone,0gdItaqeLkk,L1 BCAS Cedar Acacia Baritone
+168,152,L2 TTSMR Torrefied Spruce Myrtle 668,168,'Oli L2 TTSMR Torrefied Spruce Myrtle 668,sfRTZjOJt9Q,L2 TTSMR Torrefied Spruce Myrtle 668
+169,153,L2 BTSMR Torrefied Spruce Myrtle Baritone 696,169,'Oli L2 BTSMR Torrefied Spruce Myrtle Baritone 696,31EdPJtmVPU,L2 BTSMR Torrefied Spruce Myrtle Baritone 696
+170,154,L2 BK 236 Baritone Koa,170,'Oli L2 BK 236 Baritone Koa,Chp2cwjW1v0,L2 BK 236 Baritone Koa
+171,155,Koa Tenor L2-TK 722,171,'Oli Koa Tenor L2-TK 722,MIcsswpxyHA,Koa Tenor L2-TK 722
+172,156,L2 CSR,172,'Oli L2 CSR,AQo_zqJEOUQ,L2 CSR
+173,157,Spruce Ebony Tenor L2 TSE,173,'Oli Spruce Ebony Tenor L2 TSE,rqkz_lvH1bU,Spruce Ebony Tenor L2 TSE
+174,158,L2 TCA Cedar Acacia Tenor w Acacia faceplate,174,'Oli L2 TCA Cedar Acacia Tenor w Acacia faceplate,jXyTTBsQWN8,L2 TCA Cedar Acacia Tenor w Acacia faceplate
+175,159,L2 BTSMR 691,175,'Oli L2 BTSMR 691,SnmXw7vWy7I,L2 BTSMR 691
+176,160,L2-CRR 752 Redwood Rosewood Concert,176,'Oli L2-CRR 752 Redwood Rosewood Concert,DLT2brKbUhc,L2-CRR 752 Redwood Rosewood Concert
+177,161,L2 CTSMR 677 Concert Torrefied Spruce Myrtle,177,'Oli L2 CTSMR 677 Concert Torrefied Spruce Myrtle,Eo7lLaX_ITM,L2 CTSMR 677 Concert Torrefied Spruce Myrtle
+178,162,L2-TFM-BR 766 Spruce Maple Tenor,178,'Oli L2-TFM-BR 766 Spruce Maple Tenor,82C8m9g-bUU,L2-TFM-BR 766 Spruce Maple Tenor
+179,163,L1 BAS Acacia Baritone,179,'Oli L1 BAS Acacia Baritone,0w5Fdm27YEk,L1 BAS Acacia Baritone
+180,164,L2-BSFM-BR Spruce Flame Maple Baritone,180,'Oli L2-BSFM-BR Spruce Flame Maple Baritone,MaHcDDrlE7I,L2-BSFM-BR Spruce Flame Maple Baritone
+181,165,L2-BSE-SB Sunburst Spruce Ebony Baritone,181,'Oli L2-BSE-SB Sunburst Spruce Ebony Baritone,b96nfKXYWdM,L2-BSE-SB Sunburst Spruce Ebony Baritone
+182,166,L2-BCR Cedar Rosewood Baritone,182,'Oli L2-BCR Cedar Rosewood Baritone,N45fxH4AR9E,L2-BCR Cedar Rosewood Baritone
+183,167,L2-BSE Spruce Ebony Baritone,183,'Oli L2-BSE Spruce Ebony Baritone,r1zpsaNpI1g,L2-BSE Spruce Ebony Baritone
+184,168,L2-BTSR Torrefied Spruce Rosewood Baritone,184,'Oli L2-BTSR Torrefied Spruce Rosewood Baritone,O3ZyEqrBR1M,L2-BTSR Torrefied Spruce Rosewood Baritone
+185,169,L2-CCR Cedar Rosewood Concert,185,'Oli L2-CCR Cedar Rosewood Concert,aCvguWK34vw,L2-CCR Cedar Rosewood Concert
+186,170,L2-CSR Spruce Rosewood Concert,186,'Oli L2-CSR Spruce Rosewood Concert,BEaIK6AwPz0,L2-CSR Spruce Rosewood Concert
+187,171,L1 CSWU Spruce Weru Concert,187,'Oli L1 CSWU Spruce Weru Concert,L0YRkrz3p_Y,L1 CSWU Spruce Weru Concert
+188,172,L1-CSMU Spruce Top Merbau Concert,188,'Oli L1-CSMU Spruce Top Merbau Concert,OMjMfnA9_VE,L1-CSMU Spruce Top Merbau Concert
+,173,'Oli 2025 Preview & Sample w Corey,,,,
+191,174,L1-TA Acacia Gloss Tenor (2025),191,'Oli L1-TA Acacia Gloss Tenor (2025),JA81lCDvauE,L1-TA Acacia Gloss Tenor (2025)
+192,175,L1 BCA,192,'Oli L1 BCA,ESZk4DmWXuc,L1 BCA
+193,176,L1 TCA Cedar Acacia Tenor,193,'Oli L1 TCA Cedar Acacia Tenor,NYfMb3K0YnI,L1 TCA Cedar Acacia Tenor
+194,177,"L1 Cedar Acacia Baritone & Tenor ""Island Style""",194,"'Oli L1 Cedar Acacia Baritone & Tenor ""Island Style""",7jPMZ3u0l9k,"L1 Cedar Acacia Baritone & Tenor ""Island Style"""
+195,178,L1 TCA S Cedar Top Acacia Satin Tenor,195,'Oli L1 TCA S Cedar Top Acacia Satin Tenor,MNqIXfH0Spg,L1 TCA S Cedar Top Acacia Satin Tenor
+196,179,L1-CCAS Cedar Top Acacia Concert,196,'Oli L1-CCAS Cedar Top Acacia Concert,IM1deDZkyTE,L1-CCAS Cedar Top Acacia Concert
+197,180,L1 CCA Cedar Top Acacia Concert,197,'Oli L1 CCA Cedar Top Acacia Concert,JE_UBPRGYMU,L1 CCA Cedar Top Acacia Concert
+198,181,L1 BCA S Cedar Acacia Baritone Satin,198,'Oli L1 BCA S Cedar Acacia Baritone Satin,HJETyix5PeY,L1 BCA S Cedar Acacia Baritone Satin
+199,182,"“Kawaipunahele” on L1 Acacia Satin w Mika, Kalei, & Corey",199,"“Kawaipunahele” on L1 Acacia Satin w Mika, Kalei, & Corey",AOURRt7D08c,"“Kawaipunahele” on L1 Acacia Satin w Mika, Kalei, & Corey"
+200,183,L1 CAS Acacia Concert Satin,200,'Oli L1 CAS Acacia Concert Satin,c31OguvLAAA,L1 CAS Acacia Concert Satin
+201,184,L1 CA 2025 Acacia Concert,201,'Oli L1 CA 2025 Acacia Concert,p0ncTrkOjoM,L1 CA 2025 Acacia Concert
+202,185,"Kiss From a Rose w Kalei, Corey, & Mika on 'Oli L1 Acacia gloss",202,"Kiss From a Rose w Kalei, Corey, & Mika on 'Oli L1 Acacia gloss",kNV3DD6lw4Y,"Kiss From a Rose w Kalei, Corey, & Mika on 'Oli L1 Acacia gloss"
+203,186,L1 TA 2025 Tenor Acacia,203,'Oli L1 TA 2025 Tenor Acacia,OVPwYlJq0Bg,L1 TA 2025 Tenor Acacia
+204,187,L1-CA Concert Acacia w Kalei,204,'Oli L1-CA Concert Acacia w Kalei,tN1iK9HDIl8,L1-CA Concert Acacia w Kalei
+205,188,L1 TAS Acacia Tenor Satin,205,'Oli L1 TAS Acacia Tenor Satin,aOij70UcpiI,L1 TAS Acacia Tenor Satin
+206,189,L1 CMG Concert Mango w Matt Dahlberg,206,'Oli L1 CMG Concert Mango w Matt Dahlberg,AOg1Pn8G7S0,L1 CMG Concert Mango w Matt Dahlberg
+207,190,L2 TQM BL w Low G,207,'Oli L2 TQM BL w Low G,_Ns3SgfCBTY,L2 TQM BL w Low G
+208,191,L2 TQM BL w High G,208,'Oli L2 TQM BL w High G,eDM1VjTI3VA,L2 TQM BL w High G
+209,192,L2 TQM LB,209,'Oli L2 TQM LB,wemORgz-3uU,L2 TQM LB
+210,193,L2 BQM LB,210,'Oli L2 BQM LB,XZXBMHw3FmQ,L2 BQM LB
+212,194,L2 BQM BL Quilted Maple Baritone,212,'Oli L2 BQM BL Quilted Maple Baritone,dAzkjR_Jsnc,L2 BQM BL Quilted Maple Baritone
+,195,212.2 L2 BQM BL Quilted Maple Baritone 1154,,,,
+,196,2025 NAMM,,,,
+213,197,L1 TMG Mango Tenor Gloss,213,'Oli L1 TMG Mango Tenor Gloss,-H8O9hOtY6I,L1 TMG Mango Tenor Gloss
+214,198,You Are My Sunshine on 2025 'Oli Mango Satin Models,,,,
+215,199,L1 CMGS 2025 Concert Mango Satin,215,'Oli L1 CMGS 2025 Concert Mango Satin,vHmlFiegehE,L1 CMGS 2025 Concert Mango Satin
+216,200,L1SP-TSWA-VB Spruce Waru Vintage Burst Tenor,216,'Oli L1SP-TSWA-VB Spruce Waru Vintage Burst Tenor,3z5VE4TXu6c,L1SP-TSWA-VB Spruce Waru Vintage Burst Tenor
+217,201,L2 CQM BL Quilted Maple Concert,217,'Oli L2 CQM BL Quilted Maple Concert,HsZEZZ5R4FM,L2 CQM BL Quilted Maple Concert
+218,202,l2 TSFM LB,218,'Oli l2 TSFM LB,DzOQzjyBe9M,l2 TSFM LB
+219,203,2025 L2 TSR Spruce Rosewoodf Tenor,219,'Oli 2025 L2 TSR Spruce Rosewoodf Tenor,s_5iauwkXNU,2025 L2 TSR Spruce Rosewoodf Tenor
+220,204,L1SP-BSWA Baritone Spruce Waru Vintage Burst w Corey and Matt,220,'Oli L1SP-BSWA Baritone Spruce Waru Vintage Burst w Corey and Matt,JVz1wumivMo,L1SP-BSWA Baritone Spruce Waru Vintage Burst w Corey and Matt
+221,205,L2 CCR Cedar Rosewood Concert,221,'Oli L2 CCR Cedar Rosewood Concert,LGYh2ZiOJpU,L2 CCR Cedar Rosewood Concert
+222,206,L2 CSR 2025 Spruce Rosewood Concert,222,'Oli L2 CSR 2025 Spruce Rosewood Concert,WcuYxImeiio,L2 CSR 2025 Spruce Rosewood Concert
+223,207,X-SMH-S Mahogany Soprano,223,'Oli X-SMH-S Mahogany Soprano,TygkMqVWevU,X-SMH-S Mahogany Soprano
+224,208,L1-TPMG Mango Pineapple Tenor,224,'Oli L1-TPMG Mango Pineapple Tenor,AACVi1kq-bg,L1-TPMG Mango Pineapple Tenor
+225,209,L2 Mango Tenor,17,'Oli L2 Mango Tenor,7-ng4od9E60,L2 Mango Tenor
+225,209,L2 Mango Tenor,225,'Oli L2 Mango Tenor,GG-4-RpFUOA,L2 Mango Tenor
+226,210,2025 Monstera Tenor,226,'Oli 2025 Monstera Tenor,lQqvE-sIe6k,2025 Monstera Tenor
+227,211,2025 L1 Baritone Mango Gloss,227,'Oli 2025 L1 Baritone Mango Gloss,IhQFo9gYmus,2025 L1 Baritone Mango Gloss
+228,212,2025 L2 Concert Mango,228,'Oli 2025 L2 Concert Mango,OPoaDZWwwmU,2025 L2 Concert Mango
+229,213,L2 TSFM 729 Spruce Top Flame Maple Tenor,229,'Oli L2 TSFM 729 Spruce Top Flame Maple Tenor,8aAE1qNmvUQ,L2 TSFM 729 Spruce Top Flame Maple Tenor
+230,214,BRR 645 Redwood Rosewood Baritone,230,'Oli BRR 645 Redwood Rosewood Baritone,rwmW680HZCM,BRR 645 Redwood Rosewood Baritone
+231,215,L2 BK 251 Koa Baritone,231,'Oli L2 BK 251 Koa Baritone,2473t_wtxdA,L2 BK 251 Koa Baritone
+232,216,L2 BK 316 Koa Baritone,232,'Oli L2 BK 316 Koa Baritone,rHJJgb8pbIo,L2 BK 316 Koa Baritone
+233,217,L2 BK 669 Koa Baritone,233,'Oli L2 BK 669 Koa Baritone,5iUYOEsfexE,L2 BK 669 Koa Baritone
+234,218,L2 Bk 665 Koa Baritone,234,'Oli L2 Bk 665 Koa Baritone,oJ_ZjJ7I0-M,L2 Bk 665 Koa Baritone
+235,219,L2 BK 325 Koa Baritone,235,'Oli L2 BK 325 Koa Baritone,OwlUDJLhAKI,L2 BK 325 Koa Baritone
+236,220,l2 CRR 745,236,'Oli l2 CRR 745,bQGOMwoxgsY,l2 CRR 745
+237,221,2025 L1-CAS 1055 Acacia Satin Concert,237,'Oli 2025 L1-CAS 1055 Acacia Satin Concert,n0sEYxxe7y0,2025 L1-CAS 1055 Acacia Satin Concert
+238,222,L2 BRR 609 Redwood Rosewood Baritone,238,'Oli L2 BRR 609 Redwood Rosewood Baritone,-ShR62NaQ5M,L2 BRR 609 Redwood Rosewood Baritone
+239,223,L2-BSR 2025 1102,239,'Oli L2-BSR 2025 1102,Bcng08Q5kOo,L2-BSR 2025 1102
+240,224,2025 L2 BCR,240,'Oli 2025 L2 BCR,jyQJnSxNgh0,2025 L2 BCR
+241,225,L3-CRMI Redwood Milo Concert 1,241,'Oli L3-CRMI Redwood Milo Concert 1,j9jPvXrlJAc,L3-CRMI Redwood Milo Concert 1
+242,226,L3 Plumeria Tenor 1033,242,'Oli L3 Plumeria Tenor 1033,oSym4KiyAHc,L3 Plumeria Tenor 1033
+243,227,In My Life 'Oli L3-TCE L3-TSR L2-GSR,,,,
+244,228,L1 TAS 963,244,'Oli L1 TAS 963,qIKqcWcqiIg,L1 TAS 963
+245,229,L1 CMGS 919,245,'Oli L1 CMGS 919,z4wReLDOiTc,L1 CMGS 919
+246,230,2025 L2-BMG 1038,246,'Oli 2025 L2-BMG 1038,zTu__bpOOkA,2025 L2-BMG 1038
+247,231,L2 BSFM-LB 1071 Spruce Maple Baritone,247,'Oli L2 BSFM-LB 1071 Spruce Maple Baritone,DAscxwat_Vc,L2 BSFM-LB 1071 Spruce Maple Baritone
+248,232,L2 CQM LB 1047,248,'Oli L2 CQM LB 1047,-3SRZE38g20,L2 CQM LB 1047
+249,233,L2 BMR 733,249,'Oli L2 BMR 733,yuMy6CSvF28,L2 BMR 733
+250,234,L2-BTSMR 684,250,'Oli L2-BTSMR 684,cU0AnCPEduk,L2-BTSMR 684
+251,235,L2 TMG Spalted Mango Tenor 596,251,'Oli L2 TMG Spalted Mango Tenor 596,2dHY0K1Wpaw,L2 TMG Spalted Mango Tenor 596
+252,236,L2 TCA 783,252,'Oli L2 TCA 783,kGD-EnRr8D8,L2 TCA 783
+253,237,L2 CSR 799,253,'Oli L2 CSR 799,zRlBU3vS-C8,L2 CSR 799
+254,238,Baritone L2 BSFM BR 798,254,'Oli Baritone L2 BSFM BR 798,LcPSAmOU_dw,Baritone L2 BSFM BR 798
+255,239,Baritone L2 BRR 650,255,'Oli Baritone L2 BRR 650,nMw6YZwnGus,Baritone L2 BRR 650
+256,240,L2 BSE 862,256,'Oli L2 BSE 862,9NUeYBhX9dU,L2 BSE 862
+257,241,L2-BTSMR 689 Baritone Torrefied Spruce Myrtle Limited Edition,257,'Oli L2-BTSMR 689 Baritone Torrefied Spruce Myrtle Limited Edition,6m6V7lV8yg4,L2-BTSMR 689 Baritone Torrefied Spruce Myrtle Limited Edition
+258,242,L2 TTSMR Torrefied Spruce Myrtle Tenor 667,258,'Oli L2 TTSMR Torrefied Spruce Myrtle Tenor 667,fVixLG6ObvY,L2 TTSMR Torrefied Spruce Myrtle Tenor 667
+259,243,L2 BRR 608,259,'Oli L2 BRR 608,QxFFVUr9EqQ,L2 BRR 608
+260,244,L2 BK 317 Koa Baritone,260,'Oli L2 BK 317 Koa Baritone,ajZLMd6mnp0,L2 BK 317 Koa Baritone
+261,245,L2-CCR 1096 w Kalei,261,'Oli L2-CCR 1096 w Kalei,fg3aNABfiZ4,L2-CCR 1096 w Kalei
+262,246,L2 CCR w Low G,262,'Oli L2 CCR w Low G,JTrwghaM3Uc,L2 CCR w Low G
+263,247,L2-TMG 599 Spalted Mango Tenor,263,'Oli L2-TMG 599 Spalted Mango Tenor,hj1rKNd9Qi4,L2-TMG 599 Spalted Mango Tenor
+264,248,L1 TA Acacia Tenor Gloss w High G,264,'Oli L1 TA Acacia Tenor Gloss w High G,HYj4Ajz2II4,L1 TA Acacia Tenor Gloss w High G
+265,249,L1 BMG w High D Reentrant tuning,265,'Oli L1 BMG w High D Reentrant tuning,qeaBRTI-mrA,L1 BMG w High D Reentrant tuning
+266,250,L2-BSR Spruce Rosewood Baritone 208,266,'Oli L2-BSR Spruce Rosewood Baritone 208,2QbE-g2aYnA,L2-BSR Spruce Rosewood Baritone 208
+,251,Team Trip to 'Oli w Music by Kalei & Suar,,,,
+267,252,L2-BCPW 1202 Port Orford Cedar Walnut Baritone,267,'Oli L2-BCPW 1202 Port Orford Cedar Walnut Baritone,7trxU1gHqiU,L2-BCPW 1202 Port Orford Cedar Walnut Baritone
+,253,267.2 L2-BCPW 1202 Port Orford Cedar Walnut Baritone,,,,
+268,254,L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone,268,'Oli L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone,7sp8cCNh6Rs,L2-BRCM 1177 Redwood Hawaiian (Cuban) Mahogany Baritone
+269,255,X2-TTSRR Torrefied Spruce Rosewood Tenor,269,'Oli X2-TTSRR Torrefied Spruce Rosewood Tenor,5opERUz7YWM,X2-TTSRR Torrefied Spruce Rosewood Tenor
+,256,269.2 X2-TTSRR Torrefied Spruce Rosewood Tenor 1157,,,,
+-2,257,X2-TTSR-BW Torrefied Spruce Rosewood LE Tenor 1233,,,,
+270,258,X2 TCRBW 1161Cedar Rosewood Tenor,270,'Oli X2 TCRBW 1161Cedar Rosewood Tenor,n3hy_VOpQc0,X2 TCRBW 1161Cedar Rosewood Tenor
+,259,270.2 X2 TCRBW 1161Cedar Rosewood Tenor,,,,
+271,260,L2-TCPMR Port Orford Cedar Myrtle Tenor 1194,,,,
+272,261,L3 TCPML Port Orford Cedar Milo Tenor LE 1272,272,'Oli L3 TCPML Port Orford Cedar Milo Tenor LE 1272,nPwQCLnVzXA,L3 TCPML Port Orford Cedar Milo Tenor LE 1272
+273,262,L3 TSML Spruce Milo LE Tenor 1266,,,,
+274,263,L2-TMR 1264,274,'Oli L2-TMR 1264,hbqVG8Z0oe0,L2-TMR 1264
+275,264,L2 TMR Tiger Myrtle Tenor w GOAA Pickup,275,'Oli L2 TMR Tiger Myrtle Tenor w GOAA Pickup,zRfaN-XZgVE,L2 TMR Tiger Myrtle Tenor w GOAA Pickup
+276,265,X2-BCR-BW 1144 Cedar Rosewood X braced Baritone,276,'Oli X2-BCR-BW 1144 Cedar Rosewood X braced Baritone,PTMO6cWPf9o,X2-BCR-BW 1144 Cedar Rosewood X braced Baritone
+277,266,L3 TRML Curly Redwood Milo Tenor 1271,,,,
+278,267,L3 TRML 1290 Curly Redwood Milo LE Tenor,278,'Oli L3 TRML 1290 Curly Redwood Milo LE Tenor,eLa250snUmE,L3 TRML 1290 Curly Redwood Milo LE Tenor
+279,268,L-CM-S Satin Mahogany Concert,279,'Oli L-CM-S Satin Mahogany Concert,lpPQExQbSZI,L-CM-S Satin Mahogany Concert
+280,269,L-TM-S Satin Mahogany Tenor,280,'Oli L-TM-S Satin Mahogany Tenor,Nj-WvhE59Ek,L-TM-S Satin Mahogany Tenor
+281,270,L-BM-S Satin Mahogany Baritone,281,'Oli L-BM-S Satin Mahogany Baritone,NXrSovQvnTE,L-BM-S Satin Mahogany Baritone
+282,271,L2 TKE Koa Ebony Tenor,282,'Oli L2 TKE Koa Ebony Tenor,NYBejTZgJfw,L2 TKE Koa Ebony Tenor
+283,272,L2 CQM BL Quilted Maple Concert 1155,283,'Oli L2 CQM BL Quilted Maple Concert 1155,ff7o3eSwELE,L2 CQM BL Quilted Maple Concert 1155
+284,273,X2 BTSRR 1109 Torrefied Spruce Rosewood Baritone,284,'Oli X2 BTSRR 1109 Torrefied Spruce Rosewood Baritone,UEpCcA2lKCk,X2 BTSRR 1109 Torrefied Spruce Rosewood Baritone
+285,274,L2 TCPE 1191 Port Orford Cedar Ebony Tenor,285,'Oli L2 TCPE 1191 Port Orford Cedar Ebony Tenor,G39M_m04f6U,L2 TCPE 1191 Port Orford Cedar Ebony Tenor
+286,275,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor,286,'Oli L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor,vdwfXQ1iuIY,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor
+287,276,L3 BSR P Spruce Rosewood Plumeria LE Baritone,287,'Oli L3 BSR P Spruce Rosewood Plumeria LE Baritone,U2jX0nAFijk,L3 BSR P Spruce Rosewood Plumeria LE Baritone
+288,277,L2 BRCM Redwood Cuban Hawaiian Mahogany 1174,288,'Oli L2 BRCM Redwood Cuban Hawaiian Mahogany 1174,m8q112Vr7Js,L2 BRCM Redwood Cuban Hawaiian Mahogany 1174
+289,278,L2-TFM-SB Flame Maple Sunburst Tenor 1188,289,'Oli L2-TFM-SB Flame Maple Sunburst Tenor 1188,ur06v3xohPA,L2-TFM-SB Flame Maple Sunburst Tenor 1188
+290,279,L2 BTSCM Torrefied Spruce Hawaiian Mahogany Baritone,290,'Oli L2 BTSCM Torrefied Spruce Hawaiian Mahogany Baritone,LJ2USq9lVpI,L2 BTSCM Torrefied Spruce Hawaiian Mahogany Baritone
+291,280,L3 CSR P Spruce Rosewood LE Plumeria Concert,291,'Oli L3 CSR P Spruce Rosewood LE Plumeria Concert,bB_ODMYkRiE,L3 CSR P Spruce Rosewood LE Plumeria Concert
+292,281,"Spruce Rosewood 18"" Scale Tenor Cutaway (L2-TSR-LC 1284)",,,,
+293,282,L2 CMR Tiger Myrtle Concert,293,'Oli L2 CMR Tiger Myrtle Concert,N22bG_jN8NY,L2 CMR Tiger Myrtle Concert
+294,283,L3-TRML Redwood Milo LE Tenor 1289,294,'Oli L3-TRML Redwood Milo LE Tenor 1289,6uik2UVNWAw,L3-TRML Redwood Milo LE Tenor 1289
+295,284,L3-TTSML Torrefied Spruce Milo LE Tenor,295,'Oli L3-TTSML Torrefied Spruce Milo LE Tenor,-22L3lJxneI,L3-TTSML Torrefied Spruce Milo LE Tenor
+296,285,L2 BRW Redwood Walnut Diamond Head Moon Baritone,296,'Oli L2 BRW Redwood Walnut Diamond Head Moon Baritone,WCd0fltpEsc,L2 BRW Redwood Walnut Diamond Head Moon Baritone
+297,286,L3 TSE-H Spruce Ebony Honeycomb Tenor,297,'Oli L3 TSE-H Spruce Ebony Honeycomb Tenor,GeyEMyXhCoI,L3 TSE-H Spruce Ebony Honeycomb Tenor
+,287,297.2 L3 TSE-H Spruce Ebony Honeycomb Tenor,,,,
+298,288,L2 CCPW Port Orford Cedar Walnut Concert,298,'Oli L2 CCPW Port Orford Cedar Walnut Concert,bCuTF73J678,L2 CCPW Port Orford Cedar Walnut Concert
+299,289,L1SP TMGBK Mango Tenor,299,'Oli L1SP TMGBK Mango Tenor,YNPbOKeQnvY,L1SP TMGBK Mango Tenor
+300,290,L3 BSE H Spruce Ebony Honeycomb Baritone,300,'Oli L3 BSE H Spruce Ebony Honeycomb Baritone,89w0P-9jhAI,L3 BSE H Spruce Ebony Honeycomb Baritone
+301,291,L1 TPMG Mango Pineapple Tenor,301,'Oli L1 TPMG Mango Pineapple Tenor,qYeqrVREuWo,L1 TPMG Mango Pineapple Tenor
+,292,301.2 L1 TPMG Mango Pineapple Tenor 1123,,,,
+302,293,L3-TSR-P Plumeria Tenor 1247,302,'Oli L3-TSR-P Plumeria Tenor 1247,WeC-fgs9Gcc,L3-TSR-P Plumeria Tenor 1247
+303,294,L3 CCE 1237 Cedar Ebony Honeycomb LE Concert,303,'Oli L3 CCE 1237 Cedar Ebony Honeycomb LE Concert,Rbm3qh-z8jU,L3 CCE 1237 Cedar Ebony Honeycomb LE Concert
+304,295,L3 CSE H 1186,,,,
+305,296,L3-BRML Redwood Milo Baritone,305,'Oli L3-BRML Redwood Milo Baritone,GbhISyq_xl4,L3-BRML Redwood Milo Baritone
+306,297,L2 BMR Myrtle Baritone 1200,306,'Oli L2 BMR Myrtle Baritone 1200,ODUFkjCwndg,L2 BMR Myrtle Baritone 1200
+307,298,L1SP-BMG-BK Mango Baritone,307,'Oli L1SP-BMG-BK Mango Baritone,__RoMIAxDwk,L1SP-BMG-BK Mango Baritone
+,299,299.2 L1SP TMGBK Mango Tenor,,,,
+,300,280.2 L-TM-S Satin Mahogany Tenor,,,,
+,301,281.2 L-BM-S Satin Mahogany Baritone 1077,,,,
+,302,L3 TRML 1288 Curly Redwood Milo LE Tenor,,,,
+,303,285.2 L2 TCPE 1191 Port Orford Cedar Ebony Tenor,,,,
+,304,302.2 L3-TSR-P Plumeria Tenor 1242,,,,
+,305,271.2 L2-TCPMR Port Orford Cedar Myrtle Tenor 1189,,,,
+,306,Torrefied Spruce Milo L3 TTSML 1275,308,'Oli Torrefied Spruce Milo L3 TTSML 1275,lUTWoQr7iUg,Torrefied Spruce Milo L3 TTSML 1275
+,307,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor 1198,,,,
+,308,L2 CRW Curly Redwood Claro Walnut Concert 1225,,,,
+,309,X2-BCR-BW 1142 Cedar Rosewood X braced Baritone,,,,
+,310,L2 BQM 844 Quilted Maple Baritone,312,'Oli L2 BQM 844 Quilted Maple Baritone,-8DAEx3BU8g,L2 BQM 844 Quilted Maple Baritone
+,311,L3 Honeycomb Tenor Torrefied Spruce Ebony,313,'Oli L3 Honeycomb Tenor Torrefied Spruce Ebony,03s7LIKWPLA,L3 Honeycomb Tenor Torrefied Spruce Ebony
+,312,L2 TSFM SB,314,'Oli L2 TSFM SB,UUx6OsEMIOw,L2 TSFM SB
+,313,L2 CSCM Spruce Cuban Mahogany Concert,315,'Oli L2 CSCM Spruce Cuban Mahogany Concert,ukWr4wZxRFU,L2 CSCM Spruce Cuban Mahogany Concert
+,314,L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor 1192,,,,
+,315,X2 BTSRBW 1104 Torrefied Spruce Rosewood Baritone,,,,
+,316,X2 TTSRR 1163 Torrefied Spruce Rosewood Tenor,,,,
+,317,L3-TSR-P Plumeria Tenor 1248,,,,
+,318,L3 TSE-H Spruce Ebony Honeycomb Tenor 1281,,,,
+,319,L3-CRML 1257,,,,
+,320,L3-CCML 1261,,,,
+,321,L3-CTSML,,,,
+,322,X2 BTSRBW 1103 Torrefied Spruce Rosewood Baritone,,,,
+,323,X2 TTSRR 1159 Torrefied Spruce Rosewood Tenor,,,,
+,324,X2-BCR-BW 1145 Cedar Rosewood X braced Baritone,,,,
+,325,Port Orford Cedar Myrtle Baritone L2-BCPMR 1205,319,'Oli Port Orford Cedar Myrtle Baritone L2-BCPMR 1205,vZgdz3o2vHw,Port Orford Cedar Myrtle Baritone L2-BCPMR 1205
+,326,L2 BMR Myrtle Baritone 1201,,,,
+,327,X2 BTSRR 1126 Torrefied Spruce Rosewood Baritone,,,,
+,328,L3-CCML Cedar Milo Concert,322,'Oli L3-CCML Cedar Milo Concert,0casrVyWKKE,L3-CCML Cedar Milo Concert
+,329,L2-CRR Curly Redwood Rosewood Concert 832,327,'Oli L2-CRR Curly Redwood Rosewood Concert 832,7fNk5YvFyy0,L2-CRR Curly Redwood Rosewood Concert 832
+,330,L2-CCCM 1267 Cedar Hawaiian Cuban Mahogany Concert,330,'Oli L2-CCCM 1267 Cedar Hawaiian Cuban Mahogany Concert,2fglkjvNKLU,L2-CCCM 1267 Cedar Hawaiian Cuban Mahogany Concert
+,331,L3-CCE-H-SB Honeycomb Sunburst Cedar Ebony Concert,329,'Oli L3-CCE-H-SB Honeycomb Sunburst Cedar Ebony Concert,CHvJ5M-IWn8,L3-CCE-H-SB Honeycomb Sunburst Cedar Ebony Concert
+,332,L3-CCE-H-S Honeycomb Satin Cedar Ebony Concert,328,'Oli L3-CCE-H-S Honeycomb Satin Cedar Ebony Concert,hxbyi25-sk0,L3-CCE-H-S Honeycomb Satin Cedar Ebony Concert
+,333,L2 TSFM 720 Spruce Top Flame Maple Tenor,,,,
+,334,L3 BSE H Spruce Ebony Honeycomb Baritone 1215,,,,
+,335,L3 BSR P Spruce Rosewood Plumeria LE Baritone,287,'Oli L3 BSR P Spruce Rosewood Plumeria LE Baritone,U2jX0nAFijk,L3 BSR P Spruce Rosewood Plumeria LE Baritone
+,336,X2-BCR-BW 1141 Cedar Rosewood X braced Baritone,,,,
+,337,X2 BTSRR 1106 Torrefied Spruce Rosewood Baritone,,,,
+,338,X2-BTSRR Torrefied Spruce Red Rosewood Baritone 1127,331,'Oli X2-BTSRR Torrefied Spruce Red Rosewood Baritone 1127,4qNDoaI5w20,X2-BTSRR Torrefied Spruce Red Rosewood Baritone 1127
+,339,L3-TRML Redwood Milo LE Tenor 1278,,,,
+,340,X-SMH-S Mahogany Soprano 1429,,,,
+,341,X1 TMH Mahogany Tenor,346,'Oli X1 TMH Mahogany Tenor,ThOI0LKaPbA,X1 TMH Mahogany Tenor
+,342,L2-CPMG Concert Pineapple Mango,342,'Oli L2-CPMG Concert Pineapple Mango,8gKlq1m6dQ8,L2-CPMG Concert Pineapple Mango
+,343,L2-TPMG Tenor Mango Pineapple,341,'Oli L2-TPMG Tenor Mango Pineapple,qTpxK_wzhY8,L2-TPMG Tenor Mango Pineapple
+,344,L-BA-S Acacia Baritone,338,'Oli L-BA-S Acacia Baritone,QQP9af-1LKk,L-BA-S Acacia Baritone
+,345,L-TA-S Acacia Tenor,337,'Oli L-TA-S Acacia Tenor,Vs5t3ISGJoM,L-TA-S Acacia Tenor
+,346,L-CA-S Acacia Concert,336,'Oli L-CA-S Acacia Concert,wnyE1tXdQ10,L-CA-S Acacia Concert
+,347,L-BMG-S Mango Baritone,335,'Oli L-BMG-S Mango Baritone,lGxw2Dy_Eqc,L-BMG-S Mango Baritone
+,348,L-TMG-S Mango Tenor,333,'Oli L-TMG-S Mango Tenor,-a8Htsage2c,L-TMG-S Mango Tenor
+,349,L-CMG-S Mango Concert,334,'Oli L-CMG-S Mango Concert,2xi4DMxrXak,L-CMG-S Mango Concert
+,350,L3-TRML 1291 Curly Redwood Milo Tenor,321,'Oli L3-TRML 1291 Curly Redwood Milo Tenor,dQb-524e3qg,L3-TRML 1291 Curly Redwood Milo Tenor
+,,,140,'Oli  L2-BCW Cedar Walnut Baritone,HXjNOfoqUzE, L2-BCW Cedar Walnut Baritone
+,,,125,"""All of Me"" 'Oli Cedar Ebony Baritone & Singer Mahogany Concert 4 Strings Auction",6Ao64QPpWEs,"""All of Me"" 'Oli Cedar Ebony Baritone & Singer Mahogany Concert 4 Strings Auction"
+,,,50,"""Don't Know Why"" 'Oli Koa tenor & Cedar Rosewood Concert",_wtkoF2esE0,"""Don't Know Why"" 'Oli Koa tenor & Cedar Rosewood Concert"
+,,,243,"""In My Life"" 'Oli L3-TCE  L3-TSR  L2-GSR",r7zRtjvEwxM,"""In My Life"" 'Oli L3-TCE  L3-TSR  L2-GSR"
+,,,271,"""Oli L2-TCPMR Port Orford Cedar Myrtle Tenor 1194",oiHEZKaN8ik,"""Oli L2-TCPMR Port Orford Cedar Myrtle Tenor 1194"
+,,,214,"""You Are My Sunshine"" on 2025 'Oli Mango Satin Models",_BpK5zAVTck,"""You Are My Sunshine"" on 2025 'Oli Mango Satin Models"
+,,,40,"'Oli Acacia Satin tenor & concert ""Moloka'i Sweet Home""",2ZfBl7Z5_HY,"Acacia Satin tenor & concert ""Moloka'i Sweet Home"""
+,,,320,'Oli Baritone Reentrant High D and Linear Low D Sample X2-BTSRR 1126,m6gPM74A0QI,Baritone Reentrant High D and Linear Low D Sample X2-BTSRR 1126
+,,,46,Bossa Europa on 'Oli Spruce Rosewood Low G Tenor & Cedar Rosewood High G Tenor,9EBFozk01Vc,Bossa Europa on 'Oli Spruce Rosewood Low G Tenor & Cedar Rosewood High G Tenor
+,,,124,'Oli Cedar Ebony Baritone 4 Strings Auction,QvYr9FaFIn8,Cedar Ebony Baritone 4 Strings Auction
+,,,311,'Oli Cedar Milo L3 Limited Edition Tenor,U_atB4KSaY8,Cedar Milo L3 Limited Edition Tenor
+,,,76,Comparing 6 Concert String Sets on 'Oli L2 CMG,oXxuvd2Im1w,Comparing 6 Concert String Sets on 'Oli L2 CMG
+,,,164,Cornerstone Custom Baritone #104,DZE7maOaBzA,Cornerstone Custom Baritone #104
+,,,59,Jam on 'Oli Cedar Acacia Baritone & Spruce Ebony Concert,ltP3xKQFlpU,Jam on 'Oli Cedar Acacia Baritone & Spruce Ebony Concert
+,,,65,'Oli Koa Baritone & Concert,itsh2iYyiDc,Koa Baritone & Concert
+,,,42,'Oli L1 TAS  Satin Acacia Tenor,508tEJP_J0w,L1 TAS  Satin Acacia Tenor
+,,,348,'Oli L1SP TSWA VB Spruce Waru Vintage Burst Tenor,bWtYd3jsuNs,L1SP TSWA VB Spruce Waru Vintage Burst Tenor
+,,,95,'Oli L2 BMG Mango Baritone w 3 Different String Configurations,fn2Q-Y8OI5o,L2 BMG Mango Baritone w 3 Different String Configurations
+,,,347,'Oli L2 BTSA Torrefied Spruce Acacia Baritone,qbWx32Utyd8,L2 BTSA Torrefied Spruce Acacia Baritone
+,,,349,'Oli L2 CMG,CiRh5FccAIc,L2 CMG
+,,,309,'Oli L2 CRW Redwood Walnut Concert 1225,fF1euBWryAs,L2 CRW Redwood Walnut Concert 1225
+,,,325,'Oli L2 CSR 1069,sTDGGnz6CXM,L2 CSR 1069
+,,,56,'Oli L2 Concert Spruce Ebony w High & Low G,zD-pCq2fMLM,L2 Concert Spruce Ebony w High & Low G
+,,,324,'Oli L2 TCR 2025 1065 Cedar Rosewood Tenor,Y_73dHX0NNA,L2 TCR 2025 1065 Cedar Rosewood Tenor
+,,,323,'Oli L2 TSR 1064 2025 Spruce Rosewood Tenor,zQWpzlqbl_M,L2 TSR 1064 2025 Spruce Rosewood Tenor
+,,,343,'Oli L2 TTSA Torrefied Spruce Acacia Monstera Tenor,eUGEsySF4Lw,L2 TTSA Torrefied Spruce Acacia Monstera Tenor
+,,,316,'Oli L2 TTSCM 1192 Torrefied Spruce Cuban Mahogany,Kt1OVTbG_Kg,L2 TTSCM 1192 Torrefied Spruce Cuban Mahogany
+,,,345,'Oli L2-BMG Mango Baritone 1505,Iqeia3_o6Vc,L2-BMG Mango Baritone 1505
+,,,350,'Oli L2-BSR Spruce Rosewood Baritone,pVLOXLcSs_4,L2-BSR Spruce Rosewood Baritone
+,,,332,'Oli L2-TCPE Port Orford Cedar Ebony Tenor,IZzmmRcxLfI,L2-TCPE Port Orford Cedar Ebony Tenor
+,,,344,'Oli L2-TMG Mango Tenor 1486,BwNkbyMHzpQ,L2-TMG Mango Tenor 1486
+,,,326,'Oli L3 CCPML Port Orford Cedar Milo Concert,8EV-3ifGQQA,L3 CCPML Port Orford Cedar Milo Concert
+,,,277,'Oli L3 TRML  Curly Redwood Milo Tenor 1271,WArzRddPDZ8,L3 TRML  Curly Redwood Milo Tenor 1271
+,,,273,'Oli L3 TSML Spruce Milo LE Tenor,sGCvfH3n-jE,L3 TSML Spruce Milo LE Tenor
+,,,304,'Oli L3-CSE H 1186,7PABqyB1Ef8,L3-CSE H 1186
+,,,23,Layla on 'Oli Spruce Ebony Baritone & Tenor,WQv9c-SODW4,Layla on 'Oli Spruce Ebony Baritone & Tenor
+,,,317,Mi-Si Motif Pickup - 'Oli Mango Tenor,O44IxvUF3Hw,Mi-Si Motif Pickup - 'Oli Mango Tenor
+,,,340,'Oli NEW L2-BCR 1500 Cedar Rosewood Baritone,e9aPUGPfy6k,NEW L2-BCR 1500 Cedar Rosewood Baritone
+,,,339,'Oli NEW L2-TCR 1483 Cedar Rosewood Tenor,KGmCxXLAF-k,NEW L2-TCR 1483 Cedar Rosewood Tenor
+,,,2,"O.C. Bear Custom Lahaina Guitar & ‘Oli Cedar Ebony Tenor ""Everything I do I Do It For You""",aFgun3_F1fQ,"O.C. Bear Custom Lahaina Guitar & ‘Oli Cedar Ebony Tenor ""Everything I do I Do It For You"""
+,,,114,Pono UL-AO Acacia Baritone,6_Bn3GZ0Eck,Pono UL-AO Acacia Baritone
+,,,113,Spain on 'Oli Redwood Rosewood Tenor & Baritone,JLlO5ECoxzc,Spain on 'Oli Redwood Rosewood Tenor & Baritone
+,,,292,"'Oli Spruce Rosewood 18"" Scale Tenor Cutaway",I5TRhtZMNJI,"Spruce Rosewood 18"" Scale Tenor Cutaway"
+,,,127,'Oli Torrefied Spruce Myrtle Baritone & Tenor Jam,p4a72PSwMZo,Torrefied Spruce Myrtle Baritone & Tenor Jam
+,,,136,'Oli Torrefied Spruce Rosewood Baritone & Concert,AV173puTDr4,Torrefied Spruce Rosewood Baritone & Concert
+,,,318,Ukulele Pickup Comparo: L.R. Baggs 5.0 vs MiSi Motif,qlu7G2tlOts,Ukulele Pickup Comparo: L.R. Baggs 5.0 vs MiSi Motif
+,,,310,'Oli X2 BCRBW S 1142 Cedar Black & White Rosewood Baritone,NoGTiNc-hAM,X2 BCRBW S 1142 Cedar Black & White Rosewood Baritone
+,,,60,Yuki Nohana on 'Oli Cedar Acacia Baritone & Cedar Rosewood Tenor,9AFZfZnV-do,Yuki Nohana on 'Oli Cedar Acacia Baritone & Cedar Rosewood Tenor
+,,,190,aNueNue UT330 Blue Moonbird Tenor w Kalei,46yFhU2ZDhM,aNueNue UT330 Blue Moonbird Tenor w Kalei
