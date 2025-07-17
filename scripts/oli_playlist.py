@@ -7,9 +7,8 @@ from pathlib import Path
 project_path = Path(__file__).parent.parent
 API_BASE = "https://www.googleapis.com/youtube/v3/"
 OLI_PLAYLIST_ID = "PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2"
-HOZEN_PLAYLIST_ID = "PLEQbDXy0ShuVdsIsemizW3b2PxwIB56QH"
+OLI_PLAYLIST_2_ID = "PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD"
 TUS_CLIPS_ID = 'UCEg5r7VYluy43shJKpKGeVg'
-
 
 def process_playlist_items(json):
     records = []
@@ -71,8 +70,8 @@ def build_search_channel_url(api_key, channelId, keyword, limit=50):
     return url
 
 
-def download_oli_playlist():
-    url = build_playlist_items_url(envar.API_KEY, OLI_PLAYLIST_ID)
+def download_oli_playlist(playliist_id, file_name):
+    url = build_playlist_items_url(envar.API_KEY, playliist_id)
     print(url)
     res = requests.get(url)
     json = res.json()
@@ -89,12 +88,13 @@ def download_oli_playlist():
 
 
     df = pd.DataFrame(records)
-    df.to_csv(project_path/"raw_data"/"oli_playlist.csv", index=False)
+    df.to_csv(project_path/"raw_data"/file_name, index=False)
 
 
 def find_missing_videos():
     oli_playlist_df = pd.read_csv(project_path/"raw_data"/"oli_playlist.csv")
-    ids = oli_playlist_df['video_id'].unique()
+    oli_playlist_2_df = pd.read_csv(project_path/"raw_data"/"oli_playlist_2.csv")
+    ids = list(oli_playlist_df['video_id']) + list(oli_playlist_2_df['video_id'])
 
     url = build_search_channel_url(envar.API_KEY, TUS_CLIPS_ID, 'oli')
     print(url)
@@ -115,6 +115,7 @@ def find_missing_videos():
     df = pd.DataFrame(records)
     df.to_csv(project_path/"raw_data"/"missing_videos.csv", index=False)
 
-# download_oli_playlist()
+# download_oli_playlist(OLI_PLAYLIST_ID, 'oli_playlist.csv')
+# download_oli_playlist(OLI_PLAYLIST_2_ID, 'oli_playlist_2.csv')
 
-# find_missing_videos()
+#find_missing_videos()
