@@ -10,7 +10,7 @@ OLI_PLAYLIST_ID = "PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2"
 OLI_PLAYLIST_2_ID = "PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD"
 TUS_CLIPS_ID = 'UCEg5r7VYluy43shJKpKGeVg'
 
-def process_playlist_items(json):
+def process_playlist_items(json, playlist_id):
     records = []
     for item in json["items"]:
         try:
@@ -20,6 +20,7 @@ def process_playlist_items(json):
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
+                "playlist_id": playlist_id
             }
             records.append(data)
         except:
@@ -70,8 +71,8 @@ def build_search_channel_url(api_key, channelId, keyword, limit=50):
     return url
 
 
-def download_oli_playlist(playliist_id, file_name):
-    url = build_playlist_items_url(envar.API_KEY, playliist_id)
+def download_oli_playlist(playlist_id, file_name):
+    url = build_playlist_items_url(envar.API_KEY, playlist_id)
     print(url)
     res = requests.get(url)
     json = res.json()
@@ -83,7 +84,7 @@ def download_oli_playlist(playliist_id, file_name):
         print(new_url)
         res = requests.get(new_url)
         json = res.json()
-        new_records = process_playlist_items(json)
+        new_records = process_playlist_items(json, playlist_id)
         records += new_records
 
 
