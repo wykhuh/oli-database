@@ -93,7 +93,7 @@ def download_oli_playlist(playlist_id, file_name):
     df = pd.DataFrame(records)
     df.to_csv(project_path/"raw_data"/file_name, index=False)
 
-
+# look for 'Oli videos not included in the playlists
 def find_missing_videos():
     oli_playlist_df = pd.read_csv(project_path/"raw_data"/"oli_playlist.csv")
     oli_playlist_2_df = pd.read_csv(project_path/"raw_data"/"oli_playlist_2.csv")
@@ -119,8 +119,28 @@ def find_missing_videos():
     df = df.sort_values(['published_at', 'video_id'])
     df.to_csv(project_path/"raw_data"/"missing_videos.csv", index=False)
 
+# clean up values in missing videos csv
+def update_missing_videos():
+    missing_df = pd.read_csv('../raw_data/missing_videos.csv')
+    missing_df['video_title'] = missing_df['video_title'].replace(
+        {'&#39;': "'", "&quot;": '"', '&amp;': '&'}, regex=True)
+
+    missing_df['position'] = -9999
+    missing_df['playlist_id']=''
+
+    missing_df = missing_df[missing_df['video_title'].str.contains('Oli')]
+
+    missing_df = missing_df[['position', 'video_title', 'published_at', 'video_id',
+                             'video_thumbnail','playlist_id']]
+
+    missing_df = missing_df.sort_values(['published_at', 'video_id'])
+
+    missing_df = missing_df.drop_duplicates()
+
+    missing_df.to_csv('../processed_data/missing_videos_fixed.csv', index=False)
 
 # download_oli_playlist(OLI_PLAYLIST_ID, 'oli_playlist.csv')
 # download_oli_playlist(OLI_PLAYLIST_2_ID, 'oli_playlist_2.csv')
 
 # find_missing_videos()
+# update_missing_videos()
