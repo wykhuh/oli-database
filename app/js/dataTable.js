@@ -6,7 +6,6 @@ let searchEl;
 let allRecordsEl;
 let showAllEl;
 let oneRecordEl;
-let showMore;
 
 //==========================
 // fetch and process CSV
@@ -28,20 +27,25 @@ export function getAndParseCSV(url, header = true, download = false) {
 }
 
 export function processListData(data, config) {
+  if (config.displayFields == undefined || config.displayFields === "") {
+    return data;
+  }
+
   // use Map instead of object to guarantee order of the keys
   let listRecords = [];
 
-  if (config.displayFields.length > 0) {
-    data.forEach((row) => {
-      let newRow = new Map();
-      config.displayFields.forEach((field) => {
-        newRow.set(field, row.get(field));
-      });
-      listRecords.push(newRow);
+  // select fields in displayFields
+  data.forEach((row) => {
+    let newRow = new Map();
+    config.displayFields.forEach((field) => {
+      newRow.set(field, row.get(field));
     });
-  } else {
-    listRecords = data;
-  }
+    if (config.link?.idField) {
+      newRow.set(config.link.idField, row.get(config.link.idField));
+    }
+
+    listRecords.push(newRow);
+  });
 
   return listRecords;
 }
@@ -91,38 +95,43 @@ export function renderTabularData(data, config) {
   appEl = document.getElementById("data-container");
   if (appEl == undefined) return;
 
-  showMore = config.displayFields.length > 0;
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
-
-  displayAllRecords(listRecords);
+  displayAllRecords(listRecords, config);
 
   addSortableTable();
 }
 
-function createListTable(data) {
+function createListTable(data, config) {
   allRecordsEl = document.createElement("table");
   appEl.appendChild(allRecordsEl);
+  allRecordsEl.className = "list-table";
 
+  //  create header row
   let theadEl = document.createElement("thead");
+  theadEl.appendChild(createHeaderRow(data[0], config));
   allRecordsEl.appendChild(theadEl);
 
-  theadEl.appendChild(createHeaderRow(data));
-
+  // created table body
   let tbodyEl = document.createElement("tbody");
   tbodyEl.className = "list";
-  allRecordsEl.appendChild(tbodyEl);
 
-  data.forEach((row, i) => {
-    tbodyEl.appendChild(createRow(row, i));
+  // create rows
+  data.forEach((row) => {
+    tbodyEl.appendChild(createRow(row, config));
   });
+
+  allRecordsEl.appendChild(tbodyEl);
 }
 
-function createHeaderRow(data) {
+function createHeaderRow(row, config) {
   let rowEl = document.createElement("tr");
-  let row = data[0];
 
   row.forEach((value, key) => {
+    if (key === config.link?.idField) {
+      return;
+    }
+
     let headerEl = document.createElement("th");
     headerEl.innerText = key;
 
@@ -135,32 +144,33 @@ function createHeaderRow(data) {
     rowEl.appendChild(headerEl);
   });
 
-  if (showMore) {
-    let headerEl = document.createElement("th");
-    rowEl.appendChild(headerEl);
-  }
-
   return rowEl;
 }
 
-function createRow(row, rowIndex) {
+function createRow(row, config) {
   let rowEl = document.createElement("tr");
 
   row.forEach((value, key) => {
+    if (key === config.link?.idField) {
+      return;
+    }
+
     let tdEl = document.createElement("td");
 
-    tdEl.innerText = value;
     tdEl.className = key.replace(" ", "-").toLowerCase();
+
+    if (key === config.link?.textField) {
+      tdEl.classList.add("show-record");
+      tdEl.innerHTML = `<a data-resource-id="${row.get(
+        config.link.idField
+      )}" class="resource-link" href="${config.link.path}/${row.get(
+        config.link.idField
+      )}">${value}</a>`;
+    } else {
+      tdEl.innerText = value;
+    }
     rowEl.appendChild(tdEl);
   });
-
-  if (showMore) {
-    let tdEl = document.createElement("td");
-    tdEl.innerText = "show";
-    tdEl.className = "show-record";
-    tdEl.onclick = () => displayOneRecord(rowIndex);
-    rowEl.appendChild(tdEl);
-  }
 
   return rowEl;
 }
@@ -176,14 +186,14 @@ function createShowAllButton() {
   appEl.appendChild(showAllEl);
 }
 
-function displayAllRecords(data) {
+function displayAllRecords(data, config) {
   if (allRecordsEl) allRecordsEl.classList.remove("hidden");
   if (searchEl) searchEl.classList.remove("hidden");
   if (showAllEl) showAllEl.remove();
   if (oneRecordEl) oneRecordEl.remove();
 
   if (allRecordsEl == undefined) {
-    createListTable(data);
+    createListTable(data, config);
   }
 }
 
