@@ -50,13 +50,11 @@ L2-TQM-BL,L2,TQM-BL,Tenor,Quilted Maple,Quilted Maple,gloss,eDM1VjTI3VA,youtube,
 L2-TQM-LB,L2,TQM-LB,Tenor,Quilted Maple,Quilted Maple,gloss,wemORgz-3uU,youtube,f4bd17a6ee7a28e167c137f0181d9489
 L2-BQM-LB,L2,BQM-LB,Baritone,Quilted Maple,Quilted Maple,gloss,XZXBMHw3FmQ,youtube,6399b6d34231150cc25633a8204ac853
 L1-TMG,L1,TMG,Tenor,Mango,Mango,gloss,-H8O9hOtY6I,youtube,b62db57b34af0aee3f14d61fae092eb5
-L2-TSFM-LB,L2,TSFM-LB,Tenor,Spruce,Flame Maple,gloss,DzOQzjyBe9M,youtube,2393f818fa260e5e1c48e6ea2793e9cf
 L2-CRR,L2,CRR,Concert,Redwood,Rosewood,gloss,bQGOMwoxgsY,youtube,44074362b13b92bd47d05a049bbb31d4
 L1-CAS,L1,CAS,Concert,Acacia,Acacia,satin,n0sEYxxe7y0,youtube,5376b7232c2785e2e734d41bd03d85c5
 L3-CRML,L3,CRML,Concert,Redwood,Milo,gloss,j9jPvXrlJAc,youtube,70bf01d5f49cd9a921ded1505488017e
 L1-TAS,L1,TAS,Tenor,Acacia,Acacia,satin,qIKqcWcqiIg,youtube,fcb713921b4569f63a7e432c905b9921
 L1-CMGS,L1,CMGS,Concert,Mango,Mango,satin,z4wReLDOiTc,youtube,16ec607c29a73fcde3a34d488ca3ee78
-L2-BSFM-LB,L2,BSFM-LB,Baritone,Spruce,Flame Maple,gloss,DAscxwat_Vc,youtube,c4e7bf6581c3d36fa92ac9960460ff9a
 L2-CQM-LB,L2,CQM-LB,Concert,Quilted Maple,Quilted Maple,gloss,-3SRZE38g20,youtube,242ab9665421ed8c59bdac2c827396b8
 L2-BSFM-BR,L2,BSFM-BR,Baritone,Spruce,Flame Maple,gloss,LcPSAmOU_dw,youtube,63b2c7eca9f6a484e8cbcc3519e474ba
 L2-BSE,L2,BSE,Baritone,Spruce,Macassar Ebony ,gloss,9NUeYBhX9dU,youtube,0cf52b6a781c9c0e05b557b8028dec9a
@@ -75,10 +73,8 @@ L3-BSR-P,L3,BSR-P,Baritone,Spruce,Rosewood,gloss,U2jX0nAFijk,youtube,159da182bae
 L2-BRCM-SB,L2,BRCM-SB,Baritone,Redwood,Hawaiian (Cuban) Mahogany,gloss,m8q112Vr7Js,youtube,c9abf0e78b2e22df810e09029d3cfb0c
 L2-TFM-SB,L2,TFM-SB,Tenor,Flame Maple,Flame Maple,gloss,ur06v3xohPA,youtube,52971bcedb3ea24d29908631eb46e5d2
 L2-BTSCM,L2,BTSCM,Baritone,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,LJ2USq9lVpI,youtube,13e11a86f7d2456640e5d32d190c1211
-L3-CSR-P,L3,CSR-P,Concert,Spruce,Rosewood,gloss,bB_ODMYkRiE,youtube,08f7503777a911210772052ed7b67a47
 L2-TSR-LC,L2,TSR-LC,Tenor,Spruce,Rosewood,gloss,I5TRhtZMNJI,youtube,e05f94bf02c9a8464555d88bcc7f8b92
 L2-CMR,L2,CMR,Concert,Myrtle,Myrtle,gloss,N22bG_jN8NY,youtube,cb1b2cd62cb91d059b34df2d7b714d13
-L2-BRW,L2,BRW,Baritone,Redwood,Walnut,gloss,WCd0fltpEsc,youtube,8cce3a234ea4b21c2492b7c031fd15b0
 L2-CCPW,L2,CCPW,Concert,Port Orford Cedar,Walnut,gloss,bCuTF73J678,youtube,d08d66b339293ad8bc90651f14715bfd
 L3-BSE,L3,BSE,Baritone,Spruce,Ebony,gloss,89w0P-9jhAI,youtube,9cca0fca394e65f4c4e939991ebea260
 L3-CCE-H,L3,CCE-H,Concert,Cedar,Ebony,gloss,Rbm3qh-z8jU,youtube,b3f8e2888a01f353370c5525f3449ea7
@@ -93,7 +89,6 @@ L2-BQM,L2,BQM,Baritone,Quilted Maple,Quilted Maple,gloss,-8DAEx3BU8g,youtube,fd4
 L3-TTSE-H,L3,TTSE-H,Tenor,Torrefied spruce,Ebony,gloss,03s7LIKWPLA,youtube,ea6b2bb1d18a1c3e0d1b2f22b5d7daae
 L2-TSFM-SB,L2,TSFM-SB,Tenor,Spruce,Flame Maple,gloss,UUx6OsEMIOw,youtube,3819ed495d2e485c5b57755e11e7e6cc
 L2-CSCM,L2,CSCM,Concert,Spruce,Hawaiian (Cuban) Mahogany,gloss,ukWr4wZxRFU,youtube,9fe55e6025250f0a4bdd4f70f706f0d1
-L2-BCPMR,L2,BCPMR,Baritone,Port Orford Cedar,Myrtle,gloss,vZgdz3o2vHw,youtube,e6c084174d11668f3c8a3d10ed3c368a
 L2-TSR,L2,TSR,Tenor,Spruce,Rosewood,gloss,zQWpzlqbl_M,youtube,1410927d9f372a85da1a2fd8a6b34f62
 L2-CSR,L2,CSR,Concert,Spruce,Rosewood,gloss,sTDGGnz6CXM,youtube,b7d9c989577080aa515f79ed3c41af41
 L3-CCPML,L3,CCPML,Concert,Port Orford Cedar,Milo,gloss,8EV-3ifGQQA,youtube,a49b2edb0236b74f38ef8962e4e66f10
@@ -101,7 +96,6 @@ L2-CRR,L2,CRR,Concert,Curly Redwood,Rosewood,gloss,7fNk5YvFyy0,youtube,8b90515ce
 L3-CCES-H,L3,CCES-H,Concert,Cedar,Macassar Ebony ,satin,hxbyi25-sk0,youtube,268156aafac9f513a9730dc5eb5237b2
 L3-CCE-H-SB,L3,CCE-H-SB,Concert,Cedar,Macassar Ebony ,gloss,CHvJ5M-IWn8,youtube,5f047ff3b8e7f9228c6dd24e398e722b
 L2-CCCM,L2,CCCM,Concert,Cedar,Hawaiian (Cuban) Mahogany,gloss,2fglkjvNKLU,youtube,b14750fcec0221606f92c81c47a17f16
-X2-BTSRR,X2,BTSRR,Baritone,Torrefied spruce,Red Rosewood,gloss,4qNDoaI5w20,youtube,ff1c12258987f17b3636b7b1691973c4
 L-TMGS,L,TMGS,Tenor,Mango,Mango,satin,-a8Htsage2c,youtube,6c14c9c5696328b841f10044df954c12
 L-CMGS,L,CMGS,Concert,Mango,Mango,satin,2xi4DMxrXak,youtube,8682089b15cfd5eda098eceac71761c5
 L-BMGS,L,BMGS,Baritone,Mango,Mango,satin,lGxw2Dy_Eqc,youtube,07707a4f6118ac0e433e34f9376ab00c
@@ -110,18 +104,30 @@ L-TAS,L,TAS,Tenor,Acacia,Acacia,satin,Vs5t3ISGJoM,youtube,de005ead9236e33d028ba8
 L-BAS,L,BAS,Baritone,Acacia,Acacia,satin,QQP9af-1LKk,youtube,78cacb1f6b51ad816d878621d0e74fce
 L2-TCR,L2,TCR,Tenor,Cedar,Rosewood,gloss,KGmCxXLAF-k,youtube,66b21194c5b418d37216b603a4c202e3
 L2-TPMG,L2,TPMG,Tenor,Mango,Mango,gloss,qTpxK_wzhY8,youtube,b5b6553912d77dcee2c5e70d3a27a586
-L2-CPMG,L2,CPMG,Concert,Mango,Mango,gloss,8gKlq1m6dQ8,youtube,00ed8885ebfd7a4add22f0cef11076e3
 L2-TTSA,L2,TTSA,Tenor,Torrefied spruce,Acacia,gloss,eUGEsySF4Lw,youtube,949e2dee45ffe23104c804cde941d209
 L2-TMG,L2,TMG,Tenor,Mango,Mango,gloss,BwNkbyMHzpQ,youtube,f8e2f0955694a60036f37491c15bcca4
 L2-BMG,L2,BMG,Baritone,Mango,Mango,gloss,Iqeia3_o6Vc,youtube,6c3bbc40618711d4c968ccc0b716d915
-X-TMHS,X,TMHS,Tenor,Mahogany,Mahogany,satin,ThOI0LKaPbA,youtube,7ba5bce2580d4aaf6950ab0da164c73f
+X1-TMH-S,X1,TMH-S,Tenor,Mahogany,Mahogany,satin,ThOI0LKaPbA,youtube,cc7bfb523a64d49dafbc407f02c6e974
 L2-BTSA,L2,BTSA,Baritone,Torrefied spruce,Acacia,gloss,qbWx32Utyd8,youtube,d84036817182db051c0aa0d92ca63c45
-L1-TSWA-VB,L1,TSWA-VB,Tenor,Spruce,Waru,gloss,bWtYd3jsuNs,youtube,fe0eda79c3f03d79e8c0756ecc55e77e
+L1-TSWA-VB,L1,TSWA-VB,Tenor,Spruce,Waru,,bWtYd3jsuNs,youtube,fe0eda79c3f03d79e8c0756ecc55e77e
 L2-CMG,L2,CMG,Concert,Mango,Mango,gloss,CiRh5FccAIc,youtube,b896dea775786969dd6a0305484d3e8b
 L2-BSR,L2,BSR,Baritone,Spruce,Rosewood,gloss,pVLOXLcSs_4,youtube,526040d6688242ad5f09d78da8cb79b5
 L2-CTSA,L2,CTSA,Concert,Torrefied spruce,Acacia,gloss,3AuOVsytXXg,youtube,9cc32425e478b50ced802edcd3a94f5e
-L1-BSWA-VB,L1,BSWA-VB,Baritone,Spruce,Waru,gloss,9Zn7TWt7QIY,youtube,6ab70a72183a0dd5ce44604f88ac78a6
-X1-BMH,X1,BMH,Baritone,Mahogany,Mahogany,satin,HQfblnbmgRI,youtube,fb22d2136920f2a409b10e63903441a5
+X1-CMH-S,X1,CMH-S,Concert,Mahogany,Mahogany,satin,2gVLJCw8dMU,youtube,0c4bbc96c481d886b92ae9335cbac92e
+L2-TCIR-P,L2,TCIR-P,Tenor,Pink Incense Cedar,Rosewood,,A2KHntVWIQA,youtube,2ea7e0edcf90ca4568263d2c5c590a7a
+L3-BCIR-P,L3,BCIR-P,Baritone,Pink Incense Cedar,Rosewood,,xTVH-canCVo,youtube,bedeca78160f32fc0bb67359d30209b1
+L2-TMR,L2,TMR,Tenor,Curly Myrtle,Curly Myrtle,,037scxWrmu4,youtube,736db2f2588da8e9dbe7cb980c7d1c1c
+L2-TMR,L2,TMR,Tenor,Tiger Myrtle,Tiger Myrtle,,sd3nrJOD-Pk,youtube,4e2e8ac61083c99fb505e03bb7f3db6f
+L2-BCPMR,L2,BCPMR,Baritone,Port Orford Cedar,Curly Myrtle,,_B6sHsCgvTE,youtube,449a8ab443ee7c51ea24ebec328590ec
+L2-TSFM-LB,L2,TSFM-LB,Tenor,Spruce,Flame Maple,,mM3A6ZAbijM,youtube,2393f818fa260e5e1c48e6ea2793e9cf
+L1-TSKMR,L1,TSKMR,Tenor,Sitka Spruce,Myrtle,,E15bbTv257c,youtube,32d02407c3939b8481d7466c51db1d2b
+L1-TMR,L1,TMR,Tenor,Myrtle,Myrtle,,Ky1eEG5qC6Y,youtube,8b1edaa8b4661c8b4563448478d72621
+L2-BRW,L2,BRW,Baritone,Redwood,Walnut,,fCSFtzogbMQ,youtube,8cce3a234ea4b21c2492b7c031fd15b0
+L2-TCPMR,L2,TCPMR,Tenor,Port Orford Cedar,Tiger Myrtle,,znyxkeAk-yQ,youtube,e00c1560f6606dacb2f7c2558bb0d485
+L2-CCPMR,L2,CCPMR,Concert,Port Orford Cedar,Myrtle,,x5lwhNQUSvQ,youtube,f3af325baee73c6d1ed9735a45f9c094
+L2-CSFM-LB,L2,CSFM-LB,Concert,Spruce,Flame Maple,,oAyzQjK3UeY,youtube,79b3a250d5e0324f83c7050bce1ac816
+L2-CMR,L2,CMR,Concert,Curly Myrtle,Curly Myrtle,,T6Qaw6nV-qc,youtube,a0049a32b7bf5da3772385d65c7b5316
+L2-BSFM-LB,L2,BSFM-LB,Baritone,Spruce,Flame Maple,,eJH8yZzbb7M,youtube,c4e7bf6581c3d36fa92ac9960460ff9a
 L2-BSQM-SB,L2,BSQM-SB,Baritone,Spruce,Quilted Maple,gloss,-QxAxACwwPI,youtube,0df2ce36f4669c08f2a6b5ef127d5c60
 L3-TRML,L3,TRML,Tenor,Redwood,Milo,gloss,6uik2UVNWAw,youtube,457419df78089d1d0f75118b92aefcec
 L2-CCW,L2,CCW,Concert,Cedar,Walnut,gloss,7CBLztOz62E,youtube,13ffbcdee9bfe311f067e9bf0e07e5ba
@@ -135,7 +141,6 @@ L2-BMR,L2,BMR,Baritone,Myrtle,Myrtle,gloss,ODUFkjCwndg,youtube,3c69053a6802acf0f
 L2-TCPMR,L2,TCPMR,Tenor,Port Orford Cedar,Myrtle,gloss,oiHEZKaN8ik,youtube,e88bae318252db2eb1cc04e350a92b58
 X2-BCRBW,X2,BCRBW,Baritone,Cedar,Black and White Rosewood,gloss,PTMO6cWPf9o,youtube,bc96a03960d1a57345e060be1d6d02ba
 L1-TPMG,L1,TPMG,Tenor,Mango,Mango,gloss,qYeqrVREuWo,youtube,ff953f84f5953fdd7cf206c2c8163ddc
-X-SMHS,X,SMHS,Soprano,Mahogany,Mahogany,satin,TygkMqVWevU,youtube,4f060736abe3bbbe8eac589e91ffb976
 L1-TMG-BK,L1,TMG-BK,Tenor,Mango,Mango,gloss,YNPbOKeQnvY,youtube,c917221477c2f9bca7842bed7bc0d5fb
 L3-TRML,L3,TRML,Tenor,Curly Redwood,Milo,gloss,6uik2UVNWAw,youtube,7092f00e29aed5716fa9a60691ce3b95
 L2-BRR,L2,BRR,Baritone,Redwood,Rosewood,gloss,kw116fM159g,youtube,60f0fe4b1b348e1742ef3f136049ee42
@@ -147,6 +152,14 @@ L3-TSR-P,L3,TSR-P,Tenor,Spruce,Rosewood,gloss,WeC-fgs9Gcc,youtube,a1570c21d8008c
 L2-TTSCM,L2,TTSCM,Tenor,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,vdwfXQ1iuIY,youtube,81a4a9bd371c2da50766b138816f35f6
 X2-TTSRR,X2,TTSRR,Tenor,Torrefied spruce,Red Rosewood,gloss,5opERUz7YWM,youtube,de41d2b863972c1da3b4d06e474b7ac3
 X2-BTSRBW,X2,BTSRBW,Baritone,Torrefied spruce,Black and White Rosewood,gloss,UEpCcA2lKCk,youtube,c1f4cd0986af47337067f16add01c77f
+L2-CPMG,L2,CPMG,Concert,Mango,Mango,gloss,8gKlq1m6dQ8,youtube,00ed8885ebfd7a4add22f0cef11076e3
+L1-BSWA-VB,L1,BSWA-VB,Baritone,Spruce,Waru,gloss,9Zn7TWt7QIY,youtube,6ab70a72183a0dd5ce44604f88ac78a6
+X1-BMH-S,X1,BMH-S,Baritone,Mahogany,Mahogany,satin,HQfblnbmgRI,youtube,b6406730e563b38e24f7e95b798b2ee1
+X2-BTSRR,X2,BTSRR,Baritone,Torrefied spruce,Red Rosewood,gloss,UEpCcA2lKCk,youtube,ff1c12258987f17b3636b7b1691973c4
+X1-SMH-S,X1,SMH-S,Soprano,Mahogany,Mahogany,satin,TygkMqVWevU,youtube,c47061a1004bcc3dd219c568a388eae3
+L3-CSE-H,L3,CSE-H,Concert,Spruce,Macassar Ebony,,7PABqyB1Ef8,youtube,b9f09085ae56331c73ba9eff7922ffc0
+L3-CSR-P,L3,CSR-P,Concert,Spruce,Rosewood,gloss,bB_ODMYkRiE,youtube,08f7503777a911210772052ed7b67a47
+L2-BCPMR,L2,BCPMR,Baritone,Port Orford Cedar,Myrtle,gloss,vZgdz3o2vHw,youtube,e6c084174d11668f3c8a3d10ed3c368a
 L1-BMG,L1,BMG,Baritone,Mango,Mango,gloss,Ry0bnxqiv1o,youtube,db2298b147c5c1066be8c97bc196827b
 L2-BSFM,L2,BSFM,Baritone,Spruce,Flame Maple,gloss,NGXdS8PQ31g,youtube,1badcd2414f039cad96f2e00bd19bb27
 L2-BCR,L2,BCR,Baritone,Cedar,Rosewood,gloss,rVt1EjNZg_k,youtube,c995f24d9615e629c60862e26d16a40a
