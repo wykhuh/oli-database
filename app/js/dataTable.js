@@ -11,7 +11,7 @@ let oneRecordEl;
 // fetch and process CSV
 //==========================
 
-export function getAndParseCSV(url, header = true, download = false) {
+export function getAndParseCSV(url, header = true, download = true) {
   return new Promise((resolve, reject) => {
     Papa.parse(url, {
       header: header,
@@ -163,7 +163,7 @@ function createRow(row, config) {
       tdEl.classList.add("show-record");
       tdEl.innerHTML = `<a data-resource-id="${row.get(
         config.link.idField
-      )}" class="resource-link" href="${config.link.path}/${row.get(
+      )}" class="resource-link" href="/${config.link.path}/${row.get(
         config.link.idField
       )}">${value}</a>`;
     } else {
