@@ -1,11 +1,9 @@
 let headerClasses = [];
 let allRecords = [];
 let listRecords = [];
-let appEl;
+let dataContainerEl;
 let searchEl;
-let allRecordsEl;
-let showAllEl;
-let oneRecordEl;
+let allRecordsTableEl;
 
 //==========================
 // fetch and process CSV
@@ -92,25 +90,25 @@ export function renderTabularData(data, config) {
   searchEl = document.getElementById("search-form");
   if (searchEl == undefined) return;
 
-  appEl = document.getElementById("data-container");
-  if (appEl == undefined) return;
+  dataContainerEl = document.getElementById("data-container");
+  if (dataContainerEl == undefined) return;
 
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
-  displayAllRecords(listRecords, config);
+
+  createListTable(listRecords, config);
 
   addSortableTable();
 }
 
 function createListTable(data, config) {
-  allRecordsEl = document.createElement("table");
-  appEl.appendChild(allRecordsEl);
-  allRecordsEl.className = "list-table";
+  allRecordsTableEl = document.createElement("table");
+  allRecordsTableEl.className = "list-table stripe-table";
 
   //  create header row
   let theadEl = document.createElement("thead");
   theadEl.appendChild(createHeaderRow(data[0], config));
-  allRecordsEl.appendChild(theadEl);
+  allRecordsTableEl.appendChild(theadEl);
 
   // created table body
   let tbodyEl = document.createElement("tbody");
@@ -121,7 +119,8 @@ function createListTable(data, config) {
     tbodyEl.appendChild(createRow(row, config));
   });
 
-  allRecordsEl.appendChild(tbodyEl);
+  allRecordsTableEl.appendChild(tbodyEl);
+  dataContainerEl.appendChild(allRecordsTableEl);
 }
 
 function createHeaderRow(row, config) {
@@ -161,11 +160,14 @@ function createRow(row, config) {
 
     if (key === config.link?.textField) {
       tdEl.classList.add("show-record");
-      tdEl.innerHTML = `<a data-resource-id="${row.get(
-        config.link.idField
-      )}" class="resource-link" href="/${config.link.path}/${row.get(
-        config.link.idField
-      )}">${value}</a>`;
+
+      let linkEl = document.createElement("a");
+      linkEl.className = "resource-link";
+      linkEl.dataset.rescoureId = row.get(config.link.idField);
+      linkEl.href = `/${config.link.path}/${row.get(config.link.idField)}`;
+      linkEl.textContent = value;
+
+      tdEl.appendChild(linkEl);
     } else {
       tdEl.innerText = value;
     }
@@ -173,28 +175,6 @@ function createRow(row, config) {
   });
 
   return rowEl;
-}
-
-function createShowAllButton() {
-  showAllEl = document.createElement("button");
-  showAllEl.className = "show-all";
-  showAllEl.innerText = "Show all records";
-
-  showAllEl.className = "show-all";
-  showAllEl.onclick = () => displayAllRecords();
-
-  appEl.appendChild(showAllEl);
-}
-
-function displayAllRecords(data, config) {
-  if (allRecordsEl) allRecordsEl.classList.remove("hidden");
-  if (searchEl) searchEl.classList.remove("hidden");
-  if (showAllEl) showAllEl.remove();
-  if (oneRecordEl) oneRecordEl.remove();
-
-  if (allRecordsEl == undefined) {
-    createListTable(data, config);
-  }
 }
 
 function addSortableTable() {
@@ -205,50 +185,37 @@ function addSortableTable() {
 }
 
 //==========================
-// one record table
+// create table with field names in first column, values in second column
 //==========================
 
-function createDetailsTable(row) {
-  oneRecordEl = document.createElement("table");
-  appEl.appendChild(oneRecordEl);
+function createFieldValueRow(field, value) {
+  let row = document.createElement("tr");
 
-  row.forEach((value, key) => {
-    let trEl = document.createElement("tr");
+  let headerCell = document.createElement("th");
+  headerCell.textContent = field;
+  headerCell.style.textAlign = "left";
+  row.appendChild(headerCell);
 
-    let thEl = document.createElement("th");
-    thEl.innerText = key;
+  let valueCell = document.createElement("td");
+  valueCell.textContent = value;
+  row.appendChild(valueCell);
+  return row;
+}
 
-    trEl.appendChild(thEl);
+export function createFieldValueTable(data, fields) {
+  let table = document.createElement("table");
+  fields.forEach((field) => {
+    if (data[field] === "") return;
 
-    let tdEl = document.createElement("td");
-    tdEl.innerText = value;
-
-    trEl.appendChild(tdEl);
-
-    oneRecordEl.appendChild(trEl);
+    let row = createFieldValueRow(field, data[field]);
+    table.appendChild(row);
   });
+
+  return table;
 }
-
-function displayOneRecord(rowIndex) {
-  if (allRecordsEl) allRecordsEl.classList.add("hidden");
-  if (searchEl) searchEl.classList.add("hidden");
-  if (showAllEl) showAllEl.remove();
-  if (oneRecordEl) oneRecordEl.remove();
-
-  createShowAllButton();
-  createDetailsTable(allRecords[rowIndex]);
-}
-
 //==========================
 // misc
 //==========================
-
-function renderError(error) {
-  appEl = document.getElementById("data-container");
-  if (appEl == undefined) return;
-  appEl.innerText = error;
-  appEl.classList.add("error");
-}
 
 export function renderPageIntro(configData) {
   if (configData.title) {

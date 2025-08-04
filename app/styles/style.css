@@ -10,12 +10,16 @@ main {
 
 th,
 td {
-  /* border: 1px solid #ccc; */
   padding: 0.25rem 0.4rem;
 }
 
-tr:nth-child(even) {
+.stripe-table tr:nth-child(even) {
   background-color: #eee;
+}
+
+.card {
+  border-top: 2px solid #ddd;
+  padding: 1rem 0;
 }
 
 .loading {

@@ -2,9 +2,8 @@ import { renderTabularData, renderPageIntro } from "../js/dataTable.js";
 
 export class ModelsListPage extends HTMLElement {
   async render() {
-    renderPageIntro(app.store.config);
-    renderTabularData(app.store.models, app.store.config);
-
+    renderPageIntro(app.store.config.home);
+    renderTabularData(app.store.models, app.store.config.home);
     let links = document.querySelectorAll(".list-table .resource-link");
     if (links.length > 0) {
       links.forEach((link) => {
