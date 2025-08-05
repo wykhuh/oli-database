@@ -1,9 +1,6 @@
 let headerClasses = [];
 let allRecords = [];
 let listRecords = [];
-let dataContainerEl;
-let searchEl;
-let allRecordsTableEl;
 
 //==========================
 // fetch and process CSV
@@ -86,29 +83,30 @@ export function processConfig(configData) {
 // all records table
 //==========================
 
-export function renderTabularData(data, config) {
-  searchEl = document.getElementById("search-form");
+export function renderSortableTable(data, config) {
+  let searchEl = document.getElementById("search-form");
   if (searchEl == undefined) return;
 
-  dataContainerEl = document.getElementById("data-container");
+  let dataContainerEl = document.getElementById("data-container");
   if (dataContainerEl == undefined) return;
 
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
 
-  createListTable(listRecords, config);
+  let table = createListTable(listRecords, config);
+  dataContainerEl.appendChild(table);
 
   addSortableTable();
 }
 
 function createListTable(data, config) {
-  allRecordsTableEl = document.createElement("table");
-  allRecordsTableEl.className = "list-table stripe-table";
+  let table = document.createElement("table");
+  table.className = "list-table stripe-table";
 
   //  create header row
   let theadEl = document.createElement("thead");
   theadEl.appendChild(createHeaderRow(data[0], config));
-  allRecordsTableEl.appendChild(theadEl);
+  table.appendChild(theadEl);
 
   // created table body
   let tbodyEl = document.createElement("tbody");
@@ -119,8 +117,8 @@ function createListTable(data, config) {
     tbodyEl.appendChild(createRow(row, config));
   });
 
-  allRecordsTableEl.appendChild(tbodyEl);
-  dataContainerEl.appendChild(allRecordsTableEl);
+  table.appendChild(tbodyEl);
+  return table;
 }
 
 function createHeaderRow(row, config) {
