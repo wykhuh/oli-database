@@ -12,8 +12,14 @@ window.addEventListener("DOMContentLoaded", async () => {
   if (!loaderEl) return;
 
   loaderEl.className = "loading";
-  app.store.models = await getAndParseCSV("../data/models_list.csv");
-  app.store.units = await getAndParseCSV("../data/units_list.csv");
+  let models = await getAndParseCSV("../data/models_list.csv");
+  let units = await getAndParseCSV("../data/units_list.csv");
+  app.store.models = models.filter((item) =>
+    Object.values(item).some((v) => v !== "")
+  );
+  app.store.units = units.filter((item) =>
+    Object.values(item).some((v) => v !== "")
+  );
 
   app.store.config = {
     home: {
