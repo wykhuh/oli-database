@@ -12,6 +12,13 @@ OLI_PLAYLIST_ID = "PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2"
 OLI_PLAYLIST_2_ID = "PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD"
 TUS_CLIPS_ID = "UCEg5r7VYluy43shJKpKGeVg"
 
+playlist1_path = project_path / "raw_data" / "oli_playlist.csv"
+playlist2_path = project_path / "raw_data" / "oli_playlist_2.csv"
+missing_path = project_path / "raw_data" / "missing_videos.csv"
+
+missing_cleaned_path = project_path / "processed_data" / "missing_videos_fixed.csv"
+videos_path = project_path / "processed_data" / "videos_list.csv"
+
 
 def process_playlist_items(json, playlist_id):
     records = []
@@ -74,7 +81,7 @@ def build_search_channel_url(api_key, channelId, keyword, limit=50):
     return url
 
 
-def download_oli_playlist(playlist_id, file_name):
+def download_oli_playlist(playlist_id, file_path):
     url = build_playlist_items_url(envar.API_KEY, playlist_id)
     print(url)
     res = requests.get(url)
@@ -91,13 +98,13 @@ def download_oli_playlist(playlist_id, file_name):
         records += new_records
 
     df = pd.DataFrame(records)
-    df.to_csv(project_path / "raw_data" / file_name, index=False)
+    df.to_csv(file_path, index=False)
 
 
 # look for 'Oli videos not included in the playlists
 def find_missing_videos():
-    oli_playlist_df = pd.read_csv(project_path / "raw_data" / "oli_playlist.csv")
-    oli_playlist_2_df = pd.read_csv(project_path / "raw_data" / "oli_playlist_2.csv")
+    oli_playlist_df = pd.read_csv(playlist1_path)
+    oli_playlist_2_df = pd.read_csv(playlist2_path)
     ids = list(oli_playlist_df["video_id"]) + list(oli_playlist_2_df["video_id"])
 
     url = build_search_channel_url(envar.API_KEY, TUS_CLIPS_ID, "oli")
@@ -117,12 +124,12 @@ def find_missing_videos():
 
     df = pd.DataFrame(records)
     df = df.sort_values(["published_at", "video_id"])
-    df.to_csv(project_path / "raw_data" / "missing_videos.csv", index=False)
+    df.to_csv(missing_path, index=False)
 
 
 # clean up values in missing videos csv
 def update_missing_videos():
-    missing_df = pd.read_csv("../raw_data/missing_videos.csv")
+    missing_df = pd.read_csv(missing_path)
     missing_df["video_title"] = missing_df["video_title"].replace(
         {"&#39;": "'", "&quot;": '"', "&amp;": "&"}, regex=True
     )
@@ -147,11 +154,25 @@ def update_missing_videos():
 
     missing_df = missing_df.drop_duplicates()
 
-    missing_df.to_csv("../processed_data/missing_videos_fixed.csv", index=False)
+    missing_df.to_csv(missing_cleaned_path, index=False)
 
 
-# download_oli_playlist(OLI_PLAYLIST_ID, 'oli_playlist.csv')
-# download_oli_playlist(OLI_PLAYLIST_2_ID, 'oli_playlist_2.csv')
+def create_videos_file():
+    playlist1_df = pd.read_csv(playlist1_path)
+    playlist2_df = pd.read_csv(playlist2_path)
+    missing_df = pd.read_csv(missing_cleaned_path)
+
+    combine_df = pd.concat([playlist1_df, playlist2_df, missing_df])
+    # convert to date
+    combine_df["published_at_2"] = pd.to_datetime(combine_df["published_at"])
+
+    combine_df.to_csv(videos_path, index=False)
+
+
+# download_oli_playlist(OLI_PLAYLIST_ID, playlist1_path)
+# download_oli_playlist(OLI_PLAYLIST_2_ID, playlist2_path)
 
 # find_missing_videos()
 # update_missing_videos()
+
+# create_videos_file()
