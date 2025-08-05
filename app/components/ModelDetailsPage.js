@@ -20,7 +20,7 @@ export class ModelDetailsPage extends HTMLElement {
 
         if (this.models && this.models.length > 1) {
           let heading = document.createElement("h3");
-          heading.textContent = "Wood Combinations";
+          heading.textContent = "Variations";
           modelDataEl.appendChild(heading);
 
           let table = createTable(this.models, app.store.config.modelDetails);

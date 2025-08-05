@@ -36,11 +36,11 @@ window.addEventListener("DOMContentLoaded", async () => {
       displayFields: [
         "Model",
         "Tier",
-        "Type",
         "Size",
         "Top Wood",
         "Back Wood",
         "Finish",
+        "Model Notes",
         "Video Published At",
       ],
       link: { textField: "Model", idField: "Oli Id", path: "models" },
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         "Finish",
         "Limited Edition",
       ],
-      displayFields: ["Top Wood", "Back Wood"],
+      displayFields: ["Top Wood", "Back Wood", "Model Notes"],
       unitFields: [
         "Top Wood",
         "Back Wood",
