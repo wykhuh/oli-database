@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+import fire
 
 project_path = Path(__file__).parent.parent
 playlist1_path = project_path / "raw_data" / "oli_playlist.csv"
@@ -12,17 +13,6 @@ models_path = project_path / "app" / "data" / "models_list.csv"
 units_path = project_path / "app" / "data" / "units_list.csv"
 
 int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
-
-def create_videos_file():
-    playlist1_df = pd.read_csv(playlist1_path)
-    playlist2_df = pd.read_csv(playlist2_path)
-    missing_df = pd.read_csv(missing_path)
-
-    combine_df = pd.concat([playlist1_df, playlist2_df, missing_df])
-    # convert to date
-    combine_df["published_at_2"] = pd.to_datetime(combine_df["published_at"])
-
-    combine_df.to_csv(videos_path, index=False)
 
 
 def create_models_file():
@@ -49,11 +39,13 @@ def create_models_file():
     models_df = my_oli_df[my_oli_df["video_type"] == "sound_sample"]
     models_df = models_df.drop("video_type", axis=1)
     models_df = models_df.dropna(subset=["model"])
-    models_df = models_df.drop_duplicates(subset=["oli_id", "top_wood", "back_wood"], keep="first")
+    models_df = models_df.drop_duplicates(
+        subset=["oli_id", "top_wood", "back_wood"], keep="first"
+    )
     # update column names
     models_df.columns = [name.replace("_", " ").title() for name in models_df.columns]
 
-    print('models_df', models_df.shape)
+    print("models_df", models_df.shape)
     models_df.to_csv(models_path, index=False)
 
 
@@ -87,10 +79,14 @@ def create_units_file():
     # update column names
     units_df.columns = [name.replace("_", " ").title() for name in units_df.columns]
 
-    print('units_df', units_df.shape)
+    print("units_df", units_df.shape)
     units_df.to_csv(units_path, index=False)
 
 
-# create_videos_file()
-create_models_file()
-create_units_file()
+if __name__ == "__main__":
+    fire.Fire(
+        {
+            "create_models_file": create_models_file,
+            "create_units_file": create_units_file,
+        }
+    )

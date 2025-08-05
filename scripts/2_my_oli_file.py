@@ -2,6 +2,7 @@ import pandas as pd
 import envar as envar
 from pathlib import Path
 import hashlib
+import fire
 
 project_path = Path(__file__).parent.parent
 oli_path = project_path / "raw_data" / "Oli.csv"
@@ -9,6 +10,8 @@ video_path = project_path / "processed_data" / "videos_list.csv"
 int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
 
 
+# uses youtube video id to fill in the rest of the video information
+# (title, date, playlist position, etc)
 def update_video_data():
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
@@ -43,12 +46,20 @@ def add_oil_id():
         if pd.isna(row["model"]):
             continue
 
+        # use md5 to create id
         # temp = row["model"] + row["top_wood"] + row["back_wood"]
         # my_oli_df.loc[i, "oli_id"] = hashlib.md5(temp.encode()).hexdigest()
-        my_oli_df.loc[i, "oli_id"] = row["model"].replace(' ','')
+
+        # use model name to create id
+        my_oli_df.loc[i, "oli_id"] = row["model"].replace(" ", "")
 
     my_oli_df.to_csv(oli_path, index=False)
 
 
-# update_video_data()
-add_oil_id()
+if __name__ == "__main__":
+    fire.Fire(
+        {
+            "update_video_data": update_video_data,
+            "add_oil_id": add_oil_id,
+        }
+    )

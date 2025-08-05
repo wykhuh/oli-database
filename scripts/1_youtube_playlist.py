@@ -3,6 +3,7 @@ import time
 import pandas as pd
 import envar as envar
 from pathlib import Path
+import fire
 
 project_path = Path(__file__).parent.parent
 API_BASE = "https://www.googleapis.com/youtube/v3/"
@@ -169,10 +170,18 @@ def create_videos_file():
     combine_df.to_csv(videos_path, index=False)
 
 
-# download_oli_playlist(OLI_PLAYLIST_ID, playlist1_path)
-# download_oli_playlist(OLI_PLAYLIST_2_ID, playlist2_path)
+def download_yt_data():
+    download_oli_playlist(OLI_PLAYLIST_ID, playlist1_path)
+    download_oli_playlist(OLI_PLAYLIST_2_ID, playlist2_path)
 
-# find_missing_videos()
-# update_missing_videos()
+    find_missing_videos()
+    update_missing_videos()
 
-# create_videos_file()
+
+if __name__ == "__main__":
+    fire.Fire(
+        {
+            "download_yt_data": download_yt_data,
+            "create_videos_file": create_videos_file,
+        }
+    )
