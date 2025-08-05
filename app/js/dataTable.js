@@ -181,7 +181,16 @@ function addSortableTable() {
   var options = {
     valueNames: headerClasses,
   };
-  new List("data-container", options);
+  let sortableTable = new List("data-container", options);
+
+  // create event so we can track number of items shown
+  sortableTable.on("updated", () => {
+    window.dispatchEvent(
+      new CustomEvent("listUpdated", {
+        detail: { visibleItemsCount: sortableTable.visibleItems.length },
+      })
+    );
+  });
 }
 
 //==========================
