@@ -58,5 +58,10 @@ export const Router = {
       document.querySelector("main")?.appendChild(pageElement);
     }
     updatePage();
+
+    // scroll to top if there is is no anchor jump
+    if (!route.includes("#")) {
+      window.scrollTo(0, 0);
+    }
   },
 };
