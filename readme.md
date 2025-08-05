@@ -15,3 +15,11 @@ Data cleaning
 - Python
 - Pandas
 - requests
+
+## Commands
+
+lint python scripts
+
+```bash
+ruff format scripts
+```

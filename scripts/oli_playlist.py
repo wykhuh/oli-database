@@ -10,7 +10,8 @@ API_BASE = "https://www.googleapis.com/youtube/v3/"
 OLI_PLAYLIST_ID = "PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2"
 # OLI_PLAYLIST_2_ID has some old videos that were not added to OLI_PLAYLIST_ID
 OLI_PLAYLIST_2_ID = "PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD"
-TUS_CLIPS_ID = 'UCEg5r7VYluy43shJKpKGeVg'
+TUS_CLIPS_ID = "UCEg5r7VYluy43shJKpKGeVg"
+
 
 def process_playlist_items(json, playlist_id):
     records = []
@@ -22,7 +23,7 @@ def process_playlist_items(json, playlist_id):
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
-                "playlist_id": playlist_id
+                "playlist_id": playlist_id,
             }
             records.append(data)
         except:
@@ -30,16 +31,17 @@ def process_playlist_items(json, playlist_id):
 
     return records
 
+
 def process_search_items(json, ids):
     records = []
-    if 'items' not in json:
+    if "items" not in json:
         print(json)
         return []
 
     for item in json["items"]:
-        if 'videoId' not in item['id']:
+        if "videoId" not in item["id"]:
             continue
-        if item['id']['videoId'] in ids:
+        if item["id"]["videoId"] in ids:
             continue
 
         try:
@@ -51,11 +53,9 @@ def process_search_items(json, ids):
             }
             records.append(data)
         except:
-            print(item['snippet'])
-
+            print(item["snippet"])
 
     return records
-
 
 
 def build_playlist_items_url(api_key, playlistId, limit=50):
@@ -64,6 +64,7 @@ def build_playlist_items_url(api_key, playlistId, limit=50):
         + f"playlistItems?part=snippet&key={api_key}&playlistId={playlistId}&maxResults={limit}"
     )
     return url
+
 
 def build_search_channel_url(api_key, channelId, keyword, limit=50):
     url = (
@@ -89,17 +90,17 @@ def download_oli_playlist(playlist_id, file_name):
         new_records = process_playlist_items(json, playlist_id)
         records += new_records
 
-
     df = pd.DataFrame(records)
-    df.to_csv(project_path/"raw_data"/file_name, index=False)
+    df.to_csv(project_path / "raw_data" / file_name, index=False)
+
 
 # look for 'Oli videos not included in the playlists
 def find_missing_videos():
-    oli_playlist_df = pd.read_csv(project_path/"raw_data"/"oli_playlist.csv")
-    oli_playlist_2_df = pd.read_csv(project_path/"raw_data"/"oli_playlist_2.csv")
-    ids = list(oli_playlist_df['video_id']) + list(oli_playlist_2_df['video_id'])
+    oli_playlist_df = pd.read_csv(project_path / "raw_data" / "oli_playlist.csv")
+    oli_playlist_2_df = pd.read_csv(project_path / "raw_data" / "oli_playlist_2.csv")
+    ids = list(oli_playlist_df["video_id"]) + list(oli_playlist_2_df["video_id"])
 
-    url = build_search_channel_url(envar.API_KEY, TUS_CLIPS_ID, 'oli')
+    url = build_search_channel_url(envar.API_KEY, TUS_CLIPS_ID, "oli")
     print(url)
     res = requests.get(url)
     json = res.json()
@@ -114,30 +115,40 @@ def find_missing_videos():
         new_records = process_search_items(json, ids)
         records += new_records
 
-
     df = pd.DataFrame(records)
-    df = df.sort_values(['published_at', 'video_id'])
-    df.to_csv(project_path/"raw_data"/"missing_videos.csv", index=False)
+    df = df.sort_values(["published_at", "video_id"])
+    df.to_csv(project_path / "raw_data" / "missing_videos.csv", index=False)
+
 
 # clean up values in missing videos csv
 def update_missing_videos():
-    missing_df = pd.read_csv('../raw_data/missing_videos.csv')
-    missing_df['video_title'] = missing_df['video_title'].replace(
-        {'&#39;': "'", "&quot;": '"', '&amp;': '&'}, regex=True)
+    missing_df = pd.read_csv("../raw_data/missing_videos.csv")
+    missing_df["video_title"] = missing_df["video_title"].replace(
+        {"&#39;": "'", "&quot;": '"', "&amp;": "&"}, regex=True
+    )
 
-    missing_df['position'] = -9999
-    missing_df['playlist_id']=''
+    missing_df["position"] = -9999
+    missing_df["playlist_id"] = ""
 
-    missing_df = missing_df[missing_df['video_title'].str.contains('Oli')]
+    missing_df = missing_df[missing_df["video_title"].str.contains("Oli")]
 
-    missing_df = missing_df[['position', 'video_title', 'published_at', 'video_id',
-                             'video_thumbnail','playlist_id']]
+    missing_df = missing_df[
+        [
+            "position",
+            "video_title",
+            "published_at",
+            "video_id",
+            "video_thumbnail",
+            "playlist_id",
+        ]
+    ]
 
-    missing_df = missing_df.sort_values(['published_at', 'video_id'])
+    missing_df = missing_df.sort_values(["published_at", "video_id"])
 
     missing_df = missing_df.drop_duplicates()
 
-    missing_df.to_csv('../processed_data/missing_videos_fixed.csv', index=False)
+    missing_df.to_csv("../processed_data/missing_videos_fixed.csv", index=False)
+
 
 # download_oli_playlist(OLI_PLAYLIST_ID, 'oli_playlist.csv')
 # download_oli_playlist(OLI_PLAYLIST_2_ID, 'oli_playlist_2.csv')
