@@ -15,13 +15,27 @@ int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "I
 def update_video_data():
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
-    cols = ["position", "video_title", "video_id", "playlist_id", "published_at"]
+    cols = ["position", "video_title", "video_id", "video_provider", "playlist_id", "published_at"]
     videos_df = pd.read_csv(video_path, usecols=cols)
+
+    ids = oli_df["video_id"].unique()
+
+    # add video data for videos whose video_id are not in Oli.csv
+    for i, row in videos_df.iterrows():
+        if row['video_id'] in ids:
+            continue
+
+        # add row to my_oli_df
+        row = row.rename({'position': 'playlist_position',
+                          'published_at':'video_published_at'})
+        oli_df = pd.concat([oli_df, pd.DataFrame(row).transpose()])
+
 
     # look for rows that have video_id, but do not have video_title
     temp_df = oli_df[pd.isna(oli_df["video_title"]) & pd.notna(oli_df["video_id"])]
     ids = temp_df["video_id"].unique()
 
+    # add video data for videos that only have video_id in Oli.csv
     for i, row in videos_df.iterrows():
         video_id = row["video_id"]
         if video_id not in ids:
