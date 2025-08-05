@@ -25,11 +25,10 @@ def create_models_file():
         "back_wood",
         "finish",
         "limited_edition",
-        "video_published_at",
-        "video_id",
-        "video_type",
-        "video_provider",
+        "model_notes",
         "oli_id",
+        "video_published_at",
+        "video_type",
     ]
     my_oli_df = pd.read_csv(my_oli_path, usecols=cols, dtype=int_dtype)
     # convert to date
@@ -40,8 +39,11 @@ def create_models_file():
     models_df = models_df.drop("video_type", axis=1)
     models_df = models_df.dropna(subset=["model"])
     models_df = models_df.drop_duplicates(
-        subset=["oli_id", "top_wood", "back_wood"], keep="first"
+        subset=["oli_id", "top_wood", "back_wood", 'model_notes'], keep="first"
     )
+
+    models_df = models_df.sort_values(by=['video_published_at'])
+
     # update column names
     models_df.columns = [name.replace("_", " ").title() for name in models_df.columns]
 
@@ -51,21 +53,20 @@ def create_models_file():
 
 def create_units_file():
     cols = [
+        "top_wood",
+        "back_wood",
+        "limited_edition",
+        "model_notes",
+        "notes",
         "oli_id",
         "video_id",
         "video_provider",
         "video_type",
         "video_published_at",
-        "top_wood",
-        "back_wood",
-        "model_notes",
-        "notes",
-        "limited_edition",
         "price",
         "serial_number",
         "listing_title",
         "listing_url",
-        "redirect_url",
     ]
 
     my_oli_df = pd.read_csv(my_oli_path, usecols=cols, dtype=int_dtype)
@@ -76,6 +77,9 @@ def create_units_file():
     units_df = my_oli_df[my_oli_df["video_type"] == "sound_sample"]
     units_df = units_df.drop("video_type", axis=1)
     units_df = units_df.dropna(subset=["oli_id"])
+
+    units_df = units_df.sort_values(by=['video_published_at'])
+
     # update column names
     units_df.columns = [name.replace("_", " ").title() for name in units_df.columns]
 
