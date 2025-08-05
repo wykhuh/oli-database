@@ -9,13 +9,14 @@ oli_path = project_path/"raw_data"/"Oli.csv"
 
 def update_video_data():
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
-    cols = ['position','video_title','video_id','playlist_id']
-    oli_playlist_df = pd.read_csv(project_path/"raw_data"/"oli_playlist.csv", usecols=cols)
+    cols = ['position','video_title','video_id','playlist_id', 'published_at']
+    videos_df = pd.read_csv('../processed_data/videos_list.csv', usecols=cols)
 
+    # look for rows that have video_id, but do not have video_title
     temp_df = oli_df[pd.isna(oli_df['video_title']) & pd.notna(oli_df['video_id'])]
     ids = temp_df['video_id'].unique()
 
-    for i, row in oli_playlist_df.iterrows():
+    for i, row in videos_df.iterrows():
         video_id = row['video_id']
         if(video_id not in ids):
             continue
