@@ -1,5 +1,5 @@
 import { ModelsListPage } from "../components/ModelsListPage.js";
-import { ModelPage } from "../components/ModelPage.js";
+import { ModelDetailsPage } from "../components/ModelDetailsPage.js";
 
 export const routes = [
   {
@@ -7,7 +7,7 @@ export const routes = [
     component: ModelsListPage,
   },
   {
-    path: /\/models\/(\w+)/,
-    component: ModelPage,
+    path: /\/models\/([\w-]+)/,
+    component: ModelDetailsPage,
   },
 ];

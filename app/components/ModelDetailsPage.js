@@ -1,6 +1,6 @@
-import { createFieldValueTable } from "../js/dataTable.js";
+import { createFieldValueTable, createTable } from "../js/dataTable.js";
 
-export class ModelPage extends HTMLElement {
+export class ModelDetailsPage extends HTMLElement {
   render() {
     const template = document.getElementById("model-page-template");
     if (template) {
@@ -13,9 +13,19 @@ export class ModelPage extends HTMLElement {
       }
 
       let modelDataEl = this.querySelector("#model-data");
+
       if (modelDataEl) {
         let fields = app.store.config.modelDetails.modelFields;
         modelDataEl.appendChild(createFieldValueTable(this.model, fields));
+
+        if (this.models && this.models.length > 1) {
+          let heading = document.createElement("h3");
+          heading.textContent = "Wood Combinations";
+          modelDataEl.appendChild(heading);
+
+          let table = createTable(this.models, app.store.config.modelDetails);
+          modelDataEl.appendChild(table);
+        }
       }
 
       let containerEl = this.querySelector("#units-container");
@@ -32,7 +42,8 @@ export class ModelPage extends HTMLElement {
     // let id = "fb086c5a7cae318e3031d62c7f0cc0ca"; // vimeo
     // let id = "f8e2f0955694a60036f37491c15bcca4"; // multple units
 
-    this.model = app.store.models.find((m) => m["Oli Id"] === id);
+    this.models = app.store.models.filter((m) => m["Oli Id"] === id);
+    this.model = this.models[0];
     this.units = app.store.units.filter((m) => m["Oli Id"] === id);
 
     this.render();
@@ -72,4 +83,4 @@ function renderUnit(data) {
   return cardEl;
 }
 
-customElements.define("model-page", ModelPage);
+customElements.define("model-page", ModelDetailsPage);

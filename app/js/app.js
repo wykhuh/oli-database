@@ -32,10 +32,11 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   app.store.config = {
     home: {
-      title: "'Oli Ukuleles",
+      title: "'Oli Models",
       displayFields: [
         "Model",
         "Tier",
+        "Type",
         "Size",
         "Top Wood",
         "Back Wood",
@@ -54,13 +55,16 @@ window.addEventListener("DOMContentLoaded", async () => {
         "Finish",
         "Limited Edition",
       ],
+      displayFields: ["Top Wood", "Back Wood"],
       unitFields: [
+        "Top Wood",
+        "Back Wood",
         "Price",
         "Serial Number",
         "Model Notes",
         "Notes",
-        "Video Id",
         "Video Published At",
+        "Limited Edition",
       ],
     },
   };

@@ -99,6 +99,13 @@ export function renderSortableTable(data, config) {
   addSortableTable();
 }
 
+export function createTable(data, config = {}) {
+  allRecords = processAllData(data);
+  listRecords = processListData(allRecords, config);
+
+  return createListTable(listRecords, config);
+}
+
 function createListTable(data, config) {
   let table = document.createElement("table");
   table.className = "list-table stripe-table";
