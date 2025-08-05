@@ -6,6 +6,8 @@
 	],
 	"settings": {
 		"liveServer.settings.root": "./app",
+		"liveServer.settings.file": "./200.html",
 		"liveServer.settings.port": 5501,
+		"liveServer.settings.host": "localhost",
   }
 }
