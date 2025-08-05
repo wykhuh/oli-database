@@ -9,6 +9,15 @@ export const Router = {
       Router.go(window.location.pathname, false);
     });
 
+    // make nav links work with Router
+    document.querySelectorAll("a.navlink").forEach((a) => {
+      a.addEventListener("click", (event) => {
+        event.preventDefault();
+        const href = a.getAttribute("href");
+        Router.go(href);
+      });
+    });
+
     // go to route on app load
     Router.go(window.location.pathname);
   },

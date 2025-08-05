@@ -7,9 +7,10 @@ export class ModelsListPage extends HTMLElement {
     let links = document.querySelectorAll(".list-table .resource-link");
     if (links.length > 0) {
       links.forEach((link) => {
-        link.addEventListener("click", (e) => {
-          e.preventDefault();
-          app.router.go(e.target.href);
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          const href = link.getAttribute("href");
+          app.router.go(href);
         });
       });
     }
