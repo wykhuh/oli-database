@@ -7,6 +7,19 @@ window.app = {};
 app.store = Store;
 app.router = Router;
 
+function cleanData(data) {
+  return (
+    data
+      // filter out blank rows where all fields are empty
+      .filter((item) => Object.values(item).some((v) => v !== ""))
+      // convert to date
+      .map((item) => {
+        let date = new Date(item["Video Published At"]);
+        return { ...item, "Video Published At": date };
+      })
+  );
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
   let loaderEl = document.getElementById("loader");
   if (!loaderEl) return;
@@ -14,12 +27,8 @@ window.addEventListener("DOMContentLoaded", async () => {
   loaderEl.className = "loading";
   let models = await getAndParseCSV("../data/models_list.csv");
   let units = await getAndParseCSV("../data/units_list.csv");
-  app.store.models = models.filter((item) =>
-    Object.values(item).some((v) => v !== "")
-  );
-  app.store.units = units.filter((item) =>
-    Object.values(item).some((v) => v !== "")
-  );
+  app.store.models = cleanData(models);
+  app.store.units = cleanData(units);
 
   app.store.config = {
     home: {
@@ -31,6 +40,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         "Top Wood",
         "Back Wood",
         "Finish",
+        "Video Published At",
       ],
       link: { textField: "Model", idField: "Oli Id", path: "models" },
     },
@@ -50,6 +60,7 @@ window.addEventListener("DOMContentLoaded", async () => {
         "Model Notes",
         "Notes",
         "Video Id",
+        "Video Published At",
       ],
     },
   };

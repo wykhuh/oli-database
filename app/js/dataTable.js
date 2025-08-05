@@ -135,8 +135,13 @@ function createHeaderRow(row, config) {
     headerEl.innerText = key;
 
     // add html markup for sortable table
-    let headerClass = key.replace(" ", "-").toLowerCase();
+    let headerClass = key.replaceAll(" ", "-").toLowerCase();
     headerEl.dataset.sort = headerClass;
+    if (value instanceof Date) {
+      headerEl.dataset.sort = "timestamp";
+    } else {
+      headerEl.dataset.sort = headerClass;
+    }
     headerEl.className = "sort";
     headerClasses.push(headerClass);
 
@@ -148,7 +153,6 @@ function createHeaderRow(row, config) {
 
 function createRow(row, config) {
   let rowEl = document.createElement("tr");
-
   row.forEach((value, key) => {
     if (key === config.link?.idField) {
       return;
@@ -156,8 +160,15 @@ function createRow(row, config) {
 
     let tdEl = document.createElement("td");
 
-    tdEl.className = key.replace(" ", "-").toLowerCase();
+    // add class for sortable table. for dates, we want to sort by timestamp
+    if (value instanceof Date) {
+      tdEl.className = "timestamp";
+      tdEl.dataset.timestamp = value.getTime().toString();
+    } else {
+      tdEl.className = key.replaceAll(" ", "-").toLowerCase();
+    }
 
+    // create link
     if (key === config.link?.textField) {
       tdEl.classList.add("show-record");
 
@@ -168,6 +179,8 @@ function createRow(row, config) {
       linkEl.textContent = value;
 
       tdEl.appendChild(linkEl);
+    } else if (value instanceof Date) {
+      tdEl.innerText = value.toLocaleDateString();
     } else {
       tdEl.innerText = value;
     }
@@ -178,12 +191,16 @@ function createRow(row, config) {
 }
 
 function addSortableTable() {
+  // https://github.com/javve/list.js/issues/221 sorting dates
   var options = {
-    valueNames: headerClasses,
+    valueNames: [
+      ...headerClasses,
+      { name: "timestamp", attr: "data-timestamp" },
+    ],
   };
   let sortableTable = new List("data-container", options);
 
-  // create event so we can track number of items shown
+  // create event so we can track the number of items shown in sortable table
   sortableTable.on("updated", () => {
     window.dispatchEvent(
       new CustomEvent("listUpdated", {
@@ -206,7 +223,11 @@ function createFieldValueRow(field, value) {
   row.appendChild(headerCell);
 
   let valueCell = document.createElement("td");
-  valueCell.textContent = value;
+  if (value instanceof Date) {
+    valueCell.textContent = value.toLocaleDateString();
+  } else {
+    valueCell.textContent = value;
+  }
   row.appendChild(valueCell);
   return row;
 }
