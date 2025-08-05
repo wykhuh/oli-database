@@ -32,6 +32,7 @@ def process_playlist_items(json, playlist_id):
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
                 "playlist_id": playlist_id,
+                "video_provider": 'youtube'
             }
             records.append(data)
         except:
@@ -58,6 +59,7 @@ def process_search_items(json, ids):
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["id"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
+                "video_provider": 'youtube'
             }
             records.append(data)
         except:
@@ -148,6 +150,7 @@ def update_missing_videos():
             "video_id",
             "video_thumbnail",
             "playlist_id",
+            "video_provider"
         ]
     ]
 

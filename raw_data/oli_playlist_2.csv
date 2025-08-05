@@ -1,8 +1,8 @@
-position,video_title,published_at,video_id,video_thumbnail,playlist_id
-1,'Oli Mango Tenor Prototype,2023-08-21T22:57:21Z,1__pjKICYcA,https://i.ytimg.com/vi/1__pjKICYcA/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-2,"""Hawai'i '78"" 'Oli Mango Tenor & Pono Master Series Baritone RBSMS",2023-08-21T23:00:36Z,mgGgRXIZY4Q,https://i.ytimg.com/vi/mgGgRXIZY4Q/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-3,'Oli Mango Concert L2 MGC,2023-11-16T18:57:56Z,Oj_48kO9R8w,https://i.ytimg.com/vi/Oj_48kO9R8w/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-4,'Oli Mango Baritone L2 MGB,2023-11-16T19:12:58Z,K1WS2LC0U2s,https://i.ytimg.com/vi/K1WS2LC0U2s/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-5,Danny's Song on 'Oli Mango Baritone & Tenor,2023-11-16T19:28:57Z,sMBVxO3s9KU,https://i.ytimg.com/vi/sMBVxO3s9KU/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-6,'Oli Mango Baritone Samples w Ian,2023-11-16T20:48:05Z,OfYorkjhkCo,https://i.ytimg.com/vi/OfYorkjhkCo/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
-7,'Oli Mango Concert L2-CMG-G w Ian,2023-11-17T19:14:10Z,ce7gyng9eYE,https://i.ytimg.com/vi/ce7gyng9eYE/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD
+position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_provider
+1,'Oli Mango Tenor Prototype,2023-08-21T22:57:21Z,1__pjKICYcA,https://i.ytimg.com/vi/1__pjKICYcA/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+2,"""Hawai'i '78"" 'Oli Mango Tenor & Pono Master Series Baritone RBSMS",2023-08-21T23:00:36Z,mgGgRXIZY4Q,https://i.ytimg.com/vi/mgGgRXIZY4Q/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+3,'Oli Mango Concert L2 MGC,2023-11-16T18:57:56Z,Oj_48kO9R8w,https://i.ytimg.com/vi/Oj_48kO9R8w/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+4,'Oli Mango Baritone L2 MGB,2023-11-16T19:12:58Z,K1WS2LC0U2s,https://i.ytimg.com/vi/K1WS2LC0U2s/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+5,Danny's Song on 'Oli Mango Baritone & Tenor,2023-11-16T19:28:57Z,sMBVxO3s9KU,https://i.ytimg.com/vi/sMBVxO3s9KU/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+6,'Oli Mango Baritone Samples w Ian,2023-11-16T20:48:05Z,OfYorkjhkCo,https://i.ytimg.com/vi/OfYorkjhkCo/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
+7,'Oli Mango Concert L2-CMG-G w Ian,2023-11-17T19:14:10Z,ce7gyng9eYE,https://i.ytimg.com/vi/ce7gyng9eYE/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube
