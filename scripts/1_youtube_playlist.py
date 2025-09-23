@@ -25,10 +25,11 @@ def process_playlist_items(json, playlist_id):
     records = []
     for item in json["items"]:
         try:
+            date = get_video_date(item)
             data = {
                 "position": item["snippet"]["position"] + 1,
                 "video_title": item["snippet"]["title"],
-                "published_at": item["snippet"]["publishedAt"],
+                "published_at": date,
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
                 "playlist_id": playlist_id,
@@ -36,7 +37,7 @@ def process_playlist_items(json, playlist_id):
             }
             records.append(data)
         except:
-            print(item["snippet"])
+            print('invalid date', item["snippet"])
 
     return records
 
@@ -44,7 +45,7 @@ def process_playlist_items(json, playlist_id):
 def process_search_items(json, ids):
     records = []
     if "items" not in json:
-        print(json)
+        print('invalid json', json)
         return []
 
     for item in json["items"]:
@@ -63,7 +64,7 @@ def process_search_items(json, ids):
             }
             records.append(data)
         except:
-            print(item["snippet"])
+            print('invaled playlist item', item["snippet"])
 
     return records
 
@@ -82,6 +83,30 @@ def build_search_channel_url(api_key, channelId, keyword, limit=50):
         + f"search?part=snippet&type=video&key={api_key}&channelId={channelId}&q={keyword}&maxResults={limit}"
     )
     return url
+
+
+def build_video_url(api_key, videoid):
+    url = (
+        API_BASE
+        + f"videos?part=snippet&key={api_key}&id={videoid}"
+    )
+    return url
+
+
+def get_video_date(record):
+    videoId = record["snippet"]["resourceId"]["videoId"]
+    video_url = build_video_url(envar.API_KEY, videoId)
+
+    try:
+        res = requests.get(video_url)
+    except:
+        print('invalid videoId:', videoId)
+
+    jsondata = res.json()
+    video_record = jsondata["items"][0]
+    date = video_record["snippet"]["publishedAt"]
+
+    return date
 
 
 def download_oli_playlist(playlist_id, file_path):
