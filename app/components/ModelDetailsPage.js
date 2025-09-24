@@ -19,11 +19,15 @@ export class ModelDetailsPage extends HTMLElement {
         modelDataEl.appendChild(createFieldValueTable(this.model, fields));
 
         if (this.models && this.models.length > 1) {
-          let heading = document.createElement("h3");
+          let heading = document.createElement("h2");
           heading.textContent = "Variations";
           modelDataEl.appendChild(heading);
 
-          let table = createTable(this.models, app.store.config.modelDetails);
+          let table = createTable(
+            this.models,
+            app.store.config.modelDetails,
+            "variations"
+          );
           modelDataEl.appendChild(table);
         }
       }
@@ -37,16 +41,37 @@ export class ModelDetailsPage extends HTMLElement {
     }
   }
 
+  renderNoData() {
+    const template = document.getElementById("model-page-template");
+    if (template) {
+      const content = template.content.cloneNode(true);
+      this.appendChild(content);
+
+      let titleEl = this.querySelector("h1");
+      if (titleEl) {
+        titleEl.textContent = `No data for ${this.id}`;
+      }
+    }
+  }
+
   connectedCallback() {
-    let id = this.params && this.params[0];
-    // let id = "fb086c5a7cae318e3031d62c7f0cc0ca"; // vimeo
-    // let id = "f8e2f0955694a60036f37491c15bcca4"; // multple units
+    this.id = this.data.toLowerCase();
 
-    this.models = app.store.models.filter((m) => m["Oli Id"] === id);
+    this.models = app.store.models.filter(
+      (m) => m["Oli Id"].toLowerCase() === this.id
+    );
+
     this.model = this.models[0];
-    this.units = app.store.units.filter((m) => m["Oli Id"] === id);
 
-    this.render();
+    this.units = app.store.units.filter(
+      (m) => m["Oli Id"].toLowerCase() === this.id
+    );
+
+    if (this.model) {
+      this.render();
+    } else {
+      this.renderNoData();
+    }
   }
 }
 
@@ -77,7 +102,7 @@ function renderUnit(data) {
 
   // data table
   let fields = app.store.config.modelDetails.unitFields;
-  let tableEl = createFieldValueTable(data, fields);
+  let tableEl = createFieldValueTable(data, fields, "unit-metadata");
   cardEl.appendChild(tableEl);
 
   return cardEl;

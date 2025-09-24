@@ -3,17 +3,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>'Oli Ukulele Database</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
 
-    <script src="./lib/papaparse.min.js"></script>
-    <script src="./lib/list.min.js"></script>
-    <script src="./js/home.js" type="module"></script>
+    <script src="../lib/papaparse.min.js"></script>
+    <script src="../lib/list.min.js"></script>
+    <script src="../js/models.js" type="module"></script>
   </head>
-  <body id="home">
+  <body id="details">
     <header>
       <nav>
         <ul>
-          <li>'Oli</li>
+          <li>'Oli !!</li>
           <li><a class="navlink" href="/">Home</a></li>
         </ul>
       </nav>
@@ -21,16 +21,6 @@
     <main>
       <div id="loader"></div>
     </main>
-
-    <template id="home-page-template">
-      <h1 class="title"></h1>
-      <div class="summary"></div>
-
-      <div id="data-container">
-        <input id="search-form" class="search" placeholder="Search" />
-        <p id="model-counter"></p>
-      </div>
-    </template>
 
     <template id="model-page-template">
       <h1 class="title"></h1>

@@ -4,16 +4,6 @@ export class ModelsListPage extends HTMLElement {
   async render() {
     renderPageIntro(app.store.config.home);
     renderSortableTable(app.store.models, app.store.config.home);
-    let links = document.querySelectorAll(".list-table .resource-link");
-    if (links.length > 0) {
-      links.forEach((link) => {
-        link.addEventListener("click", (event) => {
-          event.preventDefault();
-          const href = link.getAttribute("href");
-          app.router.go(href);
-        });
-      });
-    }
   }
 
   renderCounter() {

@@ -8,6 +8,7 @@
   --grey-100: #f3f3f3;
   --grey-200: #eee;
   --grey-300: #ddd;
+  --border-grey: 1px solid var(--grey-300);
 }
 body {
   color: var(--primaryColor);
@@ -16,6 +17,11 @@ body {
 header {
   padding: 1rem 2rem;
   background-color: var(--primaryColor);
+}
+
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -41,12 +47,46 @@ nav a:hover {
 
 main {
   max-width: 1000px;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
+  margin: 0 auto;
+}
+
+#home {
+  table {
+    width: 100%;
+    border: var(--border-grey);
+  }
+
+  th {
+    border-bottom: var(--border-grey);
+  }
+}
+
+#details {
+  .list-table {
+    margin-bottom: 1rem;
+    border: var(--border-grey);
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .variations th {
+    border-bottom: var(--border-grey);
+  }
+  video-embed + .unit-metadata {
+    margin-top: 1rem;
+  }
 }
 
 th,
 td {
-  padding: 0.25rem 0.4rem;
+  padding: 0.3rem 0.5rem;
+}
+
+td.model a {
+  white-space: nowrap;
 }
 
 .stripe-table tr:nth-child(even) {
@@ -81,40 +121,31 @@ td {
   display: none;
 }
 
-.sort {
+.sort,
+.sort:after,
+.sort.asc:after,
+.sort.desc:after {
   cursor: pointer;
+  width: 0;
+  height: 0;
+  content: "";
+  position: relative;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
 }
 
 .sort:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  content: "";
-  position: relative;
   top: -10px;
   right: -5px;
 }
 .sort.asc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
   border-bottom: 5px solid var(--primaryColor);
-  content: "";
-  position: relative;
   top: -10px;
   right: -5px;
 }
 .sort.desc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
   border-top: 5px solid var(--primaryColor);
-  content: "";
-  position: relative;
   top: 13px;
   right: -5px;
 }

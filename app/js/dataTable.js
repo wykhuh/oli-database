@@ -99,16 +99,19 @@ export function renderSortableTable(data, config) {
   addSortableTable();
 }
 
-export function createTable(data, config = {}) {
+export function createTable(data, config = {}, selector = null) {
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
 
-  return createListTable(listRecords, config);
+  return createListTable(listRecords, config, selector);
 }
 
-function createListTable(data, config) {
+function createListTable(data, config, selector) {
   let table = document.createElement("table");
   table.className = "list-table stripe-table";
+  if (selector) {
+    table.classList.add(selector);
+  }
 
   //  create header row
   let theadEl = document.createElement("thead");
@@ -140,15 +143,17 @@ function createHeaderRow(row, config) {
     headerEl.innerText = key;
 
     // add html markup for sortable table
-    let headerClass = key.replaceAll(" ", "-").toLowerCase();
-    headerEl.dataset.sort = headerClass;
-    if (value instanceof Date) {
-      headerEl.dataset.sort = "timestamp";
-    } else {
+    if (config.sortable) {
+      let headerClass = key.replaceAll(" ", "-").toLowerCase();
       headerEl.dataset.sort = headerClass;
+      if (value instanceof Date) {
+        headerEl.dataset.sort = "timestamp";
+      } else {
+        headerEl.dataset.sort = headerClass;
+      }
+      headerEl.className = "sort";
+      headerClasses.push(headerClass);
     }
-    headerEl.className = "sort";
-    headerClasses.push(headerClass);
 
     rowEl.appendChild(headerEl);
   });
@@ -180,7 +185,7 @@ function createRow(row, config) {
       let linkEl = document.createElement("a");
       linkEl.className = "resource-link";
       linkEl.dataset.rescoureId = row.get(config.link.idField);
-      linkEl.href = `/${config.link.path}/${row.get(config.link.idField)}`;
+      linkEl.href = `/${config.link.path}/?id=${row.get(config.link.idField)}`;
       linkEl.textContent = value;
 
       tdEl.appendChild(linkEl);
@@ -237,8 +242,12 @@ function createFieldValueRow(field, value) {
   return row;
 }
 
-export function createFieldValueTable(data, fields) {
+export function createFieldValueTable(data, fields, selector = null) {
   let table = document.createElement("table");
+  if (selector) {
+    table.className = selector;
+  }
+
   fields.forEach((field) => {
     if (data[field] === "") return;
 
