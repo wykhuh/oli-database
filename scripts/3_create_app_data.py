@@ -67,6 +67,7 @@ def create_units_file():
         "serial_number",
         "listing_title",
         "listing_url",
+        "model"
     ]
 
     my_oli_df = pd.read_csv(my_oli_path, usecols=cols, dtype=int_dtype)

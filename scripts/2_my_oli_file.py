@@ -48,9 +48,26 @@ def update_video_data():
         oli_df.loc[oli_df["video_id"] == video_id, "playlist_id"] = row["playlist_id"]
         oli_df.loc[oli_df["video_id"] == video_id, "video_type"] = "sound_sample"
         oli_df.loc[oli_df["video_id"] == video_id, "video_provider"] = "youtube"
+        oli_df.loc[oli_df["video_id"] == video_id, "video_published_at"] = row["video_published_at"]
 
     oli_df.to_csv(oli_path, index=False)
 
+def fix_date():
+    oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+
+    cols = ["video_id", "published_at"]
+    videos_df = pd.read_csv(video_path, usecols=cols)
+
+    ids = oli_df["video_id"].unique()
+
+
+    # add video data for videos that only have video_id in Oli.csv
+    for i, row in videos_df.iterrows():
+        video_id = row["video_id"]
+
+        oli_df.loc[oli_df["video_id"] == video_id, "video_published_at"] = row["published_at"]
+
+    oli_df.to_csv(oli_path, index=False)
 
 def add_oil_id():
     my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
@@ -65,7 +82,7 @@ def add_oil_id():
         # my_oli_df.loc[i, "oli_id"] = hashlib.md5(temp.encode()).hexdigest()
 
         # use model name to create id
-        my_oli_df.loc[i, "oli_id"] = row["model"].replace(" ", "")
+        my_oli_df.loc[i, "oli_id"] = row["tier"] + '-' + row["type"]
 
     my_oli_df.to_csv(oli_path, index=False)
 
@@ -75,5 +92,6 @@ if __name__ == "__main__":
         {
             "update_video_data": update_video_data,
             "add_oil_id": add_oil_id,
+            "fix_date":fix_date
         }
     )
