@@ -87,11 +87,26 @@ def add_oil_id():
     my_oli_df.to_csv(oli_path, index=False)
 
 
+def add_new_label():
+    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+    my_oli_df["new"] = ""
+
+    ids =  set()
+    for i, row in my_oli_df.iterrows():
+        if row['oli_id'] not in ids:
+            ids.add(row['oli_id'])
+            my_oli_df.loc[i, 'new'] = True
+
+    my_oli_df.to_csv(oli_path, index=False)
+
+
+
 if __name__ == "__main__":
     fire.Fire(
         {
             "update_video_data": update_video_data,
             "add_oil_id": add_oil_id,
+            "add_new_label": add_new_label,
             "fix_date":fix_date
         }
     )
