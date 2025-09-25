@@ -1,0 +1,151 @@
+@import url("modern-normalize.min.css");
+
+:root {
+  --primaryColor: #444;
+  --textColorLight: var(--grey-200);
+  --highlightColor: #56bce8;
+  --highlightColor2: #0ac189;
+  --grey-100: #f3f3f3;
+  --grey-200: #eee;
+  --grey-300: #ddd;
+  --border-grey: 1px solid var(--grey-300);
+}
+body {
+  color: var(--primaryColor);
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: var(--primaryColor);
+}
+
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav li {
+  color: var(--textColorLight);
+}
+
+nav a {
+  color: var(--textColorLight);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--highlightColor);
+}
+
+main {
+  max-width: 1000px;
+  padding: 1rem 0rem;
+  margin: 0 auto;
+}
+
+#home {
+  table {
+    width: 100%;
+    border: var(--border-grey);
+  }
+
+  th {
+    border-bottom: var(--border-grey);
+  }
+}
+
+#details {
+  .list-table {
+    margin-bottom: 1rem;
+    border: var(--border-grey);
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .variations th {
+    border-bottom: var(--border-grey);
+  }
+  video-embed + .unit-metadata {
+    margin-top: 1rem;
+  }
+}
+
+th,
+td {
+  padding: 0.3rem 0.5rem;
+}
+
+td.model a {
+  white-space: nowrap;
+}
+
+.stripe-table tr:nth-child(even) {
+  background-color: var(--grey-200);
+}
+
+.card {
+  border-top: 2px solid var(--grey-300);
+  padding: 1rem 0;
+}
+
+.loading {
+  border: 5px solid var(--grey-100);
+  border-radius: 50%;
+  border-top: 5px solid var(--highlightColor2);
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.sort,
+.sort:after,
+.sort.asc:after,
+.sort.desc:after {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  content: "";
+  position: relative;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.sort:after {
+  border-bottom: 5px solid transparent;
+  top: -10px;
+  right: -5px;
+}
+.sort.asc:after {
+  border-bottom: 5px solid var(--primaryColor);
+  top: -10px;
+  right: -5px;
+}
+.sort.desc:after {
+  border-top: 5px solid var(--primaryColor);
+  top: 13px;
+  right: -5px;
+}
