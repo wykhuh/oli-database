@@ -2,6 +2,9 @@
 
 A database of the various 'Oli ukulele models.
 
+The app is plain JavaScript, CSS, HTML with a couple of CSVs as the data source.
+
+
 ## Tech Stack
 
 Client side
@@ -35,6 +38,7 @@ python scripts/2_my_oli_file.py update_video_data
 # add oli_id to Oli.csv
 python scripts/2_my_oli_file.py add_oil_id
 
+# create files for the client side app
 python scripts/3_create_app_data.py create_models_file
 
 python scripts/3_create_app_data.py create_units_file
@@ -49,13 +53,6 @@ ruff format scripts
 
 The code from the JavaScript client-side app is in `app`. To start the app, use Live Server on VS Code.
 
-In `oli.code-workspace`, I have set the `liveServer.settings.root` to `app`, which means Live Server will use `app` as the root for the server. I set `liveServer.settings.file"` to `200.html`, because that is the file Surge.sh uses to handle [client side routing](https://surge.sh/help/adding-a-200-page-for-client-side-routing).
+In `oli.code-workspace`, I have set the `liveServer.settings.root` to `app`, which means Live Server will use `app` as the root for the server.
 
-## Deploy app
 
-I'm using [Surge.sh](https://surge.sh) to host the app. To deploy the app, use the following.
-
-```bash
-cd app
-surge
-``
