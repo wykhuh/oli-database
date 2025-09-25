@@ -22,7 +22,7 @@ export class VideoEmbed extends HTMLElement {
       } else if (videoProvider === "vimeo") {
         this.innerHTML = `
         <iframe width="560" height="315"
-        src="https://player.vimeo.com/video/1090692649?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        src="https://player.vimeo.com/video/${videoId}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         title="Vimeo video player"
         frameborder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
