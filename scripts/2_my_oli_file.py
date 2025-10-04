@@ -48,7 +48,7 @@ def update_video_data():
         oli_df.loc[oli_df["video_id"] == video_id, "playlist_id"] = row["playlist_id"]
         oli_df.loc[oli_df["video_id"] == video_id, "video_type"] = "sound_sample"
         oli_df.loc[oli_df["video_id"] == video_id, "video_provider"] = "youtube"
-        oli_df.loc[oli_df["video_id"] == video_id, "video_published_at"] = row["video_published_at"]
+        oli_df.loc[oli_df["video_id"] == video_id, "video_published_at"] = row["published_at"]
 
     oli_df.to_csv(oli_path, index=False)
 
@@ -107,6 +107,6 @@ if __name__ == "__main__":
             "update_video_data": update_video_data,
             "add_oil_id": add_oil_id,
             "add_new_label": add_new_label,
-            "fix_date":fix_date
+            # "fix_date":fix_date
         }
     )

@@ -344,7 +344,7 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 346,'Oli X1 TMH Mahogany Tenor,2025-07-13T09:05:00Z,ThOI0LKaPbA,https://i.ytimg.com/vi/ThOI0LKaPbA/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 347,'Oli L2 BTSA Torrefied Spruce Acacia Baritone,2025-07-13T22:22:00Z,qbWx32Utyd8,https://i.ytimg.com/vi/qbWx32Utyd8/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 348,'Oli L1SP TSWA VB Spruce Waru Vintage Burst Tenor,2025-07-14T00:52:52Z,bWtYd3jsuNs,https://i.ytimg.com/vi/bWtYd3jsuNs/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
-349,'Oli L2 CMG,2025-07-14T01:48:46Z,CiRh5FccAIc,https://i.ytimg.com/vi/CiRh5FccAIc/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+349,'Oli L2-CMG Mango Concert,2025-07-14T01:48:46Z,CiRh5FccAIc,https://i.ytimg.com/vi/CiRh5FccAIc/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 350,'Oli L2-BSR Spruce Rosewood Baritone,2025-07-14T02:39:07Z,pVLOXLcSs_4,https://i.ytimg.com/vi/pVLOXLcSs_4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 351,'Oli X1-BMH S Mahogany Baritone,2025-07-16T09:28:47Z,HQfblnbmgRI,https://i.ytimg.com/vi/HQfblnbmgRI/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 352,'Oli L2-CTSA Torrefied Spruce Acacia Concert,2025-07-17T02:01:05Z,3AuOVsytXXg,https://i.ytimg.com/vi/3AuOVsytXXg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
@@ -383,3 +383,24 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 385,'Oli L2-TCPMR 1548 Port Orford Cedar Myrtle Tenor,2025-09-21T04:10:41Z,lCrr3ceWirM,https://i.ytimg.com/vi/lCrr3ceWirM/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 386,'Oli L2-CCPMR Concert Port Orford Cedar Myrtle 1533,2025-09-21T05:19:59Z,E5atavzpppo,https://i.ytimg.com/vi/E5atavzpppo/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
 387,'Oli L2 CSCM 1259 Spruce Hawaiian Grown Cuban Mahogany Concert,2025-09-21T05:26:05Z,4Wveo0XP6Qg,https://i.ytimg.com/vi/4Wveo0XP6Qg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+388,'Oli L2-BSCFM 1699 Sinker Cypress Maple,2025-09-28T20:21:36Z,Shmv2gexjME,https://i.ytimg.com/vi/Shmv2gexjME/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+389,'Oli L2 TSCFM 1614 Sinker Cypress Maple Tenor,2025-09-28T20:30:26Z,7mB2xLucPck,https://i.ytimg.com/vi/7mB2xLucPck/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+390,'Oli L2 CSCQM 1749 Sinker Cypress Maple Concert,2025-09-28T21:16:12Z,jc6vNNrlYnk,https://i.ytimg.com/vi/jc6vNNrlYnk/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+391,'Oli L3 CSCMB Sinker Cypress Malaysian Blackwood,2025-09-28T21:27:53Z,dkxydt_FyRg,https://i.ytimg.com/vi/dkxydt_FyRg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+392,'Oli L3-CSCO 1670 Spruce Cocobolo Concert,2025-09-28T22:04:39Z,QDR7npWNK9g,https://i.ytimg.com/vi/QDR7npWNK9g/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+393,'Oli X 1TMG Mango Tenor,2025-09-28T22:42:12Z,LfqxLk3KdI0,https://i.ytimg.com/vi/LfqxLk3KdI0/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+394,'Oli X2 TRR 1691 Redwood Rosewood Tenor,2025-09-29T03:27:12Z,wDk9J_l4i_A,https://i.ytimg.com/vi/wDk9J_l4i_A/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+395,'Oli X2 CRR SE 1667 Redwood Rosewood Concert,2025-09-29T04:33:09Z,P8TOa1_NZxI,https://i.ytimg.com/vi/P8TOa1_NZxI/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+396,'Oli X2 BRR 1714 Baritone Redwood Rosewood,2025-09-29T05:26:49Z,Bd6xa21_LRE,https://i.ytimg.com/vi/Bd6xa21_LRE/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+397,'Oli X1-SSKMH S Sitka Spruce Mahogany Soprano,2025-10-01T22:59:59Z,e4w580c5mQ4,https://i.ytimg.com/vi/e4w580c5mQ4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+398,'Oli X1-CCPMH S Port Orford Cedar Mahohany Concert,2025-10-02T03:50:01Z,zBGF9JWxY2s,https://i.ytimg.com/vi/zBGF9JWxY2s/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+399,'Oli X1-CMG Mango Concert,2025-10-02T04:16:28Z,GVRxruFfBzU,https://i.ytimg.com/vi/GVRxruFfBzU/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+400,'Oli X1 TA Acacia Tenor,2025-10-02T04:39:19Z,5IZdzUMe5x4,https://i.ytimg.com/vi/5IZdzUMe5x4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+401,'Oli L2 TMG BK Mango Tenor,2025-10-02T04:51:43Z,FNnqQK0mMAk,https://i.ytimg.com/vi/FNnqQK0mMAk/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+402,'Oli X1-BA Acacia Baritone,2025-10-03T02:54:54Z,RlGo3xYKAIQ,https://i.ytimg.com/vi/RlGo3xYKAIQ/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+403,'Oli X1-CA Acacia Concert,2025-10-03T03:40:13Z,qI4e8Hm2EWk,https://i.ytimg.com/vi/qI4e8Hm2EWk/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+404,'Oli L2-TSCFM Sinker Cypress Maple Tenor High G Sample,2025-10-03T04:30:15Z,lpF2AYhpI9g,https://i.ytimg.com/vi/lpF2AYhpI9g/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+405,'Oli X2-TRR SE w High G Redwood Rosewood Tenor,2025-10-03T06:01:06Z,ecDhE4DQ0jk,https://i.ytimg.com/vi/ecDhE4DQ0jk/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+406,'Oli L1-CMR Myrtle Concert,2025-10-03T07:06:34Z,WGt5K3woqho,https://i.ytimg.com/vi/WGt5K3woqho/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+407,'Oli L1SP CCPMR PO Cedar Myrtle Concert,2025-10-03T07:26:44Z,gsqmlrAh3m4,https://i.ytimg.com/vi/gsqmlrAh3m4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
+408,'Oli L2 BSKMR Spruce Myrtle Baritone,2025-10-03T23:35:01Z,RdacCQIT_uw,https://i.ytimg.com/vi/RdacCQIT_uw/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube
