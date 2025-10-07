@@ -39,10 +39,10 @@ def create_models_file():
     models_df = models_df.drop("video_type", axis=1)
     models_df = models_df.dropna(subset=["model"])
     models_df = models_df.drop_duplicates(
-        subset=["oli_id", "top_wood", "back_wood", 'model_notes'], keep="first"
+        subset=["oli_id", "top_wood", "back_wood", "model_notes"], keep="first"
     )
 
-    models_df = models_df.sort_values(by=['video_published_at'])
+    models_df = models_df.sort_values(by=["video_published_at"])
 
     # update column names
     models_df.columns = [name.replace("_", " ").title() for name in models_df.columns]
@@ -67,7 +67,7 @@ def create_units_file():
         "serial_number",
         "listing_title",
         "listing_url",
-        "model"
+        "model",
     ]
 
     my_oli_df = pd.read_csv(my_oli_path, usecols=cols, dtype=int_dtype)
@@ -79,7 +79,7 @@ def create_units_file():
     units_df = units_df.drop("video_type", axis=1)
     units_df = units_df.dropna(subset=["oli_id"])
 
-    units_df = units_df.sort_values(by=['video_published_at'])
+    units_df = units_df.sort_values(by=["video_published_at"])
 
     # update column names
     units_df.columns = [name.replace("_", " ").title() for name in units_df.columns]

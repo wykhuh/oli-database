@@ -33,11 +33,11 @@ def process_playlist_items(json, playlist_id):
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
                 "playlist_id": playlist_id,
-                "video_provider": 'youtube'
+                "video_provider": "youtube",
             }
             records.append(data)
         except:
-            print('invalid date', item["snippet"])
+            print("invalid date", item["snippet"])
 
     return records
 
@@ -45,7 +45,7 @@ def process_playlist_items(json, playlist_id):
 def process_search_items(json, ids):
     records = []
     if "items" not in json:
-        print('invalid json', json)
+        print("invalid json", json)
         return []
 
     for item in json["items"]:
@@ -60,11 +60,11 @@ def process_search_items(json, ids):
                 "published_at": item["snippet"]["publishedAt"],
                 "video_id": item["id"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
-                "video_provider": 'youtube'
+                "video_provider": "youtube",
             }
             records.append(data)
         except:
-            print('invaled playlist item', item["snippet"])
+            print("invaled playlist item", item["snippet"])
 
     return records
 
@@ -86,10 +86,7 @@ def build_search_channel_url(api_key, channelId, keyword, limit=50):
 
 
 def build_video_url(api_key, videoid):
-    url = (
-        API_BASE
-        + f"videos?part=snippet&key={api_key}&id={videoid}"
-    )
+    url = API_BASE + f"videos?part=snippet&key={api_key}&id={videoid}"
     return url
 
 
@@ -100,7 +97,7 @@ def get_video_date(record):
     try:
         res = requests.get(video_url)
     except:
-        print('invalid videoId:', videoId)
+        print("invalid videoId:", videoId)
 
     jsondata = res.json()
     video_record = jsondata["items"][0]
@@ -175,7 +172,7 @@ def update_missing_videos():
             "video_id",
             "video_thumbnail",
             "playlist_id",
-            "video_provider"
+            "video_provider",
         ]
     ]
 
