@@ -404,6 +404,16 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 406,'Oli L1-CMR Myrtle Concert,2025-10-03T07:06:34Z,WGt5K3woqho,https://i.ytimg.com/vi/WGt5K3woqho/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-03 07:06:34+00:00
 407,'Oli L1SP CCPMR PO Cedar Myrtle Concert,2025-10-03T07:26:44Z,gsqmlrAh3m4,https://i.ytimg.com/vi/gsqmlrAh3m4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-03 07:26:44+00:00
 408,'Oli L2 BSKMR Spruce Myrtle Baritone,2025-10-03T23:35:01Z,RdacCQIT_uw,https://i.ytimg.com/vi/RdacCQIT_uw/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-03 23:35:01+00:00
+409,'Oli L1-BCPMR Port Orford Cedar Myrtle Baritone,2025-10-06T19:30:03Z,kFOTmrnh0D8,https://i.ytimg.com/vi/kFOTmrnh0D8/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 19:30:03+00:00
+410,'Oli L2-TCIR-P-SB Incense Cedar Rosewood LE Tenor 1572,2025-10-06T21:16:00Z,ZA5uJXCdT6I,https://i.ytimg.com/vi/ZA5uJXCdT6I/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 21:16:00+00:00
+411,'Oli L1-TMG High G Sample,2025-10-06T21:44:47Z,BAKO_iVh3iU,https://i.ytimg.com/vi/BAKO_iVh3iU/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 21:44:47+00:00
+412,'Oli L1-TMG-S High G Sample w Mika,2025-10-06T21:55:46Z,ZAML_k3NQPg,https://i.ytimg.com/vi/ZAML_k3NQPg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 21:55:46+00:00
+413,'Oli L-TM-S High G Sample w Mika,2025-10-06T22:07:52Z,pRDswNcSRmY,https://i.ytimg.com/vi/pRDswNcSRmY/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 22:07:52+00:00
+414,'Oli X1-TA High G Sample w Mika,2025-10-06T22:09:58Z,XOhjv0kYXMw,https://i.ytimg.com/vi/XOhjv0kYXMw/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 22:09:58+00:00
+415,'Oli L2-BSCFM Baritone w High D,2025-10-06T22:14:16Z,7eht637Fgdg,https://i.ytimg.com/vi/7eht637Fgdg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-06 22:14:16+00:00
+416,'Oli L1-TA High G Sample w Mika,2025-10-08T21:16:37Z,cOmoVKRs6IE,https://i.ytimg.com/vi/cOmoVKRs6IE/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-08 21:16:37+00:00
+417,'Oli L1 TAS High G Sample w Mika,2025-10-08T22:04:33Z,N3DqubZcE5E,https://i.ytimg.com/vi/N3DqubZcE5E/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-08 22:04:33+00:00
+418,'Oli L3-CSR-P Spruce Rosewood Concert 1229,2025-10-08T23:50:03Z,VN--ZMTnHSw,https://i.ytimg.com/vi/VN--ZMTnHSw/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-10-08 23:50:03+00:00
 1,'Oli Mango Tenor Prototype,2023-08-21T22:57:34Z,1__pjKICYcA,https://i.ytimg.com/vi/1__pjKICYcA/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-08-21 22:57:34+00:00
 2,"""Hawai'i '78"" 'Oli Mango Tenor & Pono Master Series Baritone RBSMS",2023-08-21T23:00:57Z,mgGgRXIZY4Q,https://i.ytimg.com/vi/mgGgRXIZY4Q/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-08-21 23:00:57+00:00
 3,'Oli Mango Concert L2 MGC,2023-11-16T18:57:56Z,Oj_48kO9R8w,https://i.ytimg.com/vi/Oj_48kO9R8w/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-11-16 18:57:56+00:00
@@ -425,3 +435,4 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 -9999,"'Oli X2 Baritone & Tenor Torrefied Spruce Rosewood ""Beanie""",2025-05-27T21:09:50Z,ySauFg09bcs,https://i.ytimg.com/vi/ySauFg09bcs/default.jpg,,youtube,2025-05-27 21:09:50+00:00
 -9999,"'Oli L3 Milo Redwood & Cedar ""Dancing in the Moonlight""",2025-05-27T21:10:09Z,ZmMyO0XzaXk,https://i.ytimg.com/vi/ZmMyO0XzaXk/default.jpg,,youtube,2025-05-27 21:10:09+00:00
 -9999,“E O Mai” Moore Bettah Custom Koa Tenor Koki’o & ‘Oli X1 BMH S Mahogany Baritone,2025-07-16T21:39:33Z,bi2imV7uhOE,https://i.ytimg.com/vi/bi2imV7uhOE/default.jpg,,youtube,2025-07-16 21:39:33+00:00
+-9999,'Oli L1 BMGS 2025 Mango Baritone Satin,2025-01-29T22:35:45Z,s1aW6ipuXxM,https://i.ytimg.com/vi/s1aW6ipuXxM/default.jpg,,youtube,2025-01-29T22:35:45+00:00

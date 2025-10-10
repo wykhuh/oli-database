@@ -203,9 +203,24 @@ def download_yt_data():
     update_missing_videos()
 
 
+def get_video_for_id():
+    videoId = 's1aW6ipuXxM'
+    video_url = build_video_url(envar.API_KEY, videoId)
+
+    try:
+        res = requests.get(video_url)
+    except:
+        print("invalid videoId:", videoId)
+
+    jsondata = res.json()
+    video_record = jsondata["items"][0]
+    print(video_record)
+
+
 if __name__ == "__main__":
     fire.Fire(
         {
+            "get_video_for_id":get_video_for_id,
             "download_yt_data": download_yt_data,
             "create_videos_file": create_videos_file,
         }

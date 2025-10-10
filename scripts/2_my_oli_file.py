@@ -7,7 +7,9 @@ import fire
 project_path = Path(__file__).parent.parent
 oli_path = project_path / "raw_data" / "Oli.csv"
 video_path = project_path / "processed_data" / "videos_list.csv"
-int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
+int_dtype = {"playlist_position": "Int64", "price": "Int64",
+             "serial_number": "Int64", "product_id": "Int64"}
+listings_path = project_path / "raw_data" / "oli_listings.csv"
 
 
 # uses youtube video id to fill in the rest of the video information
@@ -62,6 +64,24 @@ def update_video_data():
     oli_df.to_csv(oli_path, index=False)
 
 
+def add_listings():
+    listings_df = pd.read_csv(listings_path, dtype=int_dtype)
+    oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+
+    new_serials = set(listings_df['serial_number']) - set(oli_df['serial_number'])
+    print(len(new_serials))
+
+    new_listings_df = listings_df[listings_df['serial_number'].isin(new_serials)]
+    combine_df = pd.concat([oli_df, new_listings_df])
+    del combine_df['listing_date_sold']
+    del combine_df['listing_date_added']
+
+    combine_df.to_csv(oli_path, index=False)
+
+
+
+
+
 def fix_date():
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
@@ -105,8 +125,8 @@ def add_new_label():
 
     ids = set()
     for i, row in my_oli_df.iterrows():
-        if row["oli_id"] not in ids:
-            ids.add(row["oli_id"])
+        if row["model"] not in ids:
+            ids.add(row["model"])
             my_oli_df.loc[i, "new"] = True
 
     my_oli_df.to_csv(oli_path, index=False)
@@ -115,6 +135,7 @@ def add_new_label():
 if __name__ == "__main__":
     fire.Fire(
         {
+            "add_listings": add_listings,
             "update_video_data": update_video_data,
             "add_oil_id": add_oil_id,
             "add_new_label": add_new_label,
