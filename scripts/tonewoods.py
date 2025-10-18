@@ -95,3 +95,31 @@ def create_tenor_tonewoods():
     text_file.close()
 
 create_tenor_tonewoods()
+
+
+def create_tenor_standard_tonewoods():
+    df = pd.read_csv(project_path / "raw_data" / "Oli.csv")
+
+    cols = ['tier',  "top_wood", "back_wood"]
+    filter_df = df.dropna(subset=["top_wood", "back_wood"]).copy()
+
+    filter_df = filter_df.sort_values('video_published_at')
+    filter_df = filter_df[filter_df['size']=='Tenor']
+    filter_df = filter_df[~pd.isna(filter_df['playlist_position'])]
+    filter_df = filter_df[filter_df['video_type']=='sound_sample']
+    filter_df = filter_df[pd.isna(filter_df['limited_edition'])]
+
+    filter_df = filter_df.drop_duplicates(subset=cols, keep='last')
+    filter_df = filter_df[cols+['video_id']]
+    filter_df['video_url'] = '[URL="https://www.youtube.com/watch?v=' + filter_df['video_id'] + '"]YouTube[/URL]'
+    del filter_df['video_id']
+
+    filter_df = filter_df.sort_values(cols)
+
+    filter_df.to_csv(project_path / "processed_data" / "tenor_standard_tonewood.csv", index=False)
+
+
+
+# create_tenor_tonewoods()
+
+create_tenor_standard_tonewoods()
