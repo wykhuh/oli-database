@@ -87,11 +87,15 @@ def create_units_file():
     print("units_df", units_df.shape)
     units_df.to_csv(units_path, index=False)
 
+def update():
+    create_models_file()
+    create_units_file()
 
 if __name__ == "__main__":
     fire.Fire(
         {
-            "create_models_file": create_models_file,
-            "create_units_file": create_units_file,
+            # "create_models_file": create_models_file,
+            # "create_units_file": create_units_file,
+            "update": update
         }
     )

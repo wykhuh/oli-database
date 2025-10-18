@@ -118,7 +118,7 @@ def create_listing_csv():
     df.to_csv("../raw_data/oli_listings_3.csv", index=False)
 
 
-# save oli listings so we can use them for develping script. Need to manually
+# save oli listings so we can use them for developing script. Need to manually
 # edit downloaded html.
 def cache_listings():
     def write_content(url):
@@ -183,7 +183,7 @@ def update_listings():
         "date_sold",
     ] = now
 
-    combined_df['product_id'] = combined_df['product_id'].astype('Int64')
+    # combined_df['product_id'] = combined_df['product_id'].astype('Int64')
 
 
     combined_df.to_csv(listings_path, index=False)

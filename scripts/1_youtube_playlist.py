@@ -132,6 +132,8 @@ def find_missing_videos():
     oli_playlist_2_df = pd.read_csv(playlist2_path)
     ids = list(oli_playlist_df["video_id"]) + list(oli_playlist_2_df["video_id"])
 
+    missing_df = pd.read_csv(missing_path)
+
     url = build_search_channel_url(envar.API_KEY, TUS_CLIPS_ID, "oli")
     print(url)
     res = requests.get(url)
@@ -149,7 +151,11 @@ def find_missing_videos():
 
     df = pd.DataFrame(records)
     df = df.sort_values(["published_at", "video_id"])
-    df.to_csv(missing_path, index=False)
+
+    combined_df = pd.concat([missing_df, df])
+    combined_df = combined_df.drop_duplicates()
+
+    combined_df.to_csv(missing_path, index=False)
 
 
 # clean up values in missing videos csv
@@ -216,12 +222,17 @@ def get_video_for_id():
     video_record = jsondata["items"][0]
     print(video_record)
 
+def update():
+    download_yt_data()
+    create_videos_file()
+
 
 if __name__ == "__main__":
     fire.Fire(
         {
-            "get_video_for_id":get_video_for_id,
-            "download_yt_data": download_yt_data,
-            "create_videos_file": create_videos_file,
+            # "get_video_for_id":get_video_for_id,
+            # "download_yt_data": download_yt_data,
+            # "create_videos_file": create_videos_file,
+            "update": update
         }
     )

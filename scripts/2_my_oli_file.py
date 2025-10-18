@@ -50,16 +50,13 @@ def update_video_data():
         if video_id not in ids:
             continue
 
-        oli_df.loc[oli_df["video_id"] == video_id, "playlist_position"] = row[
-            "position"
-        ]
-        oli_df.loc[oli_df["video_id"] == video_id, "video_title"] = row["video_title"]
-        oli_df.loc[oli_df["video_id"] == video_id, "playlist_id"] = row["playlist_id"]
-        oli_df.loc[oli_df["video_id"] == video_id, "video_type"] = "sound_sample"
-        oli_df.loc[oli_df["video_id"] == video_id, "video_provider"] = "youtube"
-        oli_df.loc[oli_df["video_id"] == video_id, "video_published_at"] = row[
-            "published_at"
-        ]
+        foo = pd.isna(oli_df["video_title"]) & (oli_df["video_id"] == video_id)
+        oli_df.loc[foo, "playlist_position"] = row["position"]
+        oli_df.loc[foo, "video_title"] = row["video_title"]
+        oli_df.loc[foo, "playlist_id"] = row["playlist_id"]
+        oli_df.loc[foo, "video_type"] = "sound_sample"
+        oli_df.loc[foo, "video_provider"] = "youtube"
+        oli_df.loc[foo, "video_published_at"] = row["published_at"]
 
     oli_df.to_csv(oli_path, index=False)
 
@@ -73,8 +70,9 @@ def add_listings():
 
     new_listings_df = listings_df[listings_df['serial_number'].isin(new_serials)]
     combine_df = pd.concat([oli_df, new_listings_df])
-    del combine_df['listing_date_sold']
-    del combine_df['listing_date_added']
+
+    del combine_df['date_added']
+    del combine_df['date_sold']
 
     combine_df.to_csv(oli_path, index=False)
 
@@ -131,14 +129,18 @@ def add_new_label():
 
     my_oli_df.to_csv(oli_path, index=False)
 
+def update():
+    add_oil_id()
+    add_new_label()
 
 if __name__ == "__main__":
     fire.Fire(
         {
             "add_listings": add_listings,
             "update_video_data": update_video_data,
-            "add_oil_id": add_oil_id,
-            "add_new_label": add_new_label,
+            # "add_oil_id": add_oil_id,
+            # "add_new_label": add_new_label,
+            "update": update
             # "fix_date":fix_date
         }
     )
