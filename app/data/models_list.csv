@@ -61,8 +61,8 @@ L2-BSQM-SB,L2,BSQM,Baritone,Spruce,Quilted Maple,gloss,sunburst stain,,2024-10-1
 L2-BMGS-LE,L2,BMGS,Baritone,Spalted Mango ,Spalted Mango ,gloss,,True,2024-10-12 22:12:11+00:00,L2-BMGS
 L2-TMGS-LE,L2,TMGS,Tenor,Spalted Mango ,Spalted Mango ,gloss,,True,2024-10-12 22:12:31+00:00,L2-TMGS
 L2-CMGS-LE,L2,CMGS,Concert,Spalted Mango ,Spalted Mango ,gloss,,True,2024-10-12 22:13:02+00:00,L2-CMGS
-L2-TCW,L2,TCW,Tenor,Cedar,Claro walnut,gloss,,True,2024-10-12 22:15:22+00:00,L2-TCW
 L2-TCW,L2,TCW,Tenor,Cedar,Claro walnut,gloss,with GOAA Pickup,,2024-10-12 22:15:22+00:00,L2-TCW
+L2-TCW,L2,TCW,Tenor,Cedar,Claro walnut,gloss,,True,2024-10-12 22:15:22+00:00,L2-TCW
 L1-CCWA-S,L1,CCWA,Concert,Cedar,Waru,satin,,,2024-10-12 22:29:15+00:00,L1-CCWA
 L2-CRR,L2,CRR,Concert,Curly Redwood,Rosewood,gloss,,True,2024-10-12 23:30:38+00:00,L2-CRR
 L2-CTSMR,L2,CTSMR,Concert,Torrefied spruce,Myrtle,gloss,,,2024-10-12 23:31:07+00:00,L2-CTSMR
@@ -87,6 +87,7 @@ L2-TQM-BL,L2,TQM,Tenor,Quilted Maple,Quilted Maple,gloss,blue stain,,2025-01-19 
 L2-TQM-LB,L2,TQM,Tenor,Quilted Maple,Quilted Maple,gloss,light burst stain,,2025-01-19 21:56:01+00:00,L2-TQM
 L2-BQM-LB,L2,BQM,Baritone,Quilted Maple,Quilted Maple,gloss,light burst stain,,2025-01-19 22:38:40+00:00,L2-BQM
 L2-BQM-BL,L2,BQM,Baritone,Quilted Maple,Quilted Maple,gloss,blue stain,,2025-01-20 02:54:09+00:00,L2-BQM
+L1-TMG-LH,L1,TMG-LH,Tenor,Mango,Mango,gloss,left-handed,,2025-01-29 22:21:44+00:00,L1-TMG-LH
 L1-TSWA-VB,L1,TSWA,Tenor,Spruce,Waru,gloss,vintage burst stain,,2025-01-31 19:41:02+00:00,L1-TSWA
 L2-CQM-BL,L2,CQM,Concert,Quilted Maple,Quilted Maple,gloss,blue stain,,2025-01-31 21:23:23+00:00,L2-CQM
 L2-TSFM-LB,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,light burst stain,,2025-01-31 21:46:14+00:00,L2-TSFM
@@ -114,11 +115,12 @@ L2-TMR,L2,TMR,Tenor,Myrtle,Myrtle,gloss,with GOAA Pickup,,2025-04-26 20:46:30+00
 X2-BCRBW,X2,BCRBW,Baritone,Cedar,Black and White Rosewood,gloss,,True,2025-04-27 01:58:11+00:00,X2-BCRBW
 L3-TRML,L3,TRML,Tenor,Curly Redwood,Milo,gloss,,True,2025-05-11 02:47:51+00:00,L3-TRML
 L-CMH-S,L,CMH-S,Concert,Mahogany,Mahogany,satin,,,2025-05-11 04:02:27+00:00,L-CMH-S
-L-TMH-S,L,TMH-S,Tenor,Mahogany,Mahogany,satin,,,2025-05-11 04:16:25+00:00,L-TMH-S
+L-CM-S,L,TMH-S,Tenor,Mahogany,Mahogany,satin,,,2025-05-11 04:02:27+00:00,L-TMH-S
+L-TM-S,L2,TSCFM-BK,Tenor,Sinker Cypress,Flame Maple,gloss,black stain,,2025-05-11 04:16:25+00:00,L2-TSCFM-BK
 L-BMH-S,L,BMH-S,Baritone,Mahogany,Mahogany,satin,,,2025-05-11 04:44:23+00:00,L-BMH-S
 L2-TKE,L2,TKE,Tenor,Koa,Macassar Ebony,gloss,,,2025-05-11 06:01:07+00:00,L2-TKE
-X2-BTSRBW,X2,BTSRBW,Baritone,Torrefied spruce,Black and White Rosewood,gloss,,True,2025-05-11 07:23:59+00:00,X2-BTSRBW
 X2-BTSRR,X2,BTSRR,Baritone,Torrefied spruce,Red Rosewood,gloss,,True,2025-05-11 07:23:59+00:00,X2-BTSRR
+X2-BTSRBW,X2,BTSRBW,Baritone,Torrefied spruce,Black and White Rosewood,gloss,,True,2025-05-11 07:23:59+00:00,X2-BTSRBW
 L2-TCPE,L2,TCPE,Tenor,Port Orford Cedar,Macassar Ebony,gloss,,,2025-05-11 08:10:47+00:00,L2-TCPE
 L2-TTSCM,L2,TTSCM,Tenor,Torrefied spruce,Hawaiian (Cuban) Mahogany,gloss,,True,2025-05-11 09:27:38+00:00,L2-TTSCM
 L3-BSR-P,L3,BSR,Baritone,Spruce,Rosewood,gloss,Plumeria,True,2025-05-12 19:53:18+00:00,L3-BSR
@@ -130,20 +132,20 @@ L2-TSR-LC,L2,TSR-LC,Tenor,Spruce,Rosewood,gloss,"Cutaway, 18"", 15 frets to the 
 L2-CMR,L2,CMR,Concert,Myrtle,Myrtle,gloss,,True,2025-05-14 21:11:15+00:00,L2-CMR
 L3-TRML,L3,TRML,Tenor,Redwood,Milo,gloss,,True,2025-05-14 21:31:45+00:00,L3-TRML
 L3-TTSML,L3,TTSML,Tenor,Torrefied spruce,Milo,gloss,,True,2025-05-14 21:45:40+00:00,L3-TTSML
-L2-BRW,L2,BRW,Baritone,Redwood,Claro walnut,gloss,,True,2025-05-14 21:58:30+00:00,L2-BRW
 L2-BRW,L2,BRW,Baritone,Redwood,Claro walnut,gloss,grafted walnut,True,2025-05-14 21:58:30+00:00,L2-BRW
+L2-BRW,L2,BRW,Baritone,Redwood,Claro walnut,gloss,,True,2025-05-14 21:58:30+00:00,L2-BRW
 L3-TSE-H,L3,TSE,Tenor,Spruce,Macassar Ebony,gloss,Honeycomb,True,2025-05-14 22:27:12+00:00,L3-TSE
 L2-CCPW,L2,CCPW,Concert,Port Orford Cedar,Claro walnut,gloss,,True,2025-05-14 23:07:01+00:00,L2-CCPW
 L1SP-TMG-BK,L1,TMG,Tenor,Mango,Mango,gloss,black stain,,2025-05-15 00:46:24+00:00,L1-TMG
-L3-BSE,L3,BSE,Baritone,Spruce,Macassar Ebony,gloss,,True,2025-05-15 01:32:04+00:00,L3-BSE
 L3-BSE-H,L3,BSE,Baritone,Spruce,Macassar Ebony,gloss,Honeycomb,True,2025-05-15 01:32:04+00:00,L3-BSE
+L3-BSE,L3,BSE,Baritone,Spruce,Macassar Ebony,gloss,,True,2025-05-15 01:32:04+00:00,L3-BSE
 L3-CCE-H,L3,CCE,Concert,Cedar,Macassar Ebony,gloss,Honeycomb,True,2025-05-18 03:23:54+00:00,L3-CCE
 L3-CSE-H,L3,CSE,Concert,Spruce,Macassar Ebony,gloss,Honeycomb,True,2025-05-18 03:41:25+00:00,L3-CSE
 L3-BRML,L3,BRML,Baritone,Redwood,Milo,gloss,,True,2025-05-18 04:58:43+00:00,L3-BRML
 L1SP-BMG-BK,L1,BMG,Baritone,Mango,Mango,gloss,black stain,,2025-05-21 04:33:53+00:00,L1-BMG
 L2-CRW,L2,CRW,Concert,Redwood,Walnut,gloss,grafted walnut,True,2025-05-31 03:52:45+00:00,L2-CRW
 X2-BCRBW-S,X2,BCRBW-S,Baritone,Cedar,Black and White Rosewood,satin,,True,2025-05-31 08:18:42+00:00,X2-BCRBW-S
-L3-TCML,L3,TCML,Tenor,Cedar,Milo,gloss,,,2025-05-31 19:48:25+00:00,L3-TCML
+L3-TCML,L3,TCML,Tenor,Cedar,Milo,gloss,,True,2025-05-31 19:48:25+00:00,L3-TCML
 L2-BQM,L2,BQM,Baritone,Quilted Maple,Quilted Maple,gloss,,,2025-06-01 03:10:18+00:00,L2-BQM
 L3-TTSE-H,L3,TTSE,Tenor,Torrefied spruce,Macassar Ebony,gloss,Honeycomb,True,2025-06-01 03:18:15+00:00,L3-TTSE
 L2-TSFM-SB,L2,TSFM,Tenor,Spruce,Flame Maple,gloss,sunburst stain,,2025-06-01 04:13:38+00:00,L2-TSFM
@@ -170,7 +172,7 @@ X1-BMH-S,X1,BMH-S,Baritone,Mahogany,Mahogany,satin,,,2025-07-16 09:28:47+00:00,X
 L2-CTSA,L2,CTSA,Concert,Torrefied spruce,Acacia,gloss,monstera,,2025-07-17 02:01:05+00:00,L2-CTSA
 X1-CMH-S,X1,CMH-S,Concert,Mahogany,Mahogany,satin,,,2025-07-21 05:14:03+00:00,X1-CMH-S
 L2-TCIR-P,L2,TCIR,Tenor,Pink Incense Cedar,Rosewood,gloss,Plumeria,True,2025-08-03 23:13:53+00:00,L2-TCIR
-L3-BCIR-P,L3,BCIR,Baritone,Pink Incense Cedar,Rosewood,gloss,Plumeria,True,2025-08-03 23:20:24+00:00,L3-BCIR
+L3-BCIR-P,L3,BCIR,Baritone,Pink Incense Cedar,Rosewood,gloss,Plumeria,,2025-08-03 23:20:24+00:00,L3-BCIR
 L2-TMR,L2,TMR,Tenor,Curly Myrtle,Curly Myrtle,gloss,,True,2025-08-03 23:38:33+00:00,L2-TMR
 L2-TMR,L2,TMR,Tenor,Tiger Myrtle,Tiger Myrtle,gloss,,True,2025-08-03 23:51:58+00:00,L2-TMR
 L2-BCPMR,L2,BCPMR,Baritone,Port Orford Cedar,Curly Myrtle,gloss,,True,2025-08-04 00:00:41+00:00,L2-BCPMR
@@ -186,13 +188,13 @@ X3-TCKM,X3,TCKM,Tenor,Cedar,Kamani,gloss,,True,2025-09-05 00:02:27+00:00,X3-TCKM
 L3-BTSE-H,L3,BTSE,Baritone,Torrefied spruce,Macassar Ebony,gloss,Honeycomb,,2025-09-12 06:24:08+00:00,L3-BTSE
 L2-TMG-MM,L2,TMG,Tenor,Mango,Mango,gloss,Mega Mendung,,2025-09-19 22:43:33+00:00,L2-TMG
 L3-TTSE-H-S,L3,TTSE-S,Tenor,Torrefied spruce,Macassar Ebony,satin,Honeycomb,True,2025-09-21 02:55:54+00:00,L3-TTSE-S
-L2-BSCFM-BK,L2,BSCFM,Baritone,Sinker Cypress,Flame Maple,gloss,black stain,True,2025-09-28 20:21:36+00:00,L2-BSCFM
+L2-BSCFM-BK,L2,BSCFM,Baritone,Sinker Cypress,Flame Maple,gloss,black stain,,2025-09-28 20:21:36+00:00,L2-BSCFM
 L2-TSCFM-BK,L2,TSCFM,Tenor,Sinker Cypress,Flame Maple,gloss,black stain,True,2025-09-28 20:30:26+00:00,L2-TSCFM
 L2-CSCQM-BK,L2,CSCQM,Concert,Sinker Cypress,Quilted Maple,gloss,black stain,True,2025-09-28 21:16:12+00:00,L2-CSCQM
 L3-CSCO,L3,CSCO,Concert,Spruce,Cocobolo ,gloss,,True,2025-09-28 22:04:39+00:00,L3-CSCO
 X1-TMG,X1,TMG,Tenor,Mango,Mango,gloss,,,2025-09-28 22:42:12+00:00,X1-TMG
-X2-TRR-SE,X2,TRR,Tenor,Redwood,Rosewood,gloss,,,2025-09-29 03:27:12+00:00,X2-TRR
-X2-CRR-SE,X2,CRR,Concert,Redwood,Rosewood,gloss,,,2025-09-29 04:33:09+00:00,X2-CRR
+X2-TRR-SE,X2,TRR,Tenor,Redwood,Rosewood,gloss,,True,2025-09-29 03:27:12+00:00,X2-TRR
+X2-CRR-SE,X2,CRR,Concert,Redwood,Rosewood,gloss,,True,2025-09-29 04:33:09+00:00,X2-CRR
 X2-BRR,X2,BRR,Baritone,Redwood,Rosewood,gloss,,,2025-09-29 05:26:49+00:00,X2-BRR
 X1-SSKMH-S,X1,SSKMH-S,Soprano,Sitka Spruce,Mahogany,satin,,,2025-10-01 22:59:59+00:00,X1-SSKMH-S
 X1-CCPMH-S,X1,CCPMH-S,Concert,Port Orford Cedar,Mahogany,satin,,,2025-10-02 03:50:01+00:00,X1-CCPMH-S
@@ -205,4 +207,8 @@ L1-CMR,L1,CMR,Concert,Myrtle,Myrtle,gloss,,,2025-10-03 07:06:34+00:00,L1-CMR
 L1SP-CCPMR,L1,CCPMR,Concert,Port Orford Cedar,Myrtle,gloss,,True,2025-10-03 07:26:44+00:00,L1-CCPMR
 L2-BSKMR ,L2,BSKMR ,Baritone,Sitka Spruce,Myrtle,gloss,,True,2025-10-03 23:35:01+00:00,L2-BSKMR 
 L1-BCPMR,L1,BCPMR,Baritone,Port Orford Cedar,Rosewood,gloss,,,2025-10-06 19:30:03+00:00,L1-BCPMR
-L2-TCIR-P-SB,L2,TCIR,Tenor,Pink Incense Cedar,Rosewood,gloss,"sunburst stain, Plumeria",,2025-10-06 21:16:00+00:00,L2-TCIR
+L2-TCIR-P-SB,L2,TCIR,Tenor,Pink Incense Cedar,Rosewood,gloss,"sunburst stain, Plumeria",True,2025-10-06 21:16:00+00:00,L2-TCIR
+L2-BMG-S,L2,BMG-S,Baritone,Mango,Mango,satin,,,2025-10-16 20:23:08+00:00,L2-BMG-S
+L2-TCPMR-SB,L2,TCPMR,Tenor,Port Orford Cedar,Tiger Myrtle,gloss,sunburst stain,,2025-10-20 01:26:08+00:00,L2-TCPMR
+L2-CCPMR,L2,CCPMR,Concert,Port Orford Cedar,Tiger Myrtle,gloss,,,2025-10-20 01:26:37+00:00,L2-CCPMR
+L2-TCE-S,L2,TCE-S,Tenor,Cedar,Macassar Ebony,satin,,,2025-10-21 19:49:49+00:00,L2-TCE-S
