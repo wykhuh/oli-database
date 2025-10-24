@@ -189,11 +189,15 @@ def update_listings():
     combined_df.to_csv(listings_path, index=False)
 
 
+def update():
+    update_listings()
+
 if __name__ == "__main__":
     fire.Fire(
         {
             # "create_listing_csv": create_listing_csv,
             # "cache_listings": cache_listings,
-            "update_listings": update_listings
+            # "update_listings": update_listings
+            "update": update
         }
     )
