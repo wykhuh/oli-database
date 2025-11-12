@@ -2,30 +2,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>'Oli Ukulele Database</title>
+    <title>Models Comparison</title>
     <link rel="stylesheet" href="../styles/style.css" />
 
     <script src="../lib/papaparse.min.js"></script>
     <script src="../lib/list.min.js"></script>
-    <script src="../js/models.js" type="module"></script>
+    <script src="../js/models-comparison.js" type="module"></script>
   </head>
-  <body id="details">
+  <body id="models-comparison">
     <header>
       <nav class="main-nav"></nav>
     </header>
     <main>
+      <h1>Comparison of 'Oli Models</h1>
       <div id="loader"></div>
     </main>
-
-    <template id="model-page-template">
-      <h1 class="title"></h1>
-      <video-embed
-        id="soundsample"
-        data-video-id=""
-        data-video-provider=""
-      ></video-embed>
-      <div id="model-data"></div>
-      <div id="units-container"></div>
-    </template>
   </body>
 </html>

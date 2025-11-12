@@ -1,13 +1,15 @@
 import { getAndParseCSV } from "./dataTable.js";
+import { renderNav } from "./utils.js";
 
 async function init() {
+  renderNav();
+
   let loaderEl = document.getElementById("loader");
   if (!loaderEl) return;
   let mainEl = document.querySelector("main");
   if (!mainEl) return;
 
   loaderEl.className = "loading";
-  mainEl.innerHTML = "";
 
   let rawModels = await getAndParseCSV("../data/model_comparison.csv");
 
