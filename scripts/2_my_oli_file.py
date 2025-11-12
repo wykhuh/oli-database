@@ -62,7 +62,7 @@ def update_video_data():
 
 
 def add_listings():
-    listings_df = pd.read_csv(listings_path, dtype=int_dtype)
+    listings_df = pd.read_csv(listings_path, dtype=int_dtype, skipinitialspace=True)
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
     new_serials = set(listings_df['serial_number']) - set(oli_df['serial_number'])
@@ -100,7 +100,7 @@ def fix_date():
 
 
 def add_oil_id():
-    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype, skipinitialspace=True)
     my_oli_df["oli_id"] = ""
 
     for i, row in my_oli_df.iterrows():
@@ -118,7 +118,7 @@ def add_oil_id():
 
 
 def add_new_label():
-    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype, skipinitialspace=True)
     my_oli_df["new"] = ""
 
     ids = set()
@@ -129,9 +129,22 @@ def add_new_label():
 
     my_oli_df.to_csv(oli_path, index=False)
 
+def strip_whitespace():
+    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+    for col in my_oli_df.columns:
+        if my_oli_df[col].dtype == 'object' and col not in ['new','limited_edition']:
+            my_oli_df[col] = my_oli_df[col].str.strip()
+        else:
+            my_oli_df[col] = my_oli_df[col]
+
+    my_oli_df.to_csv(oli_path, index=False)
+
 def update():
+    strip_whitespace()
     add_oil_id()
     add_new_label()
+
+
 
 if __name__ == "__main__":
     fire.Fire(
