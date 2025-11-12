@@ -10,3 +10,15 @@ export function cleanData(data) {
       })
   );
 }
+
+export function renderNav() {
+  let navEl = document.querySelector(".main-nav");
+  if (!navEl) return;
+
+  navEl.innerHTML = `
+  <ul>
+    <li>'Oli</li>
+    <li><a class="navlink" href="/">Home</a></li>
+  </ul>
+  `;
+}

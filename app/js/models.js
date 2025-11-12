@@ -2,12 +2,14 @@ import { getAndParseCSV } from "./dataTable.js";
 import Store from "./store.js";
 import "../components/VideoEmbed.js";
 import { ModelDetailsPage } from "../components/ModelDetailsPage.js";
-import { cleanData } from "./utils.js";
+import { cleanData, renderNav } from "./utils.js";
 
 window.app = {};
 app.store = Store;
 
 async function init() {
+  renderNav();
+
   let loaderEl = document.getElementById("loader");
   if (!loaderEl) return;
   let mainEl = document.querySelector("main");
