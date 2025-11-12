@@ -13,8 +13,8 @@ async function init() {
 
   let rawModels = await getAndParseCSV("../data/model_comparison.csv");
 
-  let tableEl = document.createElement("table");
-  tableEl.className = "list-table stripe-table";
+  let tableEl = document.querySelector("table");
+  if (!tableEl) return;
 
   let headerRow = document.createElement("tr");
   addTH("Feature", headerRow);
@@ -32,8 +32,6 @@ async function init() {
       addRow(row, tableEl);
     }
   });
-
-  mainEl.appendChild(tableEl);
 
   loaderEl.className = "";
 }
