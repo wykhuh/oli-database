@@ -1,0 +1,14 @@
+Feature,L,L1,L2,L3,X1,X2,X3
+bracing,lattice,lattice,lattice,lattice,X,X,X
+side sound port,no,yes,yes,yes,yes,yes,yes
+radius fretboard,no,yes,yes,yes,yes,yes,yes
+arm bevel,no,no,yes,yes,no,no,yes
+headstock inlay,no,no,sometimes,yes,no,no,yes
+limited edition woods,no,rarely,often ,yes,rarely,often ,yes
+solid lining instead of kerfling,no,no,no,yes,no,no,yes
+carbon fiber rods in neck,no,no,no,yes,no,no,yes
+one peice neck,no,no,no,yes,no,no,yes
+string through bridge,no,no,no,no,yes,yes,yes
+decorative purflings and binding,no,low,medum ,high,low,medium,high
+tuners,grover tuners,UPT,UPT,UPT,UPT,UPT,UPT
+price,$,$$,$$$,$$$$,$$,$$$,$$$$
