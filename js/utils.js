@@ -20,7 +20,7 @@ export function renderNav() {
     <li>'Oli</li>
     <li><a class="navlink" href="/">Home</a></li>
     <li>
-      <a class="navlink" href="/models-comparison.html"
+      <a class="navlink" href="/models-comparison/"
         >Model Comparison</a
       >
     </li>
