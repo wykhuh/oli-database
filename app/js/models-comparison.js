@@ -10,7 +10,6 @@ async function init() {
   if (!mainEl) return;
 
   loaderEl.className = "loading";
-  mainEl.innerHTML = "";
 
   let rawModels = await getAndParseCSV("../data/model_comparison.csv");
 

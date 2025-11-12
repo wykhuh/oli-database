@@ -19,6 +19,11 @@ export function renderNav() {
   <ul>
     <li>'Oli</li>
     <li><a class="navlink" href="/">Home</a></li>
+    <li>
+      <a class="navlink" href="/models-comparison.html"
+        >Model Comparison</a
+      >
+    </li>
   </ul>
   `;
 }
