@@ -27,3 +27,13 @@ export function renderNav() {
   </ul>
   `;
 }
+
+export function pluralize(number, text, useComma = false) {
+  if (number === undefined) number = 0;
+  let displayNumber = useComma ? number.toLocaleString() : number;
+  if (number === 1) {
+    return `${displayNumber} ${text}`;
+  } else {
+    return `${displayNumber} ${text}s`;
+  }
+}
