@@ -17,7 +17,7 @@ export function renderNav() {
 
   navEl.innerHTML = `
   <ul>
-    <li>'Oli</li>
+    <li>'Oli Database</li>
     <li><a class="navlink" href="/">Models</a></li>
     <li>
       <a class="navlink" href="/models-comparison/"
