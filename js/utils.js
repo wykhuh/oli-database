@@ -17,7 +17,7 @@ export function renderNav() {
 
   navEl.innerHTML = `
   <ul>
-    <li>'Oli</li>
+    <li>'Oli Database</li>
     <li><a class="navlink" href="/">Models</a></li>
     <li>
       <a class="navlink" href="/models-comparison/"
@@ -26,4 +26,14 @@ export function renderNav() {
     </li>
   </ul>
   `;
+}
+
+export function pluralize(number, text, useComma = false) {
+  if (number === undefined) number = 0;
+  let displayNumber = useComma ? number.toLocaleString() : number;
+  if (number === 1) {
+    return `${displayNumber} ${text}`;
+  } else {
+    return `${displayNumber} ${text}s`;
+  }
 }

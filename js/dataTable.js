@@ -46,9 +46,18 @@ export function processListData(data, config) {
 }
 
 export function processAllData(data) {
-  return data.map((row) => {
-    return new Map(Object.entries(row));
-  });
+  return (
+    data
+      // filter rows with all empty values
+      .filter((row) => {
+        return !Object.values(row).every((value) =>
+          ["", undefined].includes(value)
+        );
+      })
+      .map((row) => {
+        return new Map(Object.entries(row));
+      })
+  );
 }
 
 //==========================
@@ -184,7 +193,7 @@ function createRow(row, config) {
 
       let linkEl = document.createElement("a");
       linkEl.className = "resource-link";
-      linkEl.dataset.rescoureId = row.get(config.link.idField);
+      linkEl.dataset.resourceId = row.get(config.link.idField);
       linkEl.href = `/${config.link.path}/?id=${row.get(config.link.idField)}`;
       linkEl.textContent = value;
 
@@ -206,15 +215,17 @@ function addSortableTable() {
     valueNames: [
       ...headerClasses,
       { name: "timestamp", attr: "data-timestamp" },
+      { name: "resource-link", attr: "data-resource-id" },
     ],
   };
   let sortableTable = new List("data-container", options);
 
   // create event so we can track the number of items shown in sortable table
   sortableTable.on("updated", () => {
+    let items = sortableTable.matchingItems.map((i) => i.values());
     window.dispatchEvent(
       new CustomEvent("listUpdated", {
-        detail: { visibleItemsCount: sortableTable.visibleItems.length },
+        detail: { items },
       })
     );
   });
