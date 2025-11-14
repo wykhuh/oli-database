@@ -46,9 +46,18 @@ export function processListData(data, config) {
 }
 
 export function processAllData(data) {
-  return data.map((row) => {
-    return new Map(Object.entries(row));
-  });
+  return (
+    data
+      // filter rows with all empty values
+      .filter((row) => {
+        return !Object.values(row).every((value) =>
+          ["", undefined].includes(value)
+        );
+      })
+      .map((row) => {
+        return new Map(Object.entries(row));
+      })
+  );
 }
 
 //==========================
