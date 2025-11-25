@@ -139,6 +139,27 @@ def strip_whitespace():
 
     my_oli_df.to_csv(oli_path, index=False)
 
+def copy_my_data():
+    oli_df = pd.read_csv(oli_path, dtype=int_dtype)
+    playlist_positions = set(oli_df[oli_df['tier'].isna() & oli_df['listing_title'].notna()]['playlist_position'])
+    playlist_positions.remove(-9999)
+    playlist_positions.remove(pd.NA)
+
+    done_df = oli_df[(oli_df['playlist_position'].isin(playlist_positions)) &
+                 oli_df['tier'].notna()]
+
+    for i, row in done_df.iterrows():
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'type'] = row['type']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'size'] = row['size']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'top_wood'] = row['top_wood']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'back_wood'] = row['back_wood']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'finish'] = row['finish']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'model_notes'] = row['model_notes']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'limited_edition'] = row['limited_edition']
+        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'tier'] = row['tier']
+
+    oli_df.to_csv(oli_path, index = False)
+
 def update():
     strip_whitespace()
     add_oil_id()
@@ -151,6 +172,7 @@ if __name__ == "__main__":
         {
             "add_listings": add_listings,
             "update_video_data": update_video_data,
+            "copy_my_data": copy_my_data,
             # "add_oil_id": add_oil_id,
             # "add_new_label": add_new_label,
             "update": update
