@@ -1,7 +1,28 @@
+import { html, setupComponent } from "../js/component_utils.js";
 import { renderSortableTable, renderPageIntro } from "../js/dataTable.js";
 import { pluralize } from "../js/utils.js";
 
+let template = html`
+  <h1 class="title"></h1>
+  <div class="summary"></div>
+
+  <div id="data-container">
+    <input id="search-form" class="search" placeholder="Search" />
+    <p id="model-counter"></p>
+  </div>
+`;
+
 export class ModelsListPage extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    setupComponent(template, this);
+
+    this.render();
+  }
+
   async render() {
     renderPageIntro(app.store.config.home);
     renderSortableTable(app.store.models, app.store.config.home);
@@ -34,17 +55,6 @@ export class ModelsListPage extends HTMLElement {
       window.addEventListener("listUpdated", (e) => {
         counterEl.textContent = formatText(e.detail.items);
       });
-    }
-  }
-
-  connectedCallback() {
-    const template = document.getElementById("home-page-template");
-
-    if (template) {
-      const content = template.content.cloneNode(true);
-      this.appendChild(content);
-
-      this.render();
     }
   }
 }

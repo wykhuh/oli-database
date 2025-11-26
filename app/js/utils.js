@@ -11,23 +11,6 @@ export function cleanData(data) {
   );
 }
 
-export function renderNav() {
-  let navEl = document.querySelector(".main-nav");
-  if (!navEl) return;
-
-  navEl.innerHTML = `
-  <ul>
-    <li>'Oli Database</li>
-    <li><a class="navlink" href="/">Models</a></li>
-    <li>
-      <a class="navlink" href="/models-comparison/"
-        >Comparison</a
-      >
-    </li>
-  </ul>
-  `;
-}
-
 export function pluralize(number, text, useComma = false) {
   if (number === undefined) number = 0;
   let displayNumber = useComma ? number.toLocaleString() : number;

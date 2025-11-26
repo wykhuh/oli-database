@@ -61,34 +61,6 @@ export function processAllData(data) {
 }
 
 //==========================
-// configuration
-//==========================
-
-export function processConfig(configData) {
-  let displayFields = [];
-  let title = "";
-  let summary = "";
-
-  configData.forEach((row) => {
-    switch (row[0]) {
-      case "displayFields":
-        displayFields = row[1].split(",").map((field) => field.trim());
-        break;
-      case "title":
-        title = row[1].trim();
-        break;
-      case "summary":
-        summary = row[1].trim();
-        break;
-      default:
-        break;
-    }
-  });
-
-  return { displayFields, title, summary };
-}
-
-//==========================
 // all records table
 //==========================
 
