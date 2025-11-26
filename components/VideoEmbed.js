@@ -1,4 +1,8 @@
-export class VideoEmbed extends HTMLElement {
+class VideoEmbed extends HTMLElement {
+  constructor() {
+    super();
+  }
+
   static get observedAttributes() {
     return ["data-video-id", "data-video-provider"];
   }

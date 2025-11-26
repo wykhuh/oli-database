@@ -1,9 +1,7 @@
 import { createTable, getAndParseCSV } from "./dataTable.js";
-import { renderNav } from "./utils.js";
+import "../components/Header.js";
 
 async function init() {
-  renderNav();
-
   let loaderEl = document.getElementById("loader");
   if (!loaderEl) return;
   let mainEl = document.querySelector("main");

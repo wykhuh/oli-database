@@ -61,38 +61,10 @@ export function processAllData(data) {
 }
 
 //==========================
-// configuration
-//==========================
-
-export function processConfig(configData) {
-  let displayFields = [];
-  let title = "";
-  let summary = "";
-
-  configData.forEach((row) => {
-    switch (row[0]) {
-      case "displayFields":
-        displayFields = row[1].split(",").map((field) => field.trim());
-        break;
-      case "title":
-        title = row[1].trim();
-        break;
-      case "summary":
-        summary = row[1].trim();
-        break;
-      default:
-        break;
-    }
-  });
-
-  return { displayFields, title, summary };
-}
-
-//==========================
 // all records table
 //==========================
 
-export function renderSortableTable(data, config) {
+export function renderSortableTable(data, config, tableSelector = undefined) {
   let searchEl = document.getElementById("search-form");
   if (searchEl == undefined) return;
 
@@ -102,13 +74,13 @@ export function renderSortableTable(data, config) {
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
 
-  let table = createListTable(listRecords, config);
+  let table = createListTable(listRecords, config, tableSelector);
   dataContainerEl.appendChild(table);
 
   addSortableTable();
 }
 
-export function createTable(data, config = {}, selector = null) {
+export function createTable(data, config = {}, selector = undefined) {
   allRecords = processAllData(data);
   listRecords = processListData(allRecords, config);
 
@@ -201,7 +173,7 @@ function createRow(row, config) {
     } else if (value instanceof Date) {
       tdEl.innerText = value.toLocaleDateString();
     } else {
-      tdEl.innerText = value;
+      tdEl.innerHTML = value;
     }
     rowEl.appendChild(tdEl);
   });

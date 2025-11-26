@@ -1,43 +1,77 @@
 import { createFieldValueTable, createTable } from "../js/dataTable.js";
+import { html, setupComponent } from "../js/component_utils.js";
+
+let template = html`
+  <h1 class="title"></h1>
+  <video-embed
+    id="soundsample"
+    data-video-id=""
+    data-video-provider=""
+  ></video-embed>
+  <div id="model-data"></div>
+  <div id="units-container"></div>
+`;
 
 export class ModelDetailsPage extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    setupComponent(template, this);
+
+    this.id = this.data.toLowerCase();
+
+    // @ts-ignore
+    this.models = app.store.models.filter(
+      (m) => m["Oli Id"].toLowerCase() === this.id
+    );
+
+    this.model = this.models[0];
+
+    // @ts-ignore
+    this.units = app.store.units.filter(
+      (m) => m["Oli Id"].toLowerCase() === this.id
+    );
+
+    if (this.model) {
+      this.render();
+    } else {
+      this.renderNoData();
+    }
+  }
+
   render() {
-    const template = document.getElementById("model-page-template");
-    if (template) {
-      const content = template.content.cloneNode(true);
-      this.appendChild(content);
+    let titleEl = this.querySelector("h1");
+    if (titleEl) {
+      titleEl.textContent = `${this.model.Model} ${this.model["Top Wood"]}/${this.model["Back Wood"]} ${this.model["Size"]}`;
+    }
 
-      let titleEl = this.querySelector("h1");
-      if (titleEl) {
-        titleEl.textContent = `${this.model.Model} ${this.model["Top Wood"]}/${this.model["Back Wood"]} ${this.model["Size"]}`;
+    let modelDataEl = this.querySelector("#model-data");
+
+    if (modelDataEl) {
+      let fields = app.store.config.modelDetails.modelFields;
+      modelDataEl.appendChild(createFieldValueTable(this.model, fields));
+
+      if (this.models && this.models.length > 1) {
+        let heading = document.createElement("h2");
+        heading.textContent = "Variations";
+        modelDataEl.appendChild(heading);
+
+        let table = createTable(
+          this.models,
+          app.store.config.modelDetails,
+          "variations"
+        );
+        modelDataEl.appendChild(table);
       }
+    }
 
-      let modelDataEl = this.querySelector("#model-data");
-
-      if (modelDataEl) {
-        let fields = app.store.config.modelDetails.modelFields;
-        modelDataEl.appendChild(createFieldValueTable(this.model, fields));
-
-        if (this.models && this.models.length > 1) {
-          let heading = document.createElement("h2");
-          heading.textContent = "Variations";
-          modelDataEl.appendChild(heading);
-
-          let table = createTable(
-            this.models,
-            app.store.config.modelDetails,
-            "variations"
-          );
-          modelDataEl.appendChild(table);
-        }
-      }
-
-      let containerEl = this.querySelector("#units-container");
-      if (containerEl) {
-        this.units?.forEach((unit) => {
-          containerEl.append(renderUnit(unit));
-        });
-      }
+    let containerEl = this.querySelector("#units-container");
+    if (containerEl) {
+      this.units?.forEach((unit) => {
+        containerEl.append(renderUnit(unit));
+      });
     }
   }
 
@@ -51,26 +85,6 @@ export class ModelDetailsPage extends HTMLElement {
       if (titleEl) {
         titleEl.textContent = `No data for ${this.id}`;
       }
-    }
-  }
-
-  connectedCallback() {
-    this.id = this.data.toLowerCase();
-
-    this.models = app.store.models.filter(
-      (m) => m["Oli Id"].toLowerCase() === this.id
-    );
-
-    this.model = this.models[0];
-
-    this.units = app.store.units.filter(
-      (m) => m["Oli Id"].toLowerCase() === this.id
-    );
-
-    if (this.model) {
-      this.render();
-    } else {
-      this.renderNoData();
     }
   }
 }
