@@ -1,12 +1,13 @@
 import { html, setupComponent } from "../js/component_utils.js";
 import { createTable, renderSortableTable } from "../js/dataTable.js";
+import { pluralize } from "../js/utils.js";
 
 let template = html`
   <h1 class="title">Tonewoods</h1>
 
   <div id="data-container">
     <input id="search-form" class="search" placeholder="Search" />
-    <p id="model-counter"></p>
+    <p id="counter"></p>
   </div>
 `;
 
@@ -50,6 +51,20 @@ export class TonewoodsPage extends HTMLElement {
       };
     });
     renderSortableTable(tonewoods, config, "tonewoods-table");
+
+    this.renderCounter();
+  }
+
+  renderCounter() {
+    let counterEl = document.getElementById("counter");
+
+    if (counterEl) {
+      counterEl.textContent = pluralize(app.store.tonewoods.length, "tonewood");
+
+      window.addEventListener("listUpdated", (e) => {
+        counterEl.textContent = pluralize(e.detail.items.length, "tonewood");
+      });
+    }
   }
 }
 
