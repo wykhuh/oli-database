@@ -1,0 +1,56 @@
+import { html, setupComponent } from "../js/component_utils.js";
+import { createTable, renderSortableTable } from "../js/dataTable.js";
+
+let template = html`
+  <h1 class="title">Tonewoods</h1>
+
+  <div id="data-container">
+    <input id="search-form" class="search" placeholder="Search" />
+    <p id="model-counter"></p>
+  </div>
+`;
+
+export class TonewoodsPage extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  formatModels(text) {
+    return text
+      .split(";")
+      .map((t) => {
+        const [text, id] = t.split("|");
+        return `<a href="/models/?id=${id}">${text}</a>`;
+      })
+      .join("\n");
+  }
+
+  connectedCallback() {
+    setupComponent(template, this);
+
+    let config = {
+      displayFields: [
+        "Top Wood",
+        "Back Wood",
+        "Soprano",
+        "Concert",
+        "Tenor",
+        "Baritone",
+      ],
+      sortable: true,
+    };
+
+    const tonewoods = app.store.tonewoods.map((tonewood) => {
+      return {
+        ...tonewood,
+        Soprano: this.formatModels(tonewood.Soprano),
+        Concert: this.formatModels(tonewood.Concert),
+        Tenor: this.formatModels(tonewood.Tenor),
+        Baritone: this.formatModels(tonewood.Baritone),
+      };
+    });
+    renderSortableTable(tonewoods, config, "tonewoods-table");
+  }
+}
+
+customElements.define("tonewoods-page", TonewoodsPage);

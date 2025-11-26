@@ -7,10 +7,10 @@ let template = html`
         <li>'Oli Database</li>
         <li><a class="navlink" href="/">Models</a></li>
         <li>
-          <a class="navlink" href="/models-comparison/">Model Comparison</a>
+          <a class="navlink" href="/tonewoods/">Tonewoods</a>
         </li>
         <li>
-          <a class="navlink" href="/tonewoods/">Tonewoods</a>
+          <a class="navlink" href="/models-comparison/">Model Comparison</a>
         </li>
       </ul>
     </nav>
