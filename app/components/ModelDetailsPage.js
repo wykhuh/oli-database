@@ -1,13 +1,10 @@
 import { createFieldValueTable, createTable } from "../js/dataTable.js";
 import { html, setupComponent } from "../js/component_utils.js";
+import { config } from "../js/config.js";
 
 let template = html`
   <h1 class="title"></h1>
-  <video-embed
-    id="soundsample"
-    data-video-id=""
-    data-video-provider=""
-  ></video-embed>
+  <video-embed id="soundsample" data-video-id="" data-video-provider=""></video-embed>
   <div id="model-data"></div>
   <div id="units-container"></div>
 `;
@@ -23,16 +20,12 @@ export class ModelDetailsPage extends HTMLElement {
     this.id = this.data.toLowerCase();
 
     // @ts-ignore
-    this.models = app.store.models.filter(
-      (m) => m["Oli Id"].toLowerCase() === this.id
-    );
+    this.models = app.store.models.filter((m) => m["Oli Id"].toLowerCase() === this.id);
 
     this.model = this.models[0];
 
     // @ts-ignore
-    this.units = app.store.units.filter(
-      (m) => m["Oli Id"].toLowerCase() === this.id
-    );
+    this.units = app.store.units.filter((m) => m["Oli Id"].toLowerCase() === this.id);
 
     if (this.model) {
       this.render();
@@ -50,7 +43,7 @@ export class ModelDetailsPage extends HTMLElement {
     let modelDataEl = this.querySelector("#model-data");
 
     if (modelDataEl) {
-      let fields = app.store.config.modelDetails.modelFields;
+      let fields = config.modelDetails.modelFields;
       modelDataEl.appendChild(createFieldValueTable(this.model, fields));
 
       if (this.models && this.models.length > 1) {
@@ -58,11 +51,7 @@ export class ModelDetailsPage extends HTMLElement {
         heading.textContent = "Variations";
         modelDataEl.appendChild(heading);
 
-        let table = createTable(
-          this.models,
-          app.store.config.modelDetails,
-          "variations"
-        );
+        let table = createTable(this.models, config.modelDetails, "variations");
         modelDataEl.appendChild(table);
       }
     }
@@ -115,7 +104,7 @@ function renderUnit(data) {
   }
 
   // data table
-  let fields = app.store.config.modelDetails.unitFields;
+  let fields = config.modelDetails.unitFields;
   let tableEl = createFieldValueTable(data, fields, "unit-metadata");
   cardEl.appendChild(tableEl);
 

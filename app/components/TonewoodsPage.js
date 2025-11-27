@@ -1,6 +1,7 @@
 import { html, setupComponent } from "../js/component_utils.js";
 import { createTable, renderSortableTable } from "../js/dataTable.js";
 import { pluralize } from "../js/utils.js";
+import { config } from "../js/config.js";
 
 let template = html`
   <h1 class="title">Tonewoods</h1>
@@ -29,18 +30,6 @@ export class TonewoodsPage extends HTMLElement {
   connectedCallback() {
     setupComponent(template, this);
 
-    let config = {
-      displayFields: [
-        "Top Wood",
-        "Back Wood",
-        "Soprano",
-        "Concert",
-        "Tenor",
-        "Baritone",
-      ],
-      sortable: true,
-    };
-
     const tonewoods = app.store.tonewoods.map((tonewood) => {
       return {
         ...tonewood,
@@ -50,7 +39,7 @@ export class TonewoodsPage extends HTMLElement {
         Baritone: this.formatModels(tonewood.Baritone),
       };
     });
-    renderSortableTable(tonewoods, config, "tonewoods-table");
+    renderSortableTable(tonewoods, config.tonewoods, "tonewoods-table");
 
     this.renderCounter();
   }
