@@ -1,14 +1,17 @@
 import pandas as pd
 import envar as envar
 from pathlib import Path
-import hashlib
 import fire
 
 project_path = Path(__file__).parent.parent
 oli_path = project_path / "raw_data" / "Oli.csv"
 video_path = project_path / "processed_data" / "videos_list.csv"
-int_dtype = {"playlist_position": "Int64", "price": "Int64",
-             "serial_number": "Int64", "product_id": "Int64"}
+int_dtype = {
+    "playlist_position": "Int64",
+    "price": "Int64",
+    "serial_number": "Int64",
+    "product_id": "Int64",
+}
 listings_path = project_path / "raw_data" / "oli_listings.csv"
 
 
@@ -65,19 +68,16 @@ def add_listings():
     listings_df = pd.read_csv(listings_path, dtype=int_dtype, skipinitialspace=True)
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
-    new_serials = set(listings_df['serial_number']) - set(oli_df['serial_number'])
+    new_serials = set(listings_df["serial_number"]) - set(oli_df["serial_number"])
     print(len(new_serials))
 
-    new_listings_df = listings_df[listings_df['serial_number'].isin(new_serials)]
+    new_listings_df = listings_df[listings_df["serial_number"].isin(new_serials)]
     combine_df = pd.concat([oli_df, new_listings_df])
 
-    del combine_df['date_added']
-    del combine_df['date_sold']
+    del combine_df["date_added"]
+    del combine_df["date_sold"]
 
     combine_df.to_csv(oli_path, index=False)
-
-
-
 
 
 def fix_date():
@@ -129,42 +129,83 @@ def add_new_label():
 
     my_oli_df.to_csv(oli_path, index=False)
 
+
 def strip_whitespace():
     my_oli_df = pd.read_csv(oli_path, dtype=int_dtype)
     for col in my_oli_df.columns:
-        if my_oli_df[col].dtype == 'object' and col not in ['new','limited_edition']:
+        if my_oli_df[col].dtype == "object" and col not in ["new", "limited_edition"]:
             my_oli_df[col] = my_oli_df[col].str.strip()
         else:
             my_oli_df[col] = my_oli_df[col]
 
     my_oli_df.to_csv(oli_path, index=False)
 
+
 def copy_my_data():
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
-    playlist_positions = set(oli_df[oli_df['tier'].isna() & oli_df['listing_title'].notna()]['playlist_position'])
-    playlist_positions.remove(-9999)
-    playlist_positions.remove(pd.NA)
+    playlist_positions = set(
+        oli_df[oli_df["tier"].isna() & oli_df["listing_title"].notna()][
+            "playlist_position"
+        ]
+    )
+    if -9999 in playlist_positions:
+        playlist_positions.remove(-9999)
+    if pd.NA in playlist_positions:
+        playlist_positions.remove(pd.NA)
 
-    done_df = oli_df[(oli_df['playlist_position'].isin(playlist_positions)) &
-                 oli_df['tier'].notna()]
+    done_df = oli_df[
+        (oli_df["playlist_position"].isin(playlist_positions)) & oli_df["tier"].notna()
+    ]
 
     for i, row in done_df.iterrows():
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'type'] = row['type']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'size'] = row['size']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'top_wood'] = row['top_wood']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'back_wood'] = row['back_wood']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'finish'] = row['finish']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'model_notes'] = row['model_notes']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'limited_edition'] = row['limited_edition']
-        oli_df.loc[(oli_df['playlist_position'] == row['playlist_position']) & (oli_df['tier'].isna()), 'tier'] = row['tier']
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "type",
+        ] = row["type"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "size",
+        ] = row["size"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "top_wood",
+        ] = row["top_wood"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "back_wood",
+        ] = row["back_wood"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "finish",
+        ] = row["finish"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "model_notes",
+        ] = row["model_notes"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "limited_edition",
+        ] = row["limited_edition"]
+        oli_df.loc[
+            (oli_df["playlist_position"] == row["playlist_position"])
+            & (oli_df["tier"].isna()),
+            "tier",
+        ] = row["tier"]
 
-    oli_df.to_csv(oli_path, index = False)
+    oli_df.to_csv(oli_path, index=False)
+
 
 def update():
     strip_whitespace()
     add_oil_id()
     add_new_label()
-
 
 
 if __name__ == "__main__":
@@ -175,7 +216,7 @@ if __name__ == "__main__":
             "copy_my_data": copy_my_data,
             # "add_oil_id": add_oil_id,
             # "add_new_label": add_new_label,
-            "update": update
+            "update": update,
             # "fix_date":fix_date
         }
     )

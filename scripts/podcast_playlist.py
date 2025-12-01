@@ -7,10 +7,9 @@ import fire
 
 project_path = Path(__file__).parent.parent
 API_BASE = "https://www.googleapis.com/youtube/v3/"
-PODCAST_ID = 'PL6nYkmn-q9zOKISE6GcxcseLFvny9K4Jz'
+PODCAST_ID = "PL6nYkmn-q9zOKISE6GcxcseLFvny9K4Jz"
 
 playlist_path = project_path / "raw_data" / "tus_podcast.csv"
-
 
 
 def process_playlist_items(json, playlist_id):
@@ -26,14 +25,13 @@ def process_playlist_items(json, playlist_id):
                 "published_at": date,
                 "video_id": item["snippet"]["resourceId"]["videoId"],
                 "video_thumbnail": item["snippet"]["thumbnails"]["default"]["url"],
-                "description": item["snippet"]['description'],
-             }
+                "description": item["snippet"]["description"],
+            }
             records.append(data)
         except:
             print("invalid date", item["snippet"])
 
     return records
-
 
 
 def build_playlist_items_url(api_key, playlistId, limit=50):
@@ -85,13 +83,12 @@ def download_playlist(playlist_id, file_path):
     df.to_csv(file_path, index=False)
 
 
-
 def download_yt_data():
     download_playlist(PODCAST_ID, playlist_path)
 
 
 def get_video_for_id():
-    videoId = 's1aW6ipuXxM'
+    videoId = "s1aW6ipuXxM"
     video_url = build_video_url(envar.API_KEY, videoId)
 
     try:

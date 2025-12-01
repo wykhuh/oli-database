@@ -161,9 +161,9 @@ def update_listings():
 
     # add video_id
     for listing in new_listings:
-        details_content = fetch_content(listing['listing_url'])
+        details_content = fetch_content(listing["listing_url"])
         details_data = process_details_content(details_content)
-        listing["video_id"] = details_data['video_id']
+        listing["video_id"] = details_data["video_id"]
 
     new_df = pd.DataFrame(new_listings)
     combined_df = pd.concat([df, new_df])
@@ -185,12 +185,12 @@ def update_listings():
 
     # combined_df['product_id'] = combined_df['product_id'].astype('Int64')
 
-
     combined_df.to_csv(listings_path, index=False)
 
 
 def update():
     update_listings()
+
 
 if __name__ == "__main__":
     fire.Fire(

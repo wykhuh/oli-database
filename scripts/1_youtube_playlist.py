@@ -1,9 +1,10 @@
-import requests
 import time
-import pandas as pd
-import envar as envar
 from pathlib import Path
+
+import envar as envar
 import fire
+import pandas as pd
+import requests
 
 project_path = Path(__file__).parent.parent
 API_BASE = "https://www.googleapis.com/youtube/v3/"
@@ -210,7 +211,7 @@ def download_yt_data():
 
 
 def get_video_for_id():
-    videoId = 's1aW6ipuXxM'
+    videoId = "s1aW6ipuXxM"
     video_url = build_video_url(envar.API_KEY, videoId)
 
     try:
@@ -221,6 +222,7 @@ def get_video_for_id():
     jsondata = res.json()
     video_record = jsondata["items"][0]
     print(video_record)
+
 
 def update():
     download_yt_data()
@@ -233,6 +235,6 @@ if __name__ == "__main__":
             # "get_video_for_id":get_video_for_id,
             # "download_yt_data": download_yt_data,
             # "create_videos_file": create_videos_file,
-            "update": update
+            "update": update,
         }
     )

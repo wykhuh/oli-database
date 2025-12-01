@@ -36,14 +36,12 @@ def create_files():
 
     filter_df.to_csv(project_path / "processed_data" / "tonewood_size.csv", index=False)
 
-
     html = filter_df.to_html(index=False)
     bbcode = convert_bbcode(html)
 
     text_file = open(project_path / "processed_data" / "tonewood_size.txt", "w")
     text_file.write(bbcode)
     text_file.close()
-
 
     filter2_df = filter_df[["top wood", "back wood"]]
     filter2_df = filter2_df.drop_duplicates()
@@ -63,29 +61,33 @@ def create_files():
     text_file.close()
 
 
-
 def create_tenor_tonewoods():
     df = pd.read_csv(project_path / "raw_data" / "Oli.csv")
-    df.loc[df['tier'].isin(['L','L1', 'L2','L3']), 'bracing'] = 'Lattice'
-    df.loc[df['tier'].isin(['X','X1', 'X2','X3']), 'bracing'] = 'X'
+    df.loc[df["tier"].isin(["L", "L1", "L2", "L3"]), "bracing"] = "Lattice"
+    df.loc[df["tier"].isin(["X", "X1", "X2", "X3"]), "bracing"] = "X"
 
-    cols = ['bracing', "top_wood", "back_wood", "finish"]
+    cols = ["bracing", "top_wood", "back_wood", "finish"]
     filter_df = df.dropna(subset=["top_wood", "back_wood"]).copy()
 
-    filter_df = filter_df.sort_values('video_published_at')
-    filter_df = filter_df[filter_df['size']=='Tenor']
-    filter_df = filter_df[~pd.isna(filter_df['playlist_position'])]
-    filter_df = filter_df[filter_df['video_type']=='sound_sample']
+    filter_df = filter_df.sort_values("video_published_at")
+    filter_df = filter_df[filter_df["size"] == "Tenor"]
+    filter_df = filter_df[~pd.isna(filter_df["playlist_position"])]
+    filter_df = filter_df[filter_df["video_type"] == "sound_sample"]
 
-    filter_df = filter_df.drop_duplicates(subset=cols, keep='last')
-    filter_df = filter_df[cols+['video_id']]
-    filter_df['video_url'] = '[URL="https://www.youtube.com/watch?v=' + filter_df['video_id'] + '"]YouTube[/URL]'
-    del filter_df['video_id']
+    filter_df = filter_df.drop_duplicates(subset=cols, keep="last")
+    filter_df = filter_df[cols + ["video_id"]]
+    filter_df["video_url"] = (
+        '[URL="https://www.youtube.com/watch?v='
+        + filter_df["video_id"]
+        + '"]YouTube[/URL]'
+    )
+    del filter_df["video_id"]
 
     filter_df = filter_df.sort_values(cols)
 
-    filter_df.to_csv(project_path / "processed_data" / "tenor_tonewood.csv", index=False)
-
+    filter_df.to_csv(
+        project_path / "processed_data" / "tenor_tonewood.csv", index=False
+    )
 
     html = filter_df.to_html(index=False)
     bbcode = convert_bbcode(html)
@@ -94,30 +96,36 @@ def create_tenor_tonewoods():
     text_file.write(bbcode)
     text_file.close()
 
+
 create_tenor_tonewoods()
 
 
 def create_tenor_standard_tonewoods():
     df = pd.read_csv(project_path / "raw_data" / "Oli.csv")
 
-    cols = ['tier',  "top_wood", "back_wood"]
+    cols = ["tier", "top_wood", "back_wood"]
     filter_df = df.dropna(subset=["top_wood", "back_wood"]).copy()
 
-    filter_df = filter_df.sort_values('video_published_at')
-    filter_df = filter_df[filter_df['size']=='Tenor']
-    filter_df = filter_df[~pd.isna(filter_df['playlist_position'])]
-    filter_df = filter_df[filter_df['video_type']=='sound_sample']
-    filter_df = filter_df[pd.isna(filter_df['limited_edition'])]
+    filter_df = filter_df.sort_values("video_published_at")
+    filter_df = filter_df[filter_df["size"] == "Tenor"]
+    filter_df = filter_df[~pd.isna(filter_df["playlist_position"])]
+    filter_df = filter_df[filter_df["video_type"] == "sound_sample"]
+    filter_df = filter_df[pd.isna(filter_df["limited_edition"])]
 
-    filter_df = filter_df.drop_duplicates(subset=cols, keep='last')
-    filter_df = filter_df[cols+['video_id']]
-    filter_df['video_url'] = '[URL="https://www.youtube.com/watch?v=' + filter_df['video_id'] + '"]YouTube[/URL]'
-    del filter_df['video_id']
+    filter_df = filter_df.drop_duplicates(subset=cols, keep="last")
+    filter_df = filter_df[cols + ["video_id"]]
+    filter_df["video_url"] = (
+        '[URL="https://www.youtube.com/watch?v='
+        + filter_df["video_id"]
+        + '"]YouTube[/URL]'
+    )
+    del filter_df["video_id"]
 
     filter_df = filter_df.sort_values(cols)
 
-    filter_df.to_csv(project_path / "processed_data" / "tenor_standard_tonewood.csv", index=False)
-
+    filter_df.to_csv(
+        project_path / "processed_data" / "tenor_standard_tonewood.csv", index=False
+    )
 
 
 # create_tenor_tonewoods()
