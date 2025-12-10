@@ -204,6 +204,18 @@ def copy_my_data():
     oli_df.to_csv(oli_path, index=False)
 
 
+def fix_product_id():
+    my_oli_df = pd.read_csv(oli_path, dtype=int_dtype, skipinitialspace=True)
+
+    listings_df = pd.read_csv(listings_path, dtype=int_dtype, skipinitialspace=True)
+    for i, row in listings_df.iterrows():
+        my_oli_df.loc[my_oli_df["listing_url"] == row["listing_url"], "product_id"] = (
+            row["product_id"]
+        )
+
+    my_oli_df.to_csv(oli_path, index=False)
+
+
 def update():
     strip_whitespace()
     add_oil_id()
@@ -220,5 +232,6 @@ if __name__ == "__main__":
             # "add_new_label": add_new_label,
             "update": update,
             # "fix_date":fix_date
+            # "fix_product_id": fix_product_id,
         }
     )
