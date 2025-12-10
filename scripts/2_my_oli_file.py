@@ -216,6 +216,27 @@ def fix_product_id():
     my_oli_df.to_csv(oli_path, index=False)
 
 
+def check_duplicates():
+    oli_df = pd.read_csv(oli_path, dtype=int_dtype, skipinitialspace=True)
+
+    temp = oli_df.copy()
+    temp = temp.dropna(subset=["serial_number"])
+    temp = temp[temp.duplicated(subset=["serial_number"])]
+    print("dup serial_number", (temp["serial_number"].unique()))
+    print("------")
+
+    temp = oli_df.copy()
+    temp = temp.dropna(subset=["listing_url"])
+    temp = temp[temp.duplicated(subset=["listing_url"])]
+    print("dup listing_url", list(temp["listing_url"].unique()))
+    print("------")
+
+    temp = oli_df.copy()
+    temp = temp.dropna(subset=["product_id", "redirect_url"])
+    temp = temp[temp.duplicated(subset=["product_id", "redirect_url"])]
+    print("dup product_id", list(temp["product_id"].unique()))
+
+
 def update():
     strip_whitespace()
     add_oil_id()
@@ -233,5 +254,6 @@ if __name__ == "__main__":
             "update": update,
             # "fix_date":fix_date
             # "fix_product_id": fix_product_id,
+            "check_duplicates": check_duplicates,
         }
     )
