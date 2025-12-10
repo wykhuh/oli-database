@@ -65,13 +65,15 @@ def update_video_data():
 
 
 def add_listings():
+    id_field = "product_id"
+
     listings_df = pd.read_csv(listings_path, dtype=int_dtype, skipinitialspace=True)
     oli_df = pd.read_csv(oli_path, dtype=int_dtype)
 
-    new_serials = set(listings_df["serial_number"]) - set(oli_df["serial_number"])
+    new_serials = set(listings_df[id_field]) - set(oli_df[id_field])
     print(len(new_serials))
 
-    new_listings_df = listings_df[listings_df["serial_number"].isin(new_serials)]
+    new_listings_df = listings_df[listings_df[id_field].isin(new_serials)]
     combine_df = pd.concat([oli_df, new_listings_df])
 
     del combine_df["date_added"]

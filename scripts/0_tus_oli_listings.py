@@ -1,12 +1,13 @@
+import math
+import re
+from datetime import datetime
+from pathlib import Path
+
+import envar as envar
+import fire
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import re
-import pandas as pd
-import math
-import envar as envar
-from pathlib import Path
-import fire
-from datetime import datetime
 
 project_path = Path(__file__).parent.parent
 listings_path = project_path / "raw_data" / "oli_listings.csv"
@@ -76,7 +77,7 @@ def process_list_content(htmlContent):
                 "serial_number": title_data["serial_number"],
                 "price": int(price),
                 "date_added": now,
-                "product_id": product_id,
+                "product_id": int(product_id),
                 # "video_id": details_data['video_id']
             }
         )
@@ -139,23 +140,24 @@ def read_cached_listings():
 
 
 def update_listings():
+    id_field = "product_id"
+    # id_field = "serial_number"
+
     site_listings = []
     # get current site listings
     site_listings = fetch_site_listings()
 
-    site_serials = [listing["serial_number"] for listing in site_listings]
+    site_serials = [listing[id_field] for listing in site_listings]
     print("site", len(site_serials))
 
     # get cached listings
     df = pd.read_csv(listings_path)
-    cached_serials = df["serial_number"].unique()
+    cached_serials = df[id_field].unique()
     print("cache", len(cached_serials))
 
     # get new listings
     new_listings = [
-        listing
-        for listing in site_listings
-        if listing["serial_number"] not in cached_serials
+        listing for listing in site_listings if listing[id_field] not in cached_serials
     ]
     print("new", len(new_listings))
 
@@ -170,20 +172,18 @@ def update_listings():
     print("combined_df", len(combined_df))
 
     temp = combined_df[
-        (~combined_df["serial_number"].isin(site_serials))
+        (~combined_df[id_field].isin(site_serials))
         & (pd.isna(combined_df["date_sold"]))
     ]
-    print("sold", len(temp["serial_number"]))
+    print("sold", len(temp[id_field]))
 
     # add date_sold
     now = current_datetime()
     combined_df.loc[
-        (~combined_df["serial_number"].isin(site_serials))
+        (~combined_df[id_field].isin(site_serials))
         & (pd.isna(combined_df["date_sold"])),
         "date_sold",
     ] = now
-
-    # combined_df['product_id'] = combined_df['product_id'].astype('Int64')
 
     combined_df.to_csv(listings_path, index=False)
 
