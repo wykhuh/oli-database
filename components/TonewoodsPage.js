@@ -1,6 +1,6 @@
 import { html, setupComponent } from "../js/component_utils.js";
 import { createTable, renderSortableTable } from "../js/dataTable.js";
-import { pluralize } from "../js/utils.js";
+import { pluralize, updateURL } from "../js/utils.js";
 import { config } from "../js/config.js";
 
 let template = html`
@@ -58,6 +58,7 @@ export class TonewoodsPage extends HTMLElement {
 
       window.addEventListener("listUpdated", (e) => {
         counterEl.textContent = pluralize(e.detail.items.length, "tonewood");
+        updateURL(e);
       });
     }
   }

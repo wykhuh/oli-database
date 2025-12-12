@@ -20,3 +20,16 @@ export function pluralize(number, text, useComma = false) {
     return `${displayNumber} ${text}s`;
   }
 }
+
+export function updateURL(event) {
+  let searchterm = event.detail.value;
+  if (searchterm.length > 0) {
+    const url = new URL(window.location);
+    url.searchParams.set("q", searchterm);
+    history.pushState({}, "", url);
+  } else {
+    const url = new URL(window.location);
+    url.search = "";
+    history.pushState({}, "", url);
+  }
+}
