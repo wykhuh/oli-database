@@ -39,7 +39,13 @@ export class TonewoodsPage extends HTMLElement {
         Baritone: this.formatModels(tonewood.Baritone),
       };
     });
-    renderSortableTable(tonewoods, config.tonewoods, "tonewoods-table");
+    let searchTerm = new URLSearchParams(document.location.search).get("q");
+    renderSortableTable(
+      tonewoods,
+      config.tonewoods,
+      "tonewoods-table",
+      searchTerm
+    );
 
     this.renderCounter();
   }
