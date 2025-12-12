@@ -197,18 +197,25 @@ function addSortableTable(searchTerm) {
   };
   let sortableTable = new List("data-container", options);
 
+  let inputEl = document.querySelector("#search-form");
   if (searchTerm) {
+    // update rows in table based on search term
     sortableTable.search(searchTerm);
+    // update value shown in <input>
+    inputEl.value = searchTerm;
   }
 
   // create event so we can track the number of items shown in sortable table
-  sortableTable.on("updated", () => {
+  sortableTable.on("updated", (e) => {
     let items = sortableTable.matchingItems.map((i) => i.values());
-    window.dispatchEvent(
-      new CustomEvent("listUpdated", {
-        detail: { items },
-      })
-    );
+
+    if (inputEl) {
+      window.dispatchEvent(
+        new CustomEvent("listUpdated", {
+          detail: { items, value: inputEl.value },
+        })
+      );
+    }
   });
 }
 
