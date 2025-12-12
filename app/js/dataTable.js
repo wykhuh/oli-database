@@ -64,7 +64,12 @@ export function processAllData(data) {
 // all records table
 //==========================
 
-export function renderSortableTable(data, config, tableSelector = undefined) {
+export function renderSortableTable(
+  data,
+  config,
+  tableSelector = undefined,
+  searchTerm = undefined
+) {
   let searchEl = document.getElementById("search-form");
   if (searchEl == undefined) return;
 
@@ -77,7 +82,7 @@ export function renderSortableTable(data, config, tableSelector = undefined) {
   let table = createListTable(listRecords, config, tableSelector);
   dataContainerEl.appendChild(table);
 
-  addSortableTable();
+  addSortableTable(searchTerm);
 }
 
 export function createTable(data, config = {}, selector = undefined) {
@@ -181,7 +186,7 @@ function createRow(row, config) {
   return rowEl;
 }
 
-function addSortableTable() {
+function addSortableTable(searchTerm) {
   // https://github.com/javve/list.js/issues/221 sorting dates
   var options = {
     valueNames: [
@@ -191,6 +196,10 @@ function addSortableTable() {
     ],
   };
   let sortableTable = new List("data-container", options);
+
+  if (searchTerm) {
+    sortableTable.search(searchTerm);
+  }
 
   // create event so we can track the number of items shown in sortable table
   sortableTable.on("updated", () => {

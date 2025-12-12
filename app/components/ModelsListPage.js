@@ -26,7 +26,8 @@ export class ModelsListPage extends HTMLElement {
 
   async render() {
     renderPageIntro(config.home);
-    renderSortableTable(app.store.models, config.home);
+    let searchTerm = new URLSearchParams(document.location.search).get("q");
+    renderSortableTable(app.store.models, config.home, "models-table", searchTerm);
     this.renderCounter();
   }
 
