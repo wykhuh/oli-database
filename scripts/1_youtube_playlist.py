@@ -38,7 +38,7 @@ def process_playlist_items(json, playlist_id):
             }
             records.append(data)
         except:
-            print("invalid date", item["snippet"])
+            print("invalid data:", item["snippet"])
 
     return records
 
@@ -46,7 +46,7 @@ def process_playlist_items(json, playlist_id):
 def process_search_items(json, ids):
     records = []
     if "items" not in json:
-        print("invalid json", json)
+        print("invalid json:", json)
         return []
 
     for item in json["items"]:

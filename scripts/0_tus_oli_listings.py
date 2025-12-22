@@ -37,6 +37,8 @@ def process_title(title):
         parts = matches[0].split(" ")
         model = parts[0]
         serial_match = re.search("[0-9]+", parts[-1])
+        if serial_match is None:
+            serial_match = [0]
         serial_number = int(serial_match[0])
 
         return {"model": model, "serial_number": serial_number}
