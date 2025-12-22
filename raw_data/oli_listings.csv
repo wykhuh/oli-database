@@ -35,7 +35,7 @@ listing_title,listing_url,model,serial_number,price,video_id,date_added,date_sol
 'Oli Port Orford Cedar Tiger Myrtle LE Tenor (L2-TCPMR 1548),https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-myrtle-le-tenor-l2-tcpmr-1548.html,L2-TCPMR,1548,1495,lCrr3ceWirM,2025-10-03 12:00:00,2025-10-20 10:31:21,14098
 'Oli Mahogany Soprano (X1-SMH-S 1425),https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-soprano-x1-smh-s-1425.html,X1-SMH-S,1425,695,TygkMqVWevU,2025-10-03 12:00:00,2025-10-20 10:31:21,14097
 'Oli Mahogany Concert Satin (L-CM-S 1075),https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-concert-satin-l-cm-s-1075.html,L-CM-S,1075,495,lpPQExQbSZI,2025-10-03 12:00:00,2025-10-06 14:40:04,14096
-'Oli Cedar Top Acacia Tenor Gloss (L1-TCA 975),https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-acacia-tenor-gloss-l1-tca-975.html,L1-TCA,975,895,NYfMb3K0YnI,2025-10-03 12:00:00,,14090
+'Oli Cedar Top Acacia Tenor Gloss (L1-TCA 975),https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-acacia-tenor-gloss-l1-tca-975.html,L1-TCA,975,895,NYfMb3K0YnI,2025-10-03 12:00:00,2025-12-20 06:30:52,14090
 'Oli Mahogany Tenor (X1-TMH-S 1434),https://theukulelesite.com/shop-by/brand/oli/oli-mahogany-tenor-x1-tmh-s-1434-1.html,X1-TMH-S,1434,895,ThOI0LKaPbA,2025-10-03 12:00:00,2025-10-06 14:40:04,14089
 'Oli Torrefied Spruce Red Rosewood LE Baritone (X2-BTSRR 1112),https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-baritone-x2-btsrr-1112.html,X2-BTSRR,1112,1595,UEpCcA2lKCk,2025-10-03 12:00:00,2025-10-07 04:47:22,14087
 'Oli Cedar Top Acacia Tenor Satin (L1-TCAS 900),https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-acacia-tenor-satin-l1-tcas-900.html,L1-TCAS,900,795,MNqIXfH0Spg,2025-10-03 12:00:00,2025-11-20 05:28:39,14072
@@ -136,7 +136,7 @@ listing_title,listing_url,model,serial_number,price,video_id,date_added,date_sol
 'Oli Spruce Ebony Baritone (L2-BSE Hanging Heliconia 243),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-ebony-baritone-l2-bse-hanging-heliconia-243-1.html,L2-BSE,243,1595,lG8kVrAajv0,2025-11-15 20:50:42,2025-11-22 18:12:47,14502
 'Oli Spruce Waru Vintage Burst Baritone (L1SP-BSWA 1406),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-waru-vintage-burst-baritone-l1sp-bswa-1406-1.html,L1SP-BSWA,1406,1195,9Zn7TWt7QIY,2025-11-15 20:50:42,2025-11-19 10:18:14,14501
 'Oli Spruce Rosewood Baritone (L2-BSR 1503),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-baritone-l2-bsr-1503.html,L2-BSR,1503,1695,pVLOXLcSs_4,2025-11-15 20:50:42,,14500
-'Oli NEW Cedar Rosewood Baritone (L2-BCR 1502),https://theukulelesite.com/shop-by/brand/oli/oli-new-cedar-rosewood-baritone-l2-bcr-1502.html,L2-BCR,1502,1695,XzNh7vxLy3A,2025-11-15 20:50:42,,14499
+'Oli NEW Cedar Rosewood Baritone (L2-BCR 1502),https://theukulelesite.com/shop-by/brand/oli/oli-new-cedar-rosewood-baritone-l2-bcr-1502.html,L2-BCR,1502,1695,XzNh7vxLy3A,2025-11-15 20:50:42,2025-12-21 15:04:12,14499
 'Oli Torrefied Spruce Red Rosewood LE Baritone (X2-BTSRR 1114),https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-red-rosewood-le-baritone-x2-btsrr-1114.html,X2-BTSRR,1114,1595,UEpCcA2lKCk,2025-11-15 20:50:42,2025-11-20 05:28:39,14498
 'Oli Port Orford Cedar Myrtle LE Baritone (L2-BCPMR 1601),https://theukulelesite.com/shop-by/brand/oli/oli-port-orford-cedar-curly-myrtle-le-baritone-l2-bcpmr-1603.html,L2-BCPMR,1601,1495,lNISurXrTgI,2025-11-15 20:50:42,2025-11-19 10:18:14,14497
 'Oli Spruce Flame Maple Light Burst Tenor (L2-TSFM-LB 1581),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-light-burst-tenor-l2-tsfm-lb-1581-1.html,L2-TSFM-LB,1581,1495,mM3A6ZAbijM,2025-11-15 20:50:42,2025-11-23 02:53:08,14496
@@ -188,7 +188,7 @@ listing_title,listing_url,model,serial_number,price,video_id,date_added,date_sol
 'Oli Mango Tenor (L2-TMG 1958),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l2-tmg-1958.html,L2-TMG,1958,1495,BwNkbyMHzpQ,2025-11-29 16:17:21,2025-12-08 08:05:15,14637
 'Oli Torrefied Spruce Hawaiian Milo LE Tenor (L3-TTSML Hoala Milo 1891),https://theukulelesite.com/shop-by/brand/oli/oli-torrefied-spruce-hawaiian-milo-le-tenor-l3-ttsml-hoala-milo-1891.html,L3-TTSML,1891,2295,sHvCUBBE880,2025-11-29 16:33:50,2025-11-29 17:27:19,14644
 'Oli Koa Tenor (L2-TK Uhi 1823),https://theukulelesite.com/shop-by/brand/oli/oli-koa-tenor-l2-tk-uhi-1823.html,L2-TK,1823,1995,TC-_gKegpqA,2025-11-29 16:44:06,2025-11-29 21:06:02,14645
-"'Oli Koa Tenor 18"" Scale Tenor Cutaway (L2-TK-LC Uhi 1912)",https://theukulelesite.com/shop-by/brand/oli/oli-koa-tenor-18-scale-tenor-cutaway-l2-tk-lc-uhi-1912.html,L2-TK-LC,1912,2095,7-E7GfsXNVk,2025-11-29 17:27:14,,14646
+"'Oli Koa Tenor 18"" Scale Tenor Cutaway (L2-TK-LC Uhi 1912)",https://theukulelesite.com/shop-by/brand/oli/oli-koa-tenor-18-scale-tenor-cutaway-l2-tk-lc-uhi-1912.html,L2-TK-LC,1912,2095,7-E7GfsXNVk,2025-11-29 17:27:14,2025-12-22 00:27:43,14646
 'Oli Ancient Cypress Malaysian Blackwood LE Tenor (L3-TACMB 1878),https://theukulelesite.com/shop-by/brand/oli/oli-ancient-cypress-malaysian-blackwood-le-tenor-l3-tacmb-1878.html,L3-TACMB,1878,2395,MRhCNDGPPk8,2025-11-29 21:05:57,2025-11-29 23:17:05,14647
 'Oli Sinker Cypress Flame Maple Tenor (L2-TSCFM-BK 1672),https://theukulelesite.com/shop-by/brand/oli/oli-sinker-cypress-flame-maple-ten-l2-tscfm-bk-1672.html,L2-TSCFM-BK,1672,1495,7mB2xLucPck,2025-11-29 21:05:57,2025-12-04 03:33:43,14553
 'Oli Cedar Top Mahogany Tenor (X1SP-TCMH-S 2040),https://theukulelesite.com/shop-by/brand/oli/oli-cedar-top-mahogany-tenor-x1sp-tcmh-s-2040.html,X1SP-TCMH-S,2040,945,Hv7CvFfj538,2025-11-30 15:04:22,2025-12-18 20:44:09,14651
@@ -200,7 +200,7 @@ listing_title,listing_url,model,serial_number,price,video_id,date_added,date_sol
 'Oli Ancient Cypress Malaysian Blackwood LE Tenor (L3-TACMB 1919),https://theukulelesite.com/shop-by/brand/oli/oli-ancient-cypress-malaysian-blackwood-le-tenor-l3-tacmb-1919.html,L3-TACMB,1919,2395,MRhCNDGPPk8,2025-12-02 17:08:03,2025-12-02 18:32:25,14658
 'Oli Acacia Concert Gloss (L-CA 1723),https://theukulelesite.com/shop-by/brand/oli/oli-acacia-concert-gloss-l-ca-1723.html,L-CA,1723,595,STk-O95HRQI,2025-12-04 03:33:39,2025-12-05 07:29:50,14663
 'Oli Ancient Cypress Malaysian Blackwood LE Tenor (L3-TACMB 2053),https://theukulelesite.com/shop-by/brand/oli/oli-ancient-cypress-malaysian-blackwood-le-tenor-l3-tacmb-2053.html,L3-TACMB,2053,2395,MRhCNDGPPk8,2025-12-04 03:33:39,2025-12-04 14:52:36,14662
-'Oli Redwood Rosewood Tenor (X2-TRR-SE 1688),https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-tenor-x2-trr-se-1688.html,X2-TRR-SE,1688,1495,ZuXZKsHe-Ow,2025-12-06 06:07:38,,14676
+'Oli Redwood Rosewood Tenor (X2-TRR-SE 1688),https://theukulelesite.com/shop-by/brand/oli/oli-redwood-rosewood-tenor-x2-trr-se-1688.html,X2-TRR-SE,1688,1495,ZuXZKsHe-Ow,2025-12-06 06:07:38,2025-12-21 15:04:12,14676
 'Oli Acacia Soprano (X1-SA 1880),https://theukulelesite.com/shop-by/brand/oli/oli-acacia-soprano-x1-sa-1880.html,X1-SA,1880,745,WGx13TLCae4,2025-12-06 06:07:38,2025-12-07 08:33:13,14674
 'Oli Koa Tenor (L2-TK Uhi 1820),https://theukulelesite.com/shop-by/brand/oli/oli-koa-tenor-l2-tk-uhi-1820.html,L2-TK,1820,1895,H_UnTQnUyVg,2025-12-06 06:07:38,2025-12-12 17:46:06,14673
 'Oli Ancient Cypress Malaysian Blackwood LE Concert (L3-CACMB 1706),https://theukulelesite.com/shop-by/brand/oli/oli-ancient-cypress-malaysian-blackwood-le-concert-l3-cacmb-1706-1.html,L3-CACMB,1706,1995,2wSQ0-qtPzw,2025-12-06 06:07:38,,14672
@@ -227,3 +227,22 @@ listing_title,listing_url,model,serial_number,price,video_id,date_added,date_sol
 'Oli Mango Tenor (L1SP-TMG-BK 1732),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l1sp-tmg-bk-1732.html,L1SP-TMG-BK,1732,1095,YNPbOKeQnvY,2025-12-10 03:48:59,2025-12-12 17:46:06,14689
 'Oli Spruce Cocobolo LE Concert (L3-CSCO Anthurium 1668),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-cocobolo-le-concert-l3-csco-anthurium-1668.html,L3-CSCO,1668,1795,QDR7npWNK9g,2025-12-10 07:43:45,,14707
 'Oli Spruce Flame Maple Baritone (L2-BSFM-LB 1585),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-maple-baritone-l2-bsfm-lb-1585.html,L2-BSFM-LB,1585,1695,eJH8yZzbb7M,2025-12-10 07:43:45,2025-12-12 17:46:06,14369
+'Oli Quilted Maple Tenor (L2-TQM 1954),https://theukulelesite.com/shop-by/brand/oli/oli-quilted-maple-tenor-l2-tqm-1954.html,L2-TQM,1954,1395,xqhjoGHbfsM,2025-12-19 02:34:54,2025-12-20 06:30:52,14733
+'Oli Gloss Acacia Baritone (L-BA 1814),https://theukulelesite.com/shop-by/brand/oli/oli-gloss-acacia-baritone-l-ba-1814.html,L-BA,1814,725,VvErIW_vcfM,2025-12-20 06:30:44,,14737
+'Oli Mango Baritone (X1-BMG 1871),https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-x1-bmg-1871.html,X1-BMG,1871,995,SO1oKzDLnUk,2025-12-20 06:30:44,,14736
+'Oli Spruce Flame Maple Tenor (L2-TSFM 1959),https://theukulelesite.com/shop-by/brand/oli/oli-spruce-flame-maple-tenor-l2-tsfm-1959.html,L2-TSFM,1959,1395,Lfxxk2jVXbQ,2025-12-20 06:30:44,,14735
+'Oli Acacia Tenor Gloss (L1-TA 1654),https://theukulelesite.com/shop-by/brand/oli/oli-acacia-tenor-gloss-l1-ta-1654.html,L1-TA,1654,795,OVPwYlJq0Bg,2025-12-20 06:30:44,,14722
+'Oli Ancient Cypress Malaysian Blackwood LE Tenor (L3-TACMB 1917),https://theukulelesite.com/shop-by/brand/oli/oli-ancient-cypress-malaysian-blackwood-le-tenor-l3-tacmb-1917.html,L3-TACMB,1917,2395,MRhCNDGPPk8,2025-12-21 15:04:09,,14740
+'Oli Koa Tenor (L2-TK Uhi 1824),https://theukulelesite.com/shop-by/brand/oli/oli-koa-tenor-l2-tk-uhi-1824-1.html,L2-TK,1824,1795,TC-_gKegpqA,2025-12-22 00:27:19,,14759
+"'Oli Spruce Rosewood 18"" Scale Tenor Cutaway (L2-TSR-LC 1922)",https://theukulelesite.com/shop-by/brand/oli/oli-spruce-rosewood-18-scale-tenor-cutaway-l2-tsr-lc-1922.html,L2-TSR-LC,1922,1695,NXp2uJBAp24,2025-12-22 00:27:19,,14758
+'Oli Mango Tenor (L2-TMG-BK 1817),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l2-tmg-bk-1817.html,L2-TMG-BK,1817,1395,FNnqQK0mMAk,2025-12-22 00:27:19,,14757
+'Oli Mango Tenor (L2-TMG 1821),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-l2-tmg-1821.html,L2-TMG,1821,1495,BwNkbyMHzpQ,2025-12-22 00:27:19,,14756
+'Oli Mango Tenor Gloss (L-TMG),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-gloss-l-tmg.html,L-TMG,0,665,KP5pSjDFkkY,2025-12-22 00:27:19,,14755
+'Oli Satin Acacia Baritone (L-BA-S 2137),https://theukulelesite.com/shop-by/brand/oli/oli-satin-acacia-baritone-l-ba-s-2137.html,L-BA-S,2137,625,QQP9af-1LKk,2025-12-22 00:27:19,,14754
+'Oli Satin Mahogany Baritone (L-BM-S 1940),https://theukulelesite.com/shop-by/brand/oli/oli-satin-mahogany-baritone-l-bm-s-1940.html,L-BM-S,1940,625,NXrSovQvnTE,2025-12-22 00:27:19,,14752
+'Oli Mango Tenor (X1-TMG 1862),https://theukulelesite.com/shop-by/brand/oli/oli-mango-tenor-x1-tmg-1862-1.html,X1-TMG,1862,995,LfqxLk3KdI0,2025-12-22 00:27:19,,14750
+'Oli Mango Baritone (L1-BMG 1989),https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-l1-bmg-1989.html,L1-BMG,1989,995,Ry0bnxqiv1o,2025-12-22 00:27:19,,14749
+'Oli Mango Baritone Gloss (L-BMG 1803),https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-gloss-l-bmg-1803.html,L-BMG,1803,725,h0yptpybl-o,2025-12-22 00:27:19,,14748
+'Oli Mango Baritone Satin (L1-BMGS 1988),https://theukulelesite.com/shop-by/brand/oli/oli-mango-baritone-satin-l1-bmgs-1988.html,L1-BMGS,1988,895,s1aW6ipuXxM,2025-12-22 00:27:19,,14747
+'Oli Acacia Tenor Satin (L1-TAS 1852),https://theukulelesite.com/shop-by/brand/oli/oli-acacia-tenor-satin-l1-tas-1852.html,L1-TAS,1852,795,aOij70UcpiI,2025-12-22 00:27:19,,14745
+'Oli Acacia Tenor (X1-TA 1915),https://theukulelesite.com/shop-by/brand/oli/oli-acacia-tenor-x1-ta-1915.html,X1-TA,1915,995,5IZdzUMe5x4,2025-12-22 00:27:19,,14744
