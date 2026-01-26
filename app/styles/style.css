@@ -157,3 +157,17 @@ table.tonewoods-table {
     display: block;
   }
 }
+
+dt {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+
+  p {
+    margin: 0;
+  }
+}

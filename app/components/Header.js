@@ -12,6 +12,9 @@ let template = html`
         <li>
           <a class="navlink" href="/models-comparison/">Model Comparison</a>
         </li>
+        <li>
+          <a class="navlink" href="/dealers/">Dealers</a>
+        </li>
       </ul>
     </nav>
   </header>
