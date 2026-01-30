@@ -246,9 +246,13 @@ def update():
 if __name__ == "__main__":
     fire.Fire(
         {
+
             "add_listings": add_listings,
             "update_video_data": update_video_data,
             "copy_my_data": copy_my_data,
+            # ====================
+            # manually edit Oli.csv
+            # ====================
             # "add_oil_id": add_oil_id,
             # "add_new_label": add_new_label,
             "update": update,

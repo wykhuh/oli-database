@@ -221,7 +221,7 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 223,'Oli X-SMH-S Mahogany Soprano,2025-02-05T19:28:14Z,TygkMqVWevU,https://i.ytimg.com/vi/TygkMqVWevU/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-05 19:28:14+00:00
 224,'Oli L1-TPMG Mango Pineapple Tenor,2025-02-07T19:52:04Z,AACVi1kq-bg,https://i.ytimg.com/vi/AACVi1kq-bg/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 19:52:04+00:00
 225,'Oli L2 Mango Tenor,2025-02-07T19:52:23Z,GG-4-RpFUOA,https://i.ytimg.com/vi/GG-4-RpFUOA/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 19:52:23+00:00
-226,'Oli 2025 Monstera Tenor,2025-02-07T19:52:53Z,lQqvE-sIe6k,https://i.ytimg.com/vi/lQqvE-sIe6k/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 19:52:53+00:00
+226,'Oli Cedar Acacia Monstera Tenor,2025-02-07T19:52:53Z,lQqvE-sIe6k,https://i.ytimg.com/vi/lQqvE-sIe6k/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 19:52:53+00:00
 227,'Oli 2025 L1 Baritone Mango Gloss,2025-02-07T22:08:19Z,IhQFo9gYmus,https://i.ytimg.com/vi/IhQFo9gYmus/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 22:08:19+00:00
 228,'Oli 2025 L2 Concert Mango,2025-02-07T22:08:42Z,OPoaDZWwwmU,https://i.ytimg.com/vi/OPoaDZWwwmU/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-07 22:08:42+00:00
 229,'Oli L2 TSFM 729 Spruce Top Flame Maple Tenor,2025-02-08T18:44:06Z,8aAE1qNmvUQ,https://i.ytimg.com/vi/8aAE1qNmvUQ/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-02-08 18:44:06+00:00
@@ -450,6 +450,16 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 452,'Oli L TA Gloss Acacia Tenor,2025-12-10T09:27:08Z,MkZ8zJUIPZQ,https://i.ytimg.com/vi/MkZ8zJUIPZQ/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-12-10 09:27:08+00:00
 453,'Oli L2-TQM 1954,2025-12-19T04:03:35Z,xqhjoGHbfsM,https://i.ytimg.com/vi/xqhjoGHbfsM/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-12-19 04:03:35+00:00
 454,'Oli L2 TSFM Spruce Flame Maple Tenor 1959,2025-12-20T06:38:52Z,Lfxxk2jVXbQ,https://i.ytimg.com/vi/Lfxxk2jVXbQ/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2025-12-20 06:38:52+00:00
+455,'Oli L2 TSQM-LB 1797 Spruce Quilted Maple Light Burst Tenor,2026-01-04T03:26:40Z,eCEJBO16uQY,https://i.ytimg.com/vi/eCEJBO16uQY/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-04 03:26:40+00:00
+456,"'Oli L2-TK-LC 1892 18"" Scale Koa Tenor Cutaway",2026-01-04T03:46:56Z,6C-13LxmW_4,https://i.ytimg.com/vi/6C-13LxmW_4/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-04 03:46:56+00:00
+457,'Oli L2-TQM-LB Lightburst Quilted Maple Tenor,2026-01-04T06:29:34Z,ksk4u2P2Uoo,https://i.ytimg.com/vi/ksk4u2P2Uoo/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-04 06:29:34+00:00
+458,'Oli L1-KMG S Mango Kawili,2026-01-29T00:38:33Z,6QjHh1YJYqk,https://i.ytimg.com/vi/6QjHh1YJYqk/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-29 00:38:33+00:00
+459,'Oli L2-TA-FF Fan Fret Acacia Tenor,2026-01-29T01:05:16Z,_7REkm0d1MQ,https://i.ytimg.com/vi/_7REkm0d1MQ/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-29 01:05:16+00:00
+460,'Oli L1-KMG-S Kawili w Low G,2026-01-29T20:27:21Z,7kgUHkpQYMU,https://i.ytimg.com/vi/7kgUHkpQYMU/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-29 20:27:21+00:00
+461,'Oli X2-TYCMH Alaskan Yellow Cedar Mahogany Tenor,2026-01-29T21:14:39Z,cFahZKqbQdw,https://i.ytimg.com/vi/cFahZKqbQdw/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-29 21:14:39+00:00
+462,'Oli L3-TCE-H Cedar Ebony Honeycomb 1977,2026-01-29T21:23:05Z,mpHfK-trcAs,https://i.ytimg.com/vi/mpHfK-trcAs/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-29 21:23:05+00:00
+463,'Oli L2 TTSCM Torrefied Spruce Hawaiian Cuban Mahogany Tenor,2026-01-30T09:35:02Z,FKPITq0YOx8,https://i.ytimg.com/vi/FKPITq0YOx8/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-30 09:35:02+00:00
+464,'Oli L2-TSR Spruce Rosewood,2026-01-30T20:11:29Z,kHaTQg0iEZs,https://i.ytimg.com/vi/kHaTQg0iEZs/default.jpg,PLEQbDXy0ShuWQ4iKD4YVC1iOj3uKY1R-2,youtube,2026-01-30 20:11:29+00:00
 1,'Oli Mango Tenor Prototype,2023-08-21T22:57:34Z,1__pjKICYcA,https://i.ytimg.com/vi/1__pjKICYcA/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-08-21 22:57:34+00:00
 2,"""Hawai'i '78"" 'Oli Mango Tenor & Pono Master Series Baritone RBSMS",2023-08-21T23:00:57Z,mgGgRXIZY4Q,https://i.ytimg.com/vi/mgGgRXIZY4Q/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-08-21 23:00:57+00:00
 3,'Oli Mango Concert L2 MGC,2023-11-16T18:57:56Z,Oj_48kO9R8w,https://i.ytimg.com/vi/Oj_48kO9R8w/default.jpg,PLEQbDXy0ShuW7JotVhROvR4TxhmO_0tLD,youtube,2023-11-16 18:57:56+00:00
@@ -474,3 +484,4 @@ position,video_title,published_at,video_id,video_thumbnail,playlist_id,video_pro
 -9999,“E O Mai” Moore Bettah Custom Koa Tenor Koki’o & ‘Oli X1 BMH S Mahogany Baritone,2025-07-16T21:39:33Z,bi2imV7uhOE,https://i.ytimg.com/vi/bi2imV7uhOE/default.jpg,,youtube,2025-07-16 21:39:33+00:00
 -9999,'Oli X1-BMG Mango Baritone,2025-12-20T07:30:50Z,SO1oKzDLnUk,https://i.ytimg.com/vi/SO1oKzDLnUk/default.jpg,,youtube,2025-12-20 07:30:50+00:00
 -9999,'Oli L BA Acacia Baritone,2025-12-20T07:37:39Z,VvErIW_vcfM,https://i.ytimg.com/vi/VvErIW_vcfM/default.jpg,,youtube,2025-12-20 07:37:39+00:00
+-9999,'Oli X1SP-TMH-VB Mahogany Tenor Vintage Burst,2026-01-29T00:51:28Z,Nl03aYDQp_o,https://i.ytimg.com/vi/Nl03aYDQp_o/default.jpg,,youtube,2026-01-29 00:51:28+00:00
