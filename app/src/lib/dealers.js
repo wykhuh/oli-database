@@ -1,4 +1,4 @@
-import { getAndParseCSV } from "./dataTable.js";
+import { getAndParseCSV } from "../lib/dataTable.js";
 
 import "../components/Header.js";
 
@@ -17,8 +17,7 @@ async function init() {
   let euDealersEl = document.querySelector(".europe_dealers");
   if (!euDealersEl) return;
 
-  let rawStores = await getAndParseCSV("../data/dealers.csv");
-
+  let rawStores = await getAndParseCSV("/data/dealers.csv");
   let naDealers = "";
   rawStores
     .filter((store) => store.continent === "North America")

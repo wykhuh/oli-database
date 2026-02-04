@@ -1,7 +1,7 @@
-import { html, setupComponent } from "../js/component_utils.js";
-import { createTable, renderSortableTable } from "../js/dataTable.js";
-import { pluralize, updateURL } from "../js/utils.js";
-import { config } from "../js/config.js";
+import { html, setupComponent } from "../lib/component_utils.js";
+import { createTable, renderSortableTable } from "../lib/dataTable.js";
+import { pluralize, updateURL } from "../lib/utils.js";
+import { config } from "../lib/config.js";
 
 let template = html`
   <h1 class="title">Tonewoods</h1>
@@ -40,12 +40,7 @@ export class TonewoodsPage extends HTMLElement {
       };
     });
     let searchTerm = new URLSearchParams(document.location.search).get("q");
-    renderSortableTable(
-      tonewoods,
-      config.tonewoods,
-      "tonewoods-table",
-      searchTerm
-    );
+    renderSortableTable(tonewoods, config.tonewoods, "tonewoods-table", searchTerm);
 
     this.renderCounter();
   }

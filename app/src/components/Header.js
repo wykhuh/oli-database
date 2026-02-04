@@ -1,4 +1,4 @@
-import { html, setupComponent } from "../js/component_utils.js";
+import { html, setupComponent } from "../lib/component_utils.js";
 
 let template = html`
   <header>

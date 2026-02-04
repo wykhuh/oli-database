@@ -1,3 +1,6 @@
+import { parse as papaparse } from "papaparse";
+import List from "list.js";
+
 let headerClasses = [];
 let allRecords = [];
 let listRecords = [];
@@ -8,7 +11,7 @@ let listRecords = [];
 
 export function getAndParseCSV(url, header = true, download = true) {
   return new Promise((resolve, reject) => {
-    Papa.parse(url, {
+    papaparse(url, {
       header: header,
       download: download,
       complete(results) {
@@ -50,9 +53,7 @@ export function processAllData(data) {
     data
       // filter rows with all empty values
       .filter((row) => {
-        return !Object.values(row).every((value) =>
-          ["", undefined].includes(value)
-        );
+        return !Object.values(row).every((value) => ["", undefined].includes(value));
       })
       .map((row) => {
         return new Map(Object.entries(row));
@@ -68,7 +69,7 @@ export function renderSortableTable(
   data,
   config,
   tableSelector = undefined,
-  searchTerm = undefined
+  searchTerm = undefined,
 ) {
   let searchEl = document.getElementById("search-form");
   if (searchEl == undefined) return;
@@ -213,7 +214,7 @@ function addSortableTable(searchTerm) {
       window.dispatchEvent(
         new CustomEvent("listUpdated", {
           detail: { items, value: inputEl.value },
-        })
+        }),
       );
     }
   });

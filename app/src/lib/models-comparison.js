@@ -11,7 +11,7 @@ async function init() {
 
   loaderEl.className = "loading";
 
-  let rawModels = await getAndParseCSV("../data/model_comparison.csv");
+  let rawModels = await getAndParseCSV("/data/model_comparison.csv");
 
   let config = {
     displayFields: ["Feature", "L", "L1", "L2", "L3", "X1", "X2", "X3"],

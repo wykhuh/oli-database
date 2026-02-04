@@ -1,10 +1,19 @@
 {
   "name": "oli-database",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "build": "echo nothing to build..."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build & node node_modules/.bin/wrangler pages deploy dist"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "vite": "^7.2.4",
+    "wrangler": "^4.62.0"
+  },
+  "dependencies": {
+    "list.js": "^2.3.1",
+    "papaparse": "^5.5.3"
+  }
 }

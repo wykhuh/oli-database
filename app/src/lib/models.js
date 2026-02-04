@@ -1,5 +1,5 @@
-import { getAndParseCSV } from "./dataTable.js";
-import Store from "./store.js";
+import { getAndParseCSV } from "../lib/dataTable.js";
+import Store from "../lib/store.js";
 import { ModelDetailsPage } from "../components/ModelDetailsPage.js";
 import { cleanData } from "./utils.js";
 import "../components/VideoEmbed.js";
@@ -21,8 +21,8 @@ async function init() {
   let id = params.get("id");
   if (!id) return;
 
-  let rawModels = await getAndParseCSV("../data/models_list.csv");
-  let rawUnits = await getAndParseCSV("../data/units_list.csv");
+  let rawModels = await getAndParseCSV("/data/models_list.csv");
+  let rawUnits = await getAndParseCSV("/data/units_list.csv");
 
   app.store.models = cleanData(rawModels);
   app.store.units = cleanData(rawUnits);
