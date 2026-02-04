@@ -4,7 +4,6 @@ import { config } from "../js/config.js";
 
 let template = html`
   <h1 class="title"></h1>
-  <video-embed id="soundsample" data-video-id="" data-video-provider=""></video-embed>
   <div id="model-data"></div>
   <div id="units-container"></div>
 `;
