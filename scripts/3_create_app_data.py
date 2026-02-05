@@ -60,6 +60,7 @@ def create_units_file():
         "model_notes",
         "notes",
         "oli_id",
+        "video_title",
         "video_id",
         "video_provider",
         "video_type",
