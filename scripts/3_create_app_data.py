@@ -1,6 +1,7 @@
-import pandas as pd
 from pathlib import Path
+
 import fire
+import pandas as pd
 
 project_path = Path(__file__).parent.parent
 playlist1_path = project_path / "raw_data" / "oli_playlist.csv"
@@ -9,8 +10,8 @@ my_oli_path = project_path / "raw_data" / "Oli.csv"
 
 missing_path = project_path / "processed_data" / "missing_videos_fixed.csv"
 videos_path = project_path / "processed_data" / "videos_list.csv"
-models_path = project_path / "app" / "data" / "models_list.csv"
-units_path = project_path / "app" / "data" / "units_list.csv"
+models_path = project_path / "app" / "public" / "data" / "models_list.csv"
+units_path = project_path / "app" / "public" / "data" / "units_list.csv"
 
 int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
 

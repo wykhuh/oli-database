@@ -4,7 +4,7 @@ import fire
 
 project_path = Path(__file__).parent.parent
 my_oli_path = project_path / "raw_data" / "Oli.csv"
-tonewood_path = project_path / "app" / "data" / "tonewoods.csv"
+tonewood_path = project_path / "app" / "public" / "data" / "tonewoods.csv"
 
 int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
 
