@@ -129,17 +129,19 @@ function createHeaderRow(row, config) {
     let headerEl = document.createElement("th");
     headerEl.innerText = key;
 
+    let headerClass = key.replaceAll(" ", "-").toLowerCase();
     // add html markup for sortable table
-    if (config.sortable) {
-      let headerClass = key.replaceAll(" ", "-").toLowerCase();
+    if (config.sortable && !config.nonSortableFields.includes(key)) {
       headerEl.dataset.sort = headerClass;
       if (value instanceof Date) {
         headerEl.dataset.sort = "timestamp";
       } else {
         headerEl.dataset.sort = headerClass;
       }
-      headerEl.className = "sort";
+      headerEl.className = "sort " + headerClass;
       headerClasses.push(headerClass);
+    } else {
+      headerEl.className = headerClass;
     }
 
     rowEl.appendChild(headerEl);
@@ -150,6 +152,8 @@ function createHeaderRow(row, config) {
 
 function createRow(row, config) {
   let rowEl = document.createElement("tr");
+  let extraFields = config.extraFields ? config.extraFields.map((item) => item.field) : [];
+
   row.forEach((value, key) => {
     if (key === config.link?.idField) {
       return;
@@ -178,6 +182,13 @@ function createRow(row, config) {
       tdEl.appendChild(linkEl);
     } else if (value instanceof Date) {
       tdEl.innerText = value.toLocaleDateString();
+    } else if (extraFields.includes(key)) {
+      let targetExtraField = config.extraFields.find((item) => (item.field = key));
+      let content = targetExtraField.content;
+      if (content.includes("**idField**")) {
+        content = content.replace("**idField**", row.get(config.link.idField));
+      }
+      tdEl.innerHTML = content;
     } else {
       tdEl.innerHTML = value;
     }

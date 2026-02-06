@@ -10,9 +10,17 @@ export const config = {
       "Finish",
       "Model Notes",
       "Video Published At",
+      "Add to playlist",
     ],
     link: { textField: "Model", idField: "Oli Id", path: "models" },
     sortable: true,
+    extraFields: [
+      {
+        field: "Add to playlist",
+        content: '<input class="model" type="checkbox" data-id="**idField**" />',
+      },
+    ],
+    nonSortableFields: ["Add to playlist"],
   },
   modelDetails: {
     modelFields: ["Model", "Tier", "Size", "Top Wood", "Back Wood", "Finish", "Limited Edition"],
