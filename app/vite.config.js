@@ -13,6 +13,7 @@ export default defineConfig({
         modelscomparison: resolve(__dirname, "models-comparison/index.html"),
         tonewoods: resolve(__dirname, "tonewoods/index.html"),
         dealers: resolve(__dirname, "dealers/index.html"),
+        playlist: resolve(__dirname, "playlist/index.html"),
       },
     },
   },
