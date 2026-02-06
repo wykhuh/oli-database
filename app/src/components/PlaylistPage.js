@@ -57,7 +57,7 @@ export class PlaylistPage extends HTMLElement {
 
       this.removeCurrentClassFromPlaylist();
       target.classList.add("current");
-      this.playlistIndex = target.dataset.index;
+      this.playlistIndex = Number(target.dataset.index);
     }
   }
 
