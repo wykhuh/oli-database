@@ -1,7 +1,8 @@
 import { html, setupComponent } from "../lib/component_utils.js";
 import { renderSortableTable, renderPageIntro } from "../lib/dataTable.js";
 import { pluralize, updateURL } from "../lib/utils.js";
-import { config } from "../lib/config.js";
+import { config } from "../../config.js";
+import "./Tooltip.js";
 
 let template = html`
   <h1 class="title"></h1>
@@ -9,7 +10,17 @@ let template = html`
 
   <div id="data-container">
     <input id="search-form" class="search" placeholder="Search" />
-    <p id="model-counter"></p>
+    <div class="details">
+      <p id="model-counter"></p>
+      <span>
+        <button data-js="create-playlist">Create Playlist</button>
+        <app-tooltip
+          data-id="tp-observed_d1"
+          data-content="?"
+          data-tooltip="To create a playlist, select models by clicking the checkbox. You can use  search and click on headers to sort to narrow down the models listed. Then Click 'Create Playlist' button. You will be redirected to playlist page with the selected models. The models are listed in the url, so you can bookmark the playlist." "
+        ></app-tooltip>
+      </span>
+    </div>
   </div>
 `;
 
@@ -18,10 +29,43 @@ export class ModelsListPage extends HTMLElement {
     super();
   }
 
+  buttonEl;
+
   connectedCallback() {
     setupComponent(template, this);
 
     this.render();
+
+    document.querySelectorAll("input.model").forEach((item) => {
+      item.addEventListener("click", this);
+    });
+
+    this.buttonEl = document.querySelector("[data-js='create-playlist']");
+    if (this.buttonEl) {
+      this.buttonEl.addEventListener("click", this);
+    }
+  }
+
+  disconnectedCallback() {
+    document.querySelectorAll("input.model").forEach((item) => {
+      item.removeEventListener("click", this);
+    });
+  }
+
+  handleEvent(event) {
+    let target = event.target;
+
+    if (event.type === "click") {
+      if (target.className === "model") {
+        if (target.dataset.id) {
+          app.store.playlistModels.add(target.dataset.id);
+        }
+      } else if (target.dataset.js === "create-playlist") {
+        if (app.store.playlistModels.size === 0) return;
+        let ids = [...app.store.playlistModels].join(",");
+        window.location.replace(`/playlist/?id=${ids}`);
+      }
+    }
   }
 
   async render() {

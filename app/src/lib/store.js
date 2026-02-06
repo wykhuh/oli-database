@@ -3,6 +3,7 @@ const store = {
   units: [],
   videos: [],
   tonewoods: [],
+  playlistModels: new Set(),
 };
 
 const proxiedStore = new Proxy(store, {});

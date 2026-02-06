@@ -1,7 +1,7 @@
 import { html, setupComponent } from "../lib/component_utils.js";
-import { createTable, renderSortableTable } from "../lib/dataTable.js";
+import { renderSortableTable } from "../lib/dataTable.js";
 import { pluralize, updateURL } from "../lib/utils.js";
-import { config } from "../lib/config.js";
+import { config } from "../../config.js";
 
 let template = html`
   <h1 class="title">Tonewoods</h1>

@@ -1,6 +1,6 @@
 import { createFieldValueTable, createTable } from "../lib/dataTable.js";
 import { html, setupComponent } from "../lib/component_utils.js";
-import { config } from "../lib/config.js";
+import { config } from "../../config.js";
 
 let template = html`
   <h1 class="title"></h1>

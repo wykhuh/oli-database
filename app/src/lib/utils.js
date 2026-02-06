@@ -33,3 +33,37 @@ export function updateURL(event) {
     history.pushState({}, "", url);
   }
 }
+
+export function formatVideoList(units, id) {
+  let uniqueIds = new Set();
+
+  return (
+    units
+      // get units that match params id
+      .filter((unit) => id.split(",").includes(unit.Model))
+      // get units with unique video
+      .filter((unit) => {
+        if (uniqueIds.has(unit["Video Id"])) {
+          return false;
+        } else {
+          uniqueIds.add(unit["Video Id"]);
+          return true;
+        }
+      })
+      .map((unit) => {
+        return {
+          Model: unit["Model"],
+          "Video Id": unit["Video Id"],
+          "Video Provider": unit["Video Provider"],
+          "Video Published At": unit["Video Published At"],
+          "Video Title": unit["Video Title"],
+        };
+      })
+      // sort by model and published date
+      .sort((a, b) => {
+        return (
+          a["Model"].localeCompare(b["Model"]) || b["Video Published At"] - a["Video Published At"]
+        );
+      })
+  );
+}
