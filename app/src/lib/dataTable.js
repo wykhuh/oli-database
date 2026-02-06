@@ -131,7 +131,7 @@ function createHeaderRow(row, config) {
 
     let headerClass = key.replaceAll(" ", "-").toLowerCase();
     // add html markup for sortable table
-    if (config.sortable && !config.nonSortableFields.includes(key)) {
+    if (config.sortable && config.nonSortableFields && !config.nonSortableFields.includes(key)) {
       headerEl.dataset.sort = headerClass;
       if (value instanceof Date) {
         headerEl.dataset.sort = "timestamp";
