@@ -21,11 +21,9 @@ async function init() {
   let id = params.get("id");
   if (!id) return;
 
-  let rawUnits = await getAndParseCSV("/data/units_list.csv");
+  let rawUnits = await getAndParseCSV("/data/videos_list.csv");
   let units = cleanData(rawUnits);
-
   app.store.videos = formatVideoList(units, id);
-
   let pageElement = new PlaylistPage();
   mainEl.appendChild(pageElement);
 

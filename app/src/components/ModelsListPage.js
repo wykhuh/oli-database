@@ -54,11 +54,13 @@ export class ModelsListPage extends HTMLElement {
 
   handleEvent(event) {
     let target = event.target;
-
     if (event.type === "click") {
       if (target.className === "model") {
-        if (target.dataset.id) {
+        if (!target.dataset.id) return;
+        if (target.checked) {
           app.store.playlistModels.add(target.dataset.id);
+        } else {
+          app.store.playlistModels.delete(target.dataset.id);
         }
       } else if (target.dataset.js === "create-playlist") {
         if (app.store.playlistModels.size === 0) return;

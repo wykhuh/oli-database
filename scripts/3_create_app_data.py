@@ -12,6 +12,7 @@ missing_path = project_path / "processed_data" / "missing_videos_fixed.csv"
 videos_path = project_path / "processed_data" / "videos_list.csv"
 models_path = project_path / "app" / "public" / "data" / "models_list.csv"
 units_path = project_path / "app" / "public" / "data" / "units_list.csv"
+app_video_path = project_path / "app" / "public" / "data" / "videos_list.csv"
 
 int_dtype = {"playlist_position": "Int64", "price": "Int64", "serial_number": "Int64"}
 
@@ -60,7 +61,6 @@ def create_units_file():
         "model_notes",
         "notes",
         "oli_id",
-        "video_title",
         "video_id",
         "video_provider",
         "video_type",
@@ -90,9 +90,39 @@ def create_units_file():
     units_df.to_csv(units_path, index=False)
 
 
+def create_video_file():
+    cols = [
+        "playlist_position",
+        "oli_id",
+        "video_id",
+        "video_provider",
+        "video_published_at",
+        "video_title",
+    ]
+
+    my_oli_df = pd.read_csv(my_oli_path, usecols=cols, dtype=int_dtype)
+    my_oli_df["video_published_at"] = pd.to_datetime(my_oli_df["video_published_at"])
+
+    video_df = my_oli_df[my_oli_df["playlist_position"].notna()]
+    video_df = video_df[video_df["playlist_position"] != -9999]
+    video_df = video_df.dropna(subset=["oli_id"])
+    video_df = video_df.drop("playlist_position", axis=1)
+
+    video_df = video_df.sort_values(
+        by=["oli_id", "video_published_at"], ascending=False
+    )
+
+    # update column names
+    video_df.columns = [name.replace("_", " ").title() for name in video_df.columns]
+
+    print("video_df", video_df.shape)
+    video_df.to_csv(app_video_path, index=False)
+
+
 def update():
     create_models_file()
     create_units_file()
+    create_video_file()
 
 
 if __name__ == "__main__":
@@ -100,6 +130,6 @@ if __name__ == "__main__":
         {
             # "create_models_file": create_models_file,
             # "create_units_file": create_units_file,
-            "update": update
+            "update": update,
         }
     )

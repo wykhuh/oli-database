@@ -40,7 +40,7 @@ export function formatVideoList(units, id) {
   return (
     units
       // get units that match params id
-      .filter((unit) => id.split(",").includes(unit.Model))
+      .filter((unit) => id.split(",").includes(unit["Oli Id"]))
       // get units with unique video
       .filter((unit) => {
         if (uniqueIds.has(unit["Video Id"])) {
@@ -49,21 +49,6 @@ export function formatVideoList(units, id) {
           uniqueIds.add(unit["Video Id"]);
           return true;
         }
-      })
-      .map((unit) => {
-        return {
-          Model: unit["Model"],
-          "Video Id": unit["Video Id"],
-          "Video Provider": unit["Video Provider"],
-          "Video Published At": unit["Video Published At"],
-          "Video Title": unit["Video Title"],
-        };
-      })
-      // sort by model and published date
-      .sort((a, b) => {
-        return (
-          a["Model"].localeCompare(b["Model"]) || b["Video Published At"] - a["Video Published At"]
-        );
       })
   );
 }
