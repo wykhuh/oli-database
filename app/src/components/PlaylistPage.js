@@ -85,7 +85,17 @@ export class PlaylistPage extends HTMLElement {
 
       let date = video["Video Published At"].toLocaleDateString();
       let title = video["Video Title"].replace(/^\d+.\d+ /, "");
-      itemEl.innerHTML = `${title} (uploaded ${date})`;
+      itemEl.innerHTML = `${title} (uploaded ${date}) `;
+
+      let linkEl = document.createElement("a");
+      if (video["Video Provider"] === "youtube") {
+        linkEl.href = `https://www.youtube.com/watch?v=${video["Video Id"]}`;
+        linkEl.textContent = "YouTube";
+      } else {
+        linkEl.href = `https://vimeo.com/${video["Video Id"]}`;
+        linkEl.textContent = "Vimeo";
+      }
+      itemEl.appendChild(linkEl);
 
       playlistEl.append(itemEl);
     });
@@ -133,9 +143,7 @@ export class PlaylistPage extends HTMLElement {
   }
 
   onPlayerReady() {
-    // document.getElementById("ytplayer").style.borderColor = "#FFF000";
-    // document.getElementById("ytplayer").style.borderWidth = "4px";
-    // document.getElementById("ytplayer").style.borderStyle = "solid";
+    // this.setBorderColor();
   }
 
   onPlayerStateChange(event) {
@@ -172,6 +180,12 @@ export class PlaylistPage extends HTMLElement {
         }
       }
     }
+  }
+
+  setBorderColor() {
+    document.getElementById("ytplayer").style.borderColor = "#FFF000";
+    document.getElementById("ytplayer").style.borderWidth = "4px";
+    document.getElementById("ytplayer").style.borderStyle = "solid";
   }
 
   changeBorderColor(playerStatus) {
